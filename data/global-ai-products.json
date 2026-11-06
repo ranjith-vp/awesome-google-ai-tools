@@ -1,0 +1,1122 @@
+﻿[
+    {
+        "id":  1,
+        "name":  "Manus",
+        "category":  "Personal AI Agents \u0026 Universal Assistants",
+        "summary":  "General-purpose AI agent that autonomously researches, browses, analyses, and completes multi-step tasks.",
+        "formFactor":  "Autonomous Web Agent"
+    },
+    {
+        "id":  2,
+        "name":  "Genspark",
+        "category":  "Personal AI Agents \u0026 Universal Assistants",
+        "summary":  "AI workspace that conducts deep research, drafts documents, creates presentations, and executes complex tasks.",
+        "formFactor":  "AI Workspace \u0026 Research"
+    },
+    {
+        "id":  3,
+        "name":  "Perplexity",
+        "category":  "Personal AI Agents \u0026 Universal Assistants",
+        "summary":  "AI conversational search engine that indexes the live internet and provides grounded, fully-sourced answers.",
+        "formFactor":  "AI Search \u0026 Discovery"
+    },
+    {
+        "id":  4,
+        "name":  "OpenAI ChatGPT Agent",
+        "category":  "Personal AI Agents \u0026 Universal Assistants",
+        "summary":  "Employs browser automation and specialized tool-calling to execute multi-step tasks on the user\u0027s behalf.",
+        "formFactor":  "Agentic Frontier Assistant"
+    },
+    {
+        "id":  5,
+        "name":  "Claude Computer Use",
+        "category":  "Personal AI Agents \u0026 Universal Assistants",
+        "summary":  "Anthropic API capability that allows AI to view screens, move cursors, click buttons, and type into desktop applications.",
+        "formFactor":  "GUI Agent / OS Control"
+    },
+    {
+        "id":  6,
+        "name":  "OpenClaw",
+        "category":  "Personal AI Agents \u0026 Universal Assistants",
+        "summary":  "Open-source personal AI assistant operating across messaging platforms and connected tool APIs.",
+        "formFactor":  "Open Source Agent"
+    },
+    {
+        "id":  7,
+        "name":  "Rabbit R1",
+        "category":  "Personal AI Agents \u0026 Universal Assistants",
+        "summary":  "Dedicated standalone AI hardware device built around the Large Action Model (LAM) for natural-language app interaction.",
+        "formFactor":  "Dedicated AI Hardware"
+    },
+    {
+        "id":  8,
+        "name":  "Adept",
+        "category":  "Personal AI Agents \u0026 Universal Assistants",
+        "summary":  "Foundation models trained specifically to operate enterprise software interfaces and complete complex workflows.",
+        "formFactor":  "Enterprise UI Agent"
+    },
+    {
+        "id":  9,
+        "name":  "MultiOn",
+        "category":  "Personal AI Agents \u0026 Universal Assistants",
+        "summary":  "Autonomous web browsing agent designed to navigate live websites, fill forms, and complete transactions.",
+        "formFactor":  "Browser Action Agent"
+    },
+    {
+        "id":  10,
+        "name":  "Instinct",
+        "category":  "Personal AI Agents \u0026 Universal Assistants",
+        "summary":  "Personal assistant concept working through messaging and phone calls to handle everyday personal errands.",
+        "formFactor":  "Conversational Errands"
+    },
+    {
+        "id":  11,
+        "name":  "Amazon Alexa+",
+        "category":  "Personal AI Agents \u0026 Universal Assistants",
+        "summary":  "Advanced conversational assistant powered by LLMs with deep device orchestration and external service APIs.",
+        "formFactor":  "Smart Home \u0026 Voice Agent"
+    },
+    {
+        "id":  12,
+        "name":  "Google Gemini",
+        "category":  "Personal AI Agents \u0026 Universal Assistants",
+        "summary":  "Multimodal foundation assistant deeply integrated into Android, Workspace, Google Cloud, and search.",
+        "formFactor":  "Multimodal Ecosystem"
+    },
+    {
+        "id":  13,
+        "name":  "Microsoft Copilot",
+        "category":  "Personal AI Agents \u0026 Universal Assistants",
+        "summary":  "AI assistant integrated throughout Windows, Microsoft 365, Edge, and GitHub enterprise workflows.",
+        "formFactor":  "Enterprise OS Assistant"
+    },
+    {
+        "id":  14,
+        "name":  "Dust",
+        "category":  "Personal AI Agents \u0026 Universal Assistants",
+        "summary":  "Enterprise platform for building specialized AI agents connected to company Notion, Slack, and Google Drive data.",
+        "formFactor":  "Team Knowledge Agent"
+    },
+    {
+        "id":  15,
+        "name":  "Personal AI",
+        "category":  "Personal AI Agents \u0026 Universal Assistants",
+        "summary":  "Personalized conversational assistant trained on an individual\u0027s private memory, notes, and communication style.",
+        "formFactor":  "Sovereign Personal Memory"
+    },
+    {
+        "id":  16,
+        "name":  "Dia Browser",
+        "category":  "AI Browsers \u0026 Future of Internet Access",
+        "summary":  "AI-native browser bringing contextual real-time assistance and workflow intelligence directly into browsing.",
+        "formFactor":  "AI Native Browser"
+    },
+    {
+        "id":  17,
+        "name":  "Comet",
+        "category":  "AI Browsers \u0026 Future of Internet Access",
+        "summary":  "Perplexity\u0027s purpose-built AI browser integrating live search, page summarization, and agentic workflows.",
+        "formFactor":  "AI Search Browser"
+    },
+    {
+        "id":  18,
+        "name":  "Arc Browser",
+        "category":  "AI Browsers \u0026 Future of Internet Access",
+        "summary":  "Reimagined web browser interface with intelligent spaces, tab cleanup, and built-in \"Arc Max\" AI features.",
+        "formFactor":  "Productivity Browser"
+    },
+    {
+        "id":  19,
+        "name":  "Opera Neon",
+        "category":  "AI Browsers \u0026 Future of Internet Access",
+        "summary":  "Experimental concept browser designed around agentic web interactions and interactive AI canvases.",
+        "formFactor":  "Concept AI Browser"
+    },
+    {
+        "id":  20,
+        "name":  "Fellou",
+        "category":  "AI Browsers \u0026 Future of Internet Access",
+        "summary":  "Agentic browser engineered specifically to conduct deep web research and multi-site extraction tasks.",
+        "formFactor":  "Autonomous Research Browser"
+    },
+    {
+        "id":  21,
+        "name":  "Browser Use",
+        "category":  "AI Browsers \u0026 Future of Internet Access",
+        "summary":  "Open-source framework enabling autonomous AI agents to control Chromium browsers with natural language.",
+        "formFactor":  "Open Source Browser SDK"
+    },
+    {
+        "id":  22,
+        "name":  "Browserbase",
+        "category":  "AI Browsers \u0026 Future of Internet Access",
+        "summary":  "Serverless cloud browser infrastructure for running autonomous agents at scale without local headless browsers.",
+        "formFactor":  "Headless Cloud Infrastructure"
+    },
+    {
+        "id":  23,
+        "name":  "Steel",
+        "category":  "AI Browsers \u0026 Future of Internet Access",
+        "summary":  "Open-source, production-grade cloud browser infrastructure engineered for scalable AI web automation.",
+        "formFactor":  "Agentic Browser Fleet"
+    },
+    {
+        "id":  24,
+        "name":  "Firecrawl",
+        "category":  "AI Browsers \u0026 Future of Internet Access",
+        "summary":  "Turns any website into clean, markdown or structured JSON formatted specifically for LLM ingestion and RAG.",
+        "formFactor":  "Web Scrape \u0026 RAG ETL"
+    },
+    {
+        "id":  25,
+        "name":  "Exa",
+        "category":  "AI Browsers \u0026 Future of Internet Access",
+        "summary":  "Neural and semantic search API designed to retrieve clean web knowledge for AI agents and LLM prompts.",
+        "formFactor":  "Agent Search Infrastructure"
+    },
+    {
+        "id":  26,
+        "name":  "Cursor",
+        "category":  "AI Software Development \u0026 App Creation",
+        "summary":  "AI-first code editor (VS Code fork) that indexes and understands entire codebases with multi-file diffing.",
+        "formFactor":  "AI Code Editor"
+    },
+    {
+        "id":  27,
+        "name":  "Windsurf",
+        "category":  "AI Software Development \u0026 App Creation",
+        "summary":  "Agentic coding IDE by Codeium featuring \"Flows\" that independently navigate codebases, terminals, and edits.",
+        "formFactor":  "Agentic IDE"
+    },
+    {
+        "id":  28,
+        "name":  "Lovable",
+        "category":  "AI Software Development \u0026 App Creation",
+        "summary":  "Turns natural-language prompts into production-ready full-stack web applications with interactive visual editing.",
+        "formFactor":  "Natural Language App Builder"
+    },
+    {
+        "id":  29,
+        "name":  "Bolt.new",
+        "category":  "AI Software Development \u0026 App Creation",
+        "summary":  "In-browser development container that generates, runs, debugs, and deploys full-stack apps via WebContainers.",
+        "formFactor":  "In-Browser WebContainer IDE"
+    },
+    {
+        "id":  30,
+        "name":  "Replit Agent",
+        "category":  "AI Software Development \u0026 App Creation",
+        "summary":  "Autonomous coding agent in Replit that designs database schemas, writes full-stack code, and handles hosting.",
+        "formFactor":  "Cloud Dev \u0026 Hosting Agent"
+    },
+    {
+        "id":  31,
+        "name":  "Emergent",
+        "category":  "AI Software Development \u0026 App Creation",
+        "summary":  "Generates, tests, and deploys complete working web and mobile software directly from text descriptions.",
+        "formFactor":  "Autonomous Software Builder"
+    },
+    {
+        "id":  32,
+        "name":  "Devin",
+        "category":  "AI Software Development \u0026 App Creation",
+        "summary":  "Autonomous AI software engineer capable of reading documentation, fixing bugs, and deploying complete PRs.",
+        "formFactor":  "Autonomous SWE Agent"
+    },
+    {
+        "id":  33,
+        "name":  "Cline",
+        "category":  "AI Software Development \u0026 App Creation",
+        "summary":  "Autonomous open-source coding agent in VS Code that executes terminal commands, edits files, and calls tools.",
+        "formFactor":  "Open Source VS Code Agent"
+    },
+    {
+        "id":  34,
+        "name":  "OpenHands",
+        "category":  "AI Software Development \u0026 App Creation",
+        "summary":  "Open-source platform for AI software developers (formerly OpenDevin) collaborating on complex GitHub repositories.",
+        "formFactor":  "Open Source SWE Framework"
+    },
+    {
+        "id":  35,
+        "name":  "v0",
+        "category":  "AI Software Development \u0026 App Creation",
+        "summary":  "Vercel\u0027s generative UI system producing production-ready React, Tailwind CSS, and Shadcn UI components.",
+        "formFactor":  "Generative UI \u0026 Frontend"
+    },
+    {
+        "id":  36,
+        "name":  "Rork",
+        "category":  "AI Software Development \u0026 App Creation",
+        "summary":  "AI-powered mobile application generator transforming ideas into complete cross-platform mobile apps.",
+        "formFactor":  "Mobile App Generator"
+    },
+    {
+        "id":  37,
+        "name":  "Base44",
+        "category":  "AI Software Development \u0026 App Creation",
+        "summary":  "Full-stack application creation engine that translates requirements into working databases and user interfaces.",
+        "formFactor":  "Natural Language Full-Stack"
+    },
+    {
+        "id":  38,
+        "name":  "Factory",
+        "category":  "AI Software Development \u0026 App Creation",
+        "summary":  "Autonomous software engineering agents (\"Droids\") designed to accelerate enterprise development cycles.",
+        "formFactor":  "Enterprise SWE Droids"
+    },
+    {
+        "id":  39,
+        "name":  "Pythagora",
+        "category":  "AI Software Development \u0026 App Creation",
+        "summary":  "Conversational development tool building verified Node.js and full-stack apps through interactive QA.",
+        "formFactor":  "Interactive Dev Workflow"
+    },
+    {
+        "id":  40,
+        "name":  "Magic",
+        "category":  "AI Software Development \u0026 App Creation",
+        "summary":  "Developing ultra-long context frontier foundation models (LTM-2-mini) specialized in software engineering.",
+        "formFactor":  "Frontier Coding Models"
+    },
+    {
+        "id":  41,
+        "name":  "ElevenLabs",
+        "category":  "AI Voice, Communication \u0026 Meeting Intelligence",
+        "summary":  "Industry standard for hyper-realistic voice synthesis, cross-language dubbing, and low-latency voice agents.",
+        "formFactor":  "Voice Synthesis \u0026 Agents"
+    },
+    {
+        "id":  42,
+        "name":  "Hume AI",
+        "category":  "AI Voice, Communication \u0026 Meeting Intelligence",
+        "summary":  "Empathic Voice Interface (EVI) that interprets vocal inflections, sentiment, and emotional tone in real-time.",
+        "formFactor":  "Empathic Voice AI"
+    },
+    {
+        "id":  43,
+        "name":  "Retell AI",
+        "category":  "AI Voice, Communication \u0026 Meeting Intelligence",
+        "summary":  "Developer platform for creating conversational telephone AI agents with ultra-low latency (\u003c600ms).",
+        "formFactor":  "Conversational Phone API"
+    },
+    {
+        "id":  44,
+        "name":  "Bland AI",
+        "category":  "AI Voice, Communication \u0026 Meeting Intelligence",
+        "summary":  "Infrastructure for programmable voice calling agents executing inbound and outbound enterprise phone workflows.",
+        "formFactor":  "Enterprise Calling API"
+    },
+    {
+        "id":  45,
+        "name":  "Vapi",
+        "category":  "AI Voice, Communication \u0026 Meeting Intelligence",
+        "summary":  "Turnkey developer infrastructure for building, hosting, and orchestrating voice AI assistants.",
+        "formFactor":  "Voice Assistant Orchestrator"
+    },
+    {
+        "id":  46,
+        "name":  "Cartesia",
+        "category":  "AI Voice, Communication \u0026 Meeting Intelligence",
+        "summary":  "Ultra-low-latency real-time voice synthesis and state-space speech generation models (Sonic).",
+        "formFactor":  "Real-Time Speech Engine"
+    },
+    {
+        "id":  47,
+        "name":  "Wispr Flow",
+        "category":  "AI Voice, Communication \u0026 Meeting Intelligence",
+        "summary":  "Ambient dictation tool that transcribes natural speech into beautifully formatted text across all desktop apps.",
+        "formFactor":  "Voice-to-Text OS Utility"
+    },
+    {
+        "id":  48,
+        "name":  "Granola",
+        "category":  "AI Voice, Communication \u0026 Meeting Intelligence",
+        "summary":  "AI meeting notepad that blends human-written bullet points with transcript-backed summaries.",
+        "formFactor":  "Ambient Meeting Notepad"
+    },
+    {
+        "id":  49,
+        "name":  "Fireflies.ai",
+        "category":  "AI Voice, Communication \u0026 Meeting Intelligence",
+        "summary":  "AI meeting recorder that automatically transcribes, takes notes, and extracts action items across video calls.",
+        "formFactor":  "Enterprise Meeting Intelligence"
+    },
+    {
+        "id":  50,
+        "name":  "Otter.ai",
+        "category":  "AI Voice, Communication \u0026 Meeting Intelligence",
+        "summary":  "Automated meeting recording, real-time transcription, and searchable organizational meeting archives.",
+        "formFactor":  "Audio Transcription \u0026 Search"
+    },
+    {
+        "id":  51,
+        "name":  "Read AI",
+        "category":  "AI Voice, Communication \u0026 Meeting Intelligence",
+        "summary":  "Conversation intelligence generating automated recaps, highlights, and sentiment metrics from meetings.",
+        "formFactor":  "Meeting Analytics \u0026 Recaps"
+    },
+    {
+        "id":  52,
+        "name":  "Fathom",
+        "category":  "AI Voice, Communication \u0026 Meeting Intelligence",
+        "summary":  "Free AI meeting recorder for Zoom, Meet, and Teams that provides instant summaries and CRM synchronizations.",
+        "formFactor":  "Meeting Recorder \u0026 CRM Sync"
+    },
+    {
+        "id":  53,
+        "name":  "Limitless",
+        "category":  "AI Voice, Communication \u0026 Meeting Intelligence",
+        "summary":  "Wearable pendant and desktop software capturing conversations into a personalized, searchable memory engine.",
+        "formFactor":  "Wearable Conversation Memory"
+    },
+    {
+        "id":  54,
+        "name":  "Plaud",
+        "category":  "AI Voice, Communication \u0026 Meeting Intelligence",
+        "summary":  "Hardware recording devices (Plaud Note) with ChatGPT integration turning recorded phone calls into structured notes.",
+        "formFactor":  "Dedicated Audio Hardware"
+    },
+    {
+        "id":  55,
+        "name":  "Deepgram",
+        "category":  "AI Voice, Communication \u0026 Meeting Intelligence",
+        "summary":  "High-performance speech-to-text and text-to-speech APIs engineered for real-time AI agents and high throughput.",
+        "formFactor":  "Speech Recognition API"
+    },
+    {
+        "id":  56,
+        "name":  "Runway",
+        "category":  "AI Creative, Video \u0026 Entertainment",
+        "summary":  "Frontier generative video platform (Gen-3 Alpha) offering video-to-video, text-to-video, and cinematic VFX tools.",
+        "formFactor":  "Generative Video Suite"
+    },
+    {
+        "id":  57,
+        "name":  "Pika",
+        "category":  "AI Creative, Video \u0026 Entertainment",
+        "summary":  "Generative video engine specializing in cinematic animations, physics effects (Pika Effects), and video editing.",
+        "formFactor":  "Creative Video Generation"
+    },
+    {
+        "id":  58,
+        "name":  "Luma AI",
+        "category":  "AI Creative, Video \u0026 Entertainment",
+        "summary":  "Dream Machine generative video model and NeRF technology producing realistic 3D assets and dynamic videos.",
+        "formFactor":  "3D \u0026 Video Generation"
+    },
+    {
+        "id":  59,
+        "name":  "Kling AI",
+        "category":  "AI Creative, Video \u0026 Entertainment",
+        "summary":  "High-motion generative video foundation model generating realistic physical interactions and camera maneuvers.",
+        "formFactor":  "Realistic Motion Video"
+    },
+    {
+        "id":  60,
+        "name":  "OpenAI Sora",
+        "category":  "AI Creative, Video \u0026 Entertainment",
+        "summary":  "Text-to-video model generating up to minute-long high-definition videos with complex physical scene simulation.",
+        "formFactor":  "Frontier Video Foundation"
+    },
+    {
+        "id":  61,
+        "name":  "HeyGen",
+        "category":  "AI Creative, Video \u0026 Entertainment",
+        "summary":  "AI avatar studio generating realistic presenter videos, automated multi-language lip-syncing, and video ads.",
+        "formFactor":  "Video Avatars \u0026 Localization"
+    },
+    {
+        "id":  62,
+        "name":  "Synthesia",
+        "category":  "AI Creative, Video \u0026 Entertainment",
+        "summary":  "Enterprise video communications platform generating training videos and product explainers with AI presenters.",
+        "formFactor":  "Enterprise Training Video"
+    },
+    {
+        "id":  63,
+        "name":  "Suno",
+        "category":  "AI Creative, Video \u0026 Entertainment",
+        "summary":  "AI music creation engine producing full radio-quality songs with vocals, instruments, and lyrics from simple prompts.",
+        "formFactor":  "AI Music Generation"
+    },
+    {
+        "id":  64,
+        "name":  "Udio",
+        "category":  "AI Creative, Video \u0026 Entertainment",
+        "summary":  "High-fidelity music synthesis model capable of nuanced musical phrasing, harmony, and diverse genre production.",
+        "formFactor":  "Music Composition \u0026 Audio"
+    },
+    {
+        "id":  65,
+        "name":  "ElevenLabs Voice Design",
+        "category":  "AI Creative, Video \u0026 Entertainment",
+        "summary":  "Generates novel, bespoke synthetic voice personas from natural language text descriptions for gaming and media.",
+        "formFactor":  "Voice Persona Synthesis"
+    },
+    {
+        "id":  66,
+        "name":  "Ideogram",
+        "category":  "AI Creative, Video \u0026 Entertainment",
+        "summary":  "AI image generation platform famous for state-of-the-art text and typography rendering within complex images.",
+        "formFactor":  "Typography \u0026 Graphic Design"
+    },
+    {
+        "id":  67,
+        "name":  "Midjourney",
+        "category":  "AI Creative, Video \u0026 Entertainment",
+        "summary":  "Flagship artistic image generation model producing industry-leading aesthetics, composition, and visual style.",
+        "formFactor":  "Artistic Image Synthesis"
+    },
+    {
+        "id":  68,
+        "name":  "Krea AI",
+        "category":  "AI Creative, Video \u0026 Entertainment",
+        "summary":  "Real-time generative canvas that updates images instantaneously as users draw shapes or adjust prompt modifiers.",
+        "formFactor":  "Real-Time Latent Canvas"
+    },
+    {
+        "id":  69,
+        "name":  "Wonder Studio",
+        "category":  "AI Creative, Video \u0026 Entertainment",
+        "summary":  "Automatically animates, lights, and composes 3D computer-generated characters into live-action video footage.",
+        "formFactor":  "VFX \u0026 3D Actor Replacement"
+    },
+    {
+        "id":  70,
+        "name":  "Scenario",
+        "category":  "AI Creative, Video \u0026 Entertainment",
+        "summary":  "Creates style-consistent generative 2D and 3D visual assets tailored for game development pipelines.",
+        "formFactor":  "Game Asset Engine"
+    },
+    {
+        "id":  71,
+        "name":  "Elicit",
+        "category":  "AI Research, Knowledge \u0026 Intelligence",
+        "summary":  "AI research assistant searching across 200M+ academic papers to extract findings, methodologies, and synthesis.",
+        "formFactor":  "Academic Literature Mining"
+    },
+    {
+        "id":  72,
+        "name":  "Consensus",
+        "category":  "AI Research, Knowledge \u0026 Intelligence",
+        "summary":  "Search engine querying peer-reviewed research papers to give evidence-grounded answers to scientific questions.",
+        "formFactor":  "Peer-Reviewed Evidence Search"
+    },
+    {
+        "id":  73,
+        "name":  "SciSpace",
+        "category":  "AI Research, Knowledge \u0026 Intelligence",
+        "summary":  "Research platform that explains complex academic papers, summarizes equations, and manages research literature.",
+        "formFactor":  "Scientific Paper Companion"
+    },
+    {
+        "id":  74,
+        "name":  "Hebbia",
+        "category":  "AI Research, Knowledge \u0026 Intelligence",
+        "summary":  "Enterprise document search engine allowing financial, legal, and consulting analysts to query thousands of files.",
+        "formFactor":  "Heavy Enterprise Analysis"
+    },
+    {
+        "id":  75,
+        "name":  "Glean",
+        "category":  "AI Research, Knowledge \u0026 Intelligence",
+        "summary":  "Enterprise generative AI search connecting across Slack, Google Drive, Jira, and GitHub with strict access controls.",
+        "formFactor":  "Unified Enterprise Search"
+    },
+    {
+        "id":  76,
+        "name":  "NotebookLM",
+        "category":  "AI Research, Knowledge \u0026 Intelligence",
+        "summary":  "Google\u0027s research assistant that grounds strictly in uploaded sources, generating notes and two-host audio podcasts.",
+        "formFactor":  "Grounded Research \u0026 Audio"
+    },
+    {
+        "id":  77,
+        "name":  "Recall",
+        "category":  "AI Research, Knowledge \u0026 Intelligence",
+        "summary":  "Browser extension and knowledge base that summarizes YouTube videos, podcasts, and articles into a personal graph.",
+        "formFactor":  "Personal Knowledge Graph"
+    },
+    {
+        "id":  78,
+        "name":  "Mem",
+        "category":  "AI Research, Knowledge \u0026 Intelligence",
+        "summary":  "Self-organizing AI workspace that automatically connects notes, meeting transcripts, and project data.",
+        "formFactor":  "Self-Organizing Notes"
+    },
+    {
+        "id":  79,
+        "name":  "Fabric",
+        "category":  "AI Research, Knowledge \u0026 Intelligence",
+        "summary":  "Centralized personal workspace and drive powered by AI that organizes digital files, links, and documents.",
+        "formFactor":  "Digital Asset Organization"
+    },
+    {
+        "id":  80,
+        "name":  "Rewind",
+        "category":  "AI Research, Knowledge \u0026 Intelligence",
+        "summary":  "Continuous screen and audio recording tool enabling instant search through everything you have seen or heard.",
+        "formFactor":  "Personal History Search"
+    },
+    {
+        "id":  81,
+        "name":  "Exa",
+        "category":  "AI Research, Knowledge \u0026 Intelligence",
+        "summary":  "Web search engine built specifically for AI agents, retrieving clean content via neural embeddings.",
+        "formFactor":  "LLM-Native Search Engine"
+    },
+    {
+        "id":  82,
+        "name":  "Tavily",
+        "category":  "AI Research, Knowledge \u0026 Intelligence",
+        "summary":  "Search API built from the ground up for LLMs and autonomous agents to retrieve verified factual web knowledge.",
+        "formFactor":  "Agent Search API"
+    },
+    {
+        "id":  83,
+        "name":  "You.com",
+        "category":  "AI Research, Knowledge \u0026 Intelligence",
+        "summary":  "Productivity search engine featuring specialized AI modes (Genius, Research) for comprehensive reporting.",
+        "formFactor":  "Multimodal Search Portal"
+    },
+    {
+        "id":  84,
+        "name":  "Kagi",
+        "category":  "AI Research, Knowledge \u0026 Intelligence",
+        "summary":  "Privacy-focused premium search engine with built-in AI assistant, document summarizer, and zero ad tracking.",
+        "formFactor":  "Private Ad-Free Search"
+    },
+    {
+        "id":  85,
+        "name":  "AlphaSense",
+        "category":  "AI Research, Knowledge \u0026 Intelligence",
+        "summary":  "Market intelligence platform using AI search to extract insights from financial filings, broker research, and news.",
+        "formFactor":  "Financial \u0026 Equity Research"
+    },
+    {
+        "id":  86,
+        "name":  "Sierra",
+        "category":  "AI Business Automation \u0026 Enterprise Workflows",
+        "summary":  "Conversational customer experience platform by Bret Taylor deploying brand-safe, authenticated autonomous agents.",
+        "formFactor":  "Enterprise CX Agents"
+    },
+    {
+        "id":  87,
+        "name":  "Harvey",
+        "category":  "AI Business Automation \u0026 Enterprise Workflows",
+        "summary":  "Domain-specialized legal AI platform assisting corporate lawyers in contract drafting, due diligence, and case law.",
+        "formFactor":  "Legal Intelligence Platform"
+    },
+    {
+        "id":  88,
+        "name":  "Intercom Fin",
+        "category":  "AI Business Automation \u0026 Enterprise Workflows",
+        "summary":  "Enterprise AI customer support bot resolving complex customer tickets with grounded knowledge base responses.",
+        "formFactor":  "Customer Support Automation"
+    },
+    {
+        "id":  89,
+        "name":  "Decagon",
+        "category":  "AI Business Automation \u0026 Enterprise Workflows",
+        "summary":  "AI customer service platform creating autonomous agents that resolve complex multi-system customer inquiries.",
+        "formFactor":  "Omnichannel Customer Agent"
+    },
+    {
+        "id":  90,
+        "name":  "Cognition AI",
+        "category":  "AI Business Automation \u0026 Enterprise Workflows",
+        "summary":  "Applied AI lab pioneering autonomous reasoning systems and software engineering agents (creators of Devin).",
+        "formFactor":  "Autonomous Reasoning"
+    },
+    {
+        "id":  91,
+        "name":  "Moveworks",
+        "category":  "AI Business Automation \u0026 Enterprise Workflows",
+        "summary":  "Enterprise copilot platform automating internal IT service tickets, HR inquiries, and employee software requests.",
+        "formFactor":  "Employee Experience \u0026 IT"
+    },
+    {
+        "id":  92,
+        "name":  "Aisera",
+        "category":  "AI Business Automation \u0026 Enterprise Workflows",
+        "summary":  "Enterprise AI agent platform automating IT, customer service, and business operations with domain SLMs.",
+        "formFactor":  "Service Automation Platform"
+    },
+    {
+        "id":  93,
+        "name":  "UiPath Autopilot",
+        "category":  "AI Business Automation \u0026 Enterprise Workflows",
+        "summary":  "Integrates generative AI with enterprise robotic process automation (RPA) to automate legacy desktop workflows.",
+        "formFactor":  "RPA \u0026 Agentic Automation"
+    },
+    {
+        "id":  94,
+        "name":  "n8n",
+        "category":  "AI Business Automation \u0026 Enterprise Workflows",
+        "summary":  "Fair-code workflow automation platform with visual AI agent builders, custom tool calling, and self-hosting.",
+        "formFactor":  "Agentic Workflow Orchestrator"
+    },
+    {
+        "id":  95,
+        "name":  "Zapier Agents",
+        "category":  "AI Business Automation \u0026 Enterprise Workflows",
+        "summary":  "AI agents that operate across 7,000+ business applications to automate repetitive cross-platform tasks.",
+        "formFactor":  "App Integration Agents"
+    },
+    {
+        "id":  96,
+        "name":  "Lindy",
+        "category":  "AI Business Automation \u0026 Enterprise Workflows",
+        "summary":  "Custom AI assistant creator that builds dedicated agents for email triage, calendar management, and CRM updates.",
+        "formFactor":  "Personal \u0026 Operations Agents"
+    },
+    {
+        "id":  97,
+        "name":  "Relevance AI",
+        "category":  "AI Business Automation \u0026 Enterprise Workflows",
+        "summary":  "B2B platform allowing companies to build, hire, and manage autonomous AI agent teams for sales and research.",
+        "formFactor":  "Multi-Agent Team Builder"
+    },
+    {
+        "id":  98,
+        "name":  "CrewAI",
+        "category":  "AI Business Automation \u0026 Enterprise Workflows",
+        "summary":  "Open-source multi-agent orchestration framework for assembling autonomous AI crews with specialized roles.",
+        "formFactor":  "Open Multi-Agent Framework"
+    },
+    {
+        "id":  99,
+        "name":  "Salesforce Agentforce",
+        "category":  "AI Business Automation \u0026 Enterprise Workflows",
+        "summary":  "Autonomous enterprise agents integrated into Salesforce for automated customer service, sales, and marketing.",
+        "formFactor":  "CRM Autonomous Agent"
+    },
+    {
+        "id":  100,
+        "name":  "Sash.AI",
+        "category":  "AI Business Automation \u0026 Enterprise Workflows",
+        "summary":  "Indian enterprise AI startup developing specialized vertical autonomous agents for corporate operations.",
+        "formFactor":  "Vertical Enterprise Agents"
+    },
+    {
+        "id":  101,
+        "name":  "Abridge",
+        "category":  "AI Healthcare \u0026 Biotechnology",
+        "summary":  "Ambient AI clinical documentation converting physician-patient dialogue into structured EHR notes in real time.",
+        "formFactor":  "Ambient Clinical Notes"
+    },
+    {
+        "id":  102,
+        "name":  "Ambience Healthcare",
+        "category":  "AI Healthcare \u0026 Biotechnology",
+        "summary":  "Comprehensive AI operating system for healthcare systems automating notes, coding, and clinical referrals.",
+        "formFactor":  "Healthcare Operating System"
+    },
+    {
+        "id":  103,
+        "name":  "Hippocratic AI",
+        "category":  "AI Healthcare \u0026 Biotechnology",
+        "summary":  "Safety-first medical LLM platform building empathetic, patient-facing healthcare phone and video agents.",
+        "formFactor":  "Patient-Facing Clinical Agents"
+    },
+    {
+        "id":  104,
+        "name":  "Nabla",
+        "category":  "AI Healthcare \u0026 Biotechnology",
+        "summary":  "Ambient AI assistant for clinicians generating comprehensive medical notes across multiple clinical specialties.",
+        "formFactor":  "Doctor Workflow Assistant"
+    },
+    {
+        "id":  105,
+        "name":  "Suki",
+        "category":  "AI Healthcare \u0026 Biotechnology",
+        "summary":  "Voice-enabled clinical digital assistant streamlining clinical notes, ICD-10 coding, and physician administrative tasks.",
+        "formFactor":  "Physician Voice Assistant"
+    },
+    {
+        "id":  106,
+        "name":  "Insilico Medicine",
+        "category":  "AI Healthcare \u0026 Biotechnology",
+        "summary":  "End-to-end generative AI biotechnology platform identifying novel biological targets and synthesizing drug candidates.",
+        "formFactor":  "Generative Drug Discovery"
+    },
+    {
+        "id":  107,
+        "name":  "Recursion Pharmaceuticals",
+        "category":  "AI Healthcare \u0026 Biotechnology",
+        "summary":  "Industrial-scale biological experimentation paired with machine learning to decode disease biology and drug responses.",
+        "formFactor":  "Automated Wet-Lab \u0026 ML"
+    },
+    {
+        "id":  108,
+        "name":  "Isomorphic Labs",
+        "category":  "AI Healthcare \u0026 Biotechnology",
+        "summary":  "DeepMind spinoff applying next-generation AlphaFold architectures to revolutionize molecular biology and medicine.",
+        "formFactor":  "Molecular Structure AI"
+    },
+    {
+        "id":  109,
+        "name":  "Owkin",
+        "category":  "AI Healthcare \u0026 Biotechnology",
+        "summary":  "Biomedical AI company leveraging federated learning across academic medical centers for oncology drug research.",
+        "formFactor":  "Federated Medical Learning"
+    },
+    {
+        "id":  110,
+        "name":  "PathAI",
+        "category":  "AI Healthcare \u0026 Biotechnology",
+        "summary":  "AI-powered digital pathology platform enhancing diagnostic accuracy and clinical trial biomarker discovery.",
+        "formFactor":  "Digital Pathology AI"
+    },
+    {
+        "id":  111,
+        "name":  "Tempus AI",
+        "category":  "AI Healthcare \u0026 Biotechnology",
+        "summary":  "Precision medicine company analyzing clinical and molecular data libraries to deliver personalized patient therapy.",
+        "formFactor":  "Precision Oncology \u0026 Data"
+    },
+    {
+        "id":  112,
+        "name":  "Qure.ai",
+        "category":  "AI Healthcare \u0026 Biotechnology",
+        "summary":  "Indian AI healthcare leader utilizing deep learning to interpret chest X-rays, brain CT scans, and medical imaging.",
+        "formFactor":  "Medical Imaging Diagnostics"
+    },
+    {
+        "id":  113,
+        "name":  "Niramai",
+        "category":  "AI Healthcare \u0026 Biotechnology",
+        "summary":  "Non-invasive, radiation-free breast health screening solution utilizing AI and high-resolution thermal imaging.",
+        "formFactor":  "Thermal Imaging Screening"
+    },
+    {
+        "id":  114,
+        "name":  "Wysa",
+        "category":  "AI Healthcare \u0026 Biotechnology",
+        "summary":  "Clinically validated AI mental health conversational agent offering cognitive behavioral therapy (CBT) support.",
+        "formFactor":  "Mental Wellness Chatbot"
+    },
+    {
+        "id":  115,
+        "name":  "Eleos Health",
+        "category":  "AI Healthcare \u0026 Biotechnology",
+        "summary":  "Specialized behavioral health AI platform analyzing therapy sessions to automate compliance documentation.",
+        "formFactor":  "Behavioral Health AI"
+    },
+    {
+        "id":  116,
+        "name":  "Figure AI",
+        "category":  "Robotics \u0026 Physical AI",
+        "summary":  "General-purpose humanoid robots (Figure 02) integrated with OpenAI models to perform industrial assembly tasks.",
+        "formFactor":  "Bipedal Humanoid Robot"
+    },
+    {
+        "id":  117,
+        "name":  "Physical Intelligence (Ï€)",
+        "category":  "Robotics \u0026 Physical AI",
+        "summary":  "Developing universal foundation models (Ï€0) bringing general intelligence to diverse robotic hardware forms.",
+        "formFactor":  "Physical Foundation Models"
+    },
+    {
+        "id":  118,
+        "name":  "1X Technologies",
+        "category":  "Robotics \u0026 Physical AI",
+        "summary":  "Humanoid robotics company developing safe, soft bipedal (NEO) and wheeled (EVE) robots for homes and industry.",
+        "formFactor":  "Android \u0026 Domestic Robots"
+    },
+    {
+        "id":  119,
+        "name":  "Skild AI",
+        "category":  "Robotics \u0026 Physical AI",
+        "summary":  "Developing a scalable foundation model for robotics capable of general dexterity and navigation across robots.",
+        "formFactor":  "Universal Robot Intelligence"
+    },
+    {
+        "id":  120,
+        "name":  "Apptronik",
+        "category":  "Robotics \u0026 Physical AI",
+        "summary":  "Humanoid robotics manufacturer building Apollo, an adaptable commercial robot for logistics and supply chain work.",
+        "formFactor":  "Industrial Humanoid"
+    },
+    {
+        "id":  121,
+        "name":  "Agility Robotics",
+        "category":  "Robotics \u0026 Physical AI",
+        "summary":  "Creator of Digit, a bipedal mobile manipulation robot deployed in Amazon warehouses for bulk material handling.",
+        "formFactor":  "Warehouse Logistics Robot"
+    },
+    {
+        "id":  122,
+        "name":  "Dexterity AI",
+        "category":  "Robotics \u0026 Physical AI",
+        "summary":  "Intelligent robotic software and hardware automating complex truck unloading, palletizing, and fulfillment.",
+        "formFactor":  "High-Speed Logistics Automation"
+    },
+    {
+        "id":  123,
+        "name":  "Covariant",
+        "category":  "Robotics \u0026 Physical AI",
+        "summary":  "Universal AI platform (Covariant Brain) empowering robotic arms to manipulate arbitrary objects in warehouses.",
+        "formFactor":  "Warehouse Manipulation Brain"
+    },
+    {
+        "id":  124,
+        "name":  "Sanctuary AI",
+        "category":  "Robotics \u0026 Physical AI",
+        "summary":  "Building general-purpose humanoid robots (Phoenix) guided by Carbon, a cognitive human-like intelligence architecture.",
+        "formFactor":  "Cognitive Humanoid"
+    },
+    {
+        "id":  125,
+        "name":  "Waymo",
+        "category":  "Robotics \u0026 Physical AI",
+        "summary":  "Alphabet\u0027s commercial autonomous driving pioneer operating commercial robotaxi fleets across major metropolitan cities.",
+        "formFactor":  "Autonomous Robotaxi Fleets"
+    },
+    {
+        "id":  126,
+        "name":  "Waabi",
+        "category":  "Robotics \u0026 Physical AI",
+        "summary":  "AI-first autonomous trucking company leveraging high-fidelity generative simulators to train safe freight vehicles.",
+        "formFactor":  "Autonomous Heavy Trucking"
+    },
+    {
+        "id":  127,
+        "name":  "Anduril",
+        "category":  "Robotics \u0026 Physical AI",
+        "summary":  "Defense technology company building AI-powered autonomous air, land, and sea defense systems (Lattice OS).",
+        "formFactor":  "Autonomous Defense Systems"
+    },
+    {
+        "id":  128,
+        "name":  "DroneDeploy",
+        "category":  "Robotics \u0026 Physical AI",
+        "summary":  "Aerial drone capture platform utilizing machine learning to generate 3D site models and industrial inspections.",
+        "formFactor":  "Drone Analytics \u0026 Mapping"
+    },
+    {
+        "id":  129,
+        "name":  "Zipline",
+        "category":  "Robotics \u0026 Physical AI",
+        "summary":  "Autonomous drone delivery logistics system operating commercial medical and consumer delivery worldwide.",
+        "formFactor":  "Commercial Drone Logistics"
+    },
+    {
+        "id":  130,
+        "name":  "Nuro",
+        "category":  "Robotics \u0026 Physical AI",
+        "summary":  "Autonomous electric road delivery vehicles designed purely for transporting goods and groceries safely.",
+        "formFactor":  "Last-Mile Goods Delivery"
+    },
+    {
+        "id":  131,
+        "name":  "LangChain",
+        "category":  "AI Infrastructure \u0026 Developer Ecosystem",
+        "summary":  "Universal open-source framework and Python/JS library for building LLM applications, chains, and agents.",
+        "formFactor":  "Agentic Framework"
+    },
+    {
+        "id":  132,
+        "name":  "LlamaIndex",
+        "category":  "AI Infrastructure \u0026 Developer Ecosystem",
+        "summary":  "Data framework connecting private enterprise documents and APIs to LLMs with advanced retrieval-augmented generation.",
+        "formFactor":  "Data Ingestion \u0026 RAG"
+    },
+    {
+        "id":  133,
+        "name":  "Composio",
+        "category":  "AI Infrastructure \u0026 Developer Ecosystem",
+        "summary":  "Toolset and authentication bridge connecting AI agents to 200+ external tools, OAuth providers, and software services.",
+        "formFactor":  "Agent Tooling \u0026 Integrations"
+    },
+    {
+        "id":  134,
+        "name":  "Model Context Protocol (MCP)",
+        "category":  "AI Infrastructure \u0026 Developer Ecosystem",
+        "summary":  "Anthropic\u0027s open protocol standardizing how AI applications securely connect to tools, local files, and data sources.",
+        "formFactor":  "Open Tooling Standard"
+    },
+    {
+        "id":  135,
+        "name":  "Mem0",
+        "category":  "AI Infrastructure \u0026 Developer Ecosystem",
+        "summary":  "Personalized, persistent memory layer for AI agents that remembers user context, preferences, and session history.",
+        "formFactor":  "Long-Term Memory API"
+    },
+    {
+        "id":  136,
+        "name":  "Letta",
+        "category":  "AI Infrastructure \u0026 Developer Ecosystem",
+        "summary":  "Stateful AI agent framework (formerly MemGPT) managing tiered memory and OS-level long-term state.",
+        "formFactor":  "Stateful Agent Framework"
+    },
+    {
+        "id":  137,
+        "name":  "Pinecone",
+        "category":  "AI Infrastructure \u0026 Developer Ecosystem",
+        "summary":  "Serverless vector database optimized for ultra-low-latency semantic search, recommendation engines, and RAG.",
+        "formFactor":  "Serverless Vector Database"
+    },
+    {
+        "id":  138,
+        "name":  "Weaviate",
+        "category":  "AI Infrastructure \u0026 Developer Ecosystem",
+        "summary":  "Open-source vector database supporting multi-modal data embeddings, hybrid search, and cloud-native scale.",
+        "formFactor":  "Multi-Modal Vector DB"
+    },
+    {
+        "id":  139,
+        "name":  "Qdrant",
+        "category":  "AI Infrastructure \u0026 Developer Ecosystem",
+        "summary":  "High-performance Rust-based vector similarity search engine engineered for production payload filtering.",
+        "formFactor":  "Rust Vector Search Engine"
+    },
+    {
+        "id":  140,
+        "name":  "Supabase",
+        "category":  "AI Infrastructure \u0026 Developer Ecosystem",
+        "summary":  "Open-source Firebase alternative featuring Postgres, pgvector embeddings, edge functions, and authentication.",
+        "formFactor":  "Backend-as-a-Service \u0026 Vector"
+    },
+    {
+        "id":  141,
+        "name":  "OpenRouter",
+        "category":  "AI Infrastructure \u0026 Developer Ecosystem",
+        "summary":  "Unified API gateway providing single-interface access, failover, and best-price routing across dozens of LLM models.",
+        "formFactor":  "Multi-Model API Gateway"
+    },
+    {
+        "id":  142,
+        "name":  "LiteLLM",
+        "category":  "AI Infrastructure \u0026 Developer Ecosystem",
+        "summary":  "Lightweight proxy and Python SDK to call 100+ LLM APIs using standard OpenAI-compatible input/output formats.",
+        "formFactor":  "Unified API Proxy"
+    },
+    {
+        "id":  143,
+        "name":  "Fireworks AI",
+        "category":  "AI Infrastructure \u0026 Developer Ecosystem",
+        "summary":  "Ultra-fast cloud inference platform serving open-weights LLMs with customized speculative decoding speedups.",
+        "formFactor":  "High-Speed Cloud Inference"
+    },
+    {
+        "id":  144,
+        "name":  "Baseten",
+        "category":  "AI Infrastructure \u0026 Developer Ecosystem",
+        "summary":  "Machine learning infrastructure platform for deploying, fine-tuning, and serving custom models with sub-second autoscaling.",
+        "formFactor":  "Model Serving Infrastructure"
+    },
+    {
+        "id":  145,
+        "name":  "Langfuse",
+        "category":  "AI Infrastructure \u0026 Developer Ecosystem",
+        "summary":  "Open-source LLM engineering platform offering end-to-end tracing, prompt management, and evaluations for AI agents.",
+        "formFactor":  "LLM Observability \u0026 Tracing"
+    },
+    {
+        "id":  146,
+        "name":  "Sarvam AI",
+        "category":  "AI Startups from India",
+        "summary":  "Developing sovereign foundational Indian-language LLMs (Sarvam 1) and natural voice synthesis across Indian languages.",
+        "formFactor":  "Indic Foundation Models"
+    },
+    {
+        "id":  147,
+        "name":  "Krutrim",
+        "category":  "AI Startups from India",
+        "summary":  "Ola\u0027s AI venture developing multilingual foundation models, conversational assistants, and dedicated cloud compute.",
+        "formFactor":  "Indian AI Infrastructure"
+    },
+    {
+        "id":  148,
+        "name":  "Yellow.ai",
+        "category":  "AI Startups from India",
+        "summary":  "Enterprise generative AI platform automating customer service and omnichannel employee workflows worldwide.",
+        "formFactor":  "Conversational CX Suite"
+    },
+    {
+        "id":  149,
+        "name":  "Haptik",
+        "category":  "AI Startups from India",
+        "summary":  "Conversational commerce and customer engagement platform built for WhatsApp and digital retail interactions.",
+        "formFactor":  "WhatsApp \u0026 Commerce AI"
+    },
+    {
+        "id":  150,
+        "name":  "Smallest.ai",
+        "category":  "AI Startups from India",
+        "summary":  "High-speed, lightning-fast voice AI models (Waves) engineered for natural real-time phone conversations.",
+        "formFactor":  "Ultra-Fast Voice Models"
+    },
+    {
+        "id":  151,
+        "name":  "CoRover",
+        "category":  "AI Startups from India",
+        "summary":  "Enterprise AI company powering conversational virtual assistants for Indian Railways (AskDISHA) and government portals.",
+        "formFactor":  "Civic \u0026 Public Sector AI"
+    },
+    {
+        "id":  152,
+        "name":  "KissanAI",
+        "category":  "AI Startups from India",
+        "summary":  "Multilingual conversational voice assistant providing personalized agricultural intelligence to Indian farmers.",
+        "formFactor":  "Agritech \u0026 Rural Voice AI"
+    },
+    {
+        "id":  153,
+        "name":  "Gnani.ai",
+        "category":  "AI Startups from India",
+        "summary":  "Speech recognition and voice biometrics platform specializing in conversational automation across Indic dialects.",
+        "formFactor":  "Indic Voice Automation"
+    },
+    {
+        "id":  154,
+        "name":  "BharatGPT",
+        "category":  "AI Startups from India",
+        "summary":  "Collaborative initiative by CoRover and IIT Bombay building multi-modal foundational LLMs tailored to Indian contexts.",
+        "formFactor":  "Multilingual Consortium"
+    },
+    {
+        "id":  155,
+        "name":  "Emergent",
+        "category":  "AI Startups from India",
+        "summary":  "Generative platform enabling non-technical founders to assemble software applications from natural-language prompts.",
+        "formFactor":  "Prompt-to-App Generation"
+    },
+    {
+        "id":  156,
+        "name":  "Kraya AI",
+        "category":  "AI Startups from India",
+        "summary":  "AI-powered digital commerce suite transforming conversational product discovery, cataloging, and shopping.",
+        "formFactor":  "Conversational Commerce"
+    },
+    {
+        "id":  157,
+        "name":  "Sarvam Vision",
+        "category":  "AI Startups from India",
+        "summary":  "Vision-language understanding models specialized in parsing bilingual documents, handwriting, and Indian invoices.",
+        "formFactor":  "Indic Document OCR \u0026 Vision"
+    },
+    {
+        "id":  158,
+        "name":  "Pixis",
+        "category":  "AI Startups from India",
+        "summary":  "Codeless generative AI infrastructure for automated cross-channel marketing campaigns and performance optimization.",
+        "formFactor":  "Marketing Intelligence"
+    },
+    {
+        "id":  159,
+        "name":  "Mad Street Den",
+        "category":  "AI Startups from India",
+        "summary":  "Computer vision and AI architecture enterprise (Vue.ai) powering retail automation, visual search, and cataloging.",
+        "formFactor":  "Retail Visual AI"
+    },
+    {
+        "id":  160,
+        "name":  "Fynd",
+        "category":  "AI Startups from India",
+        "summary":  "Omnichannel retail technology company deploying generative AI for automated cataloging, virtual try-ons, and commerce.",
+        "formFactor":  "Omnichannel Retail Tech"
+    }
+]

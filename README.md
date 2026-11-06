@@ -11,6 +11,7 @@
   - [2. Generative Media Models Matrix](#2-generative-media-models-matrix)
   - [3. Developer Platforms & Sandboxes](#3-developer-platforms--sandboxes)
   - [4. AI Agents & Productivity Workspaces](#4-ai-agents--productivity-workspaces)
+- [🌐 Global AI Startup & Product Discovery (160 Curated Tools)](#-global-ai-startup--product-discovery)
 - [🧠 Foundation Models](#-foundation-models)
   - [Proprietary API Models (Gemini Family)](#proprietary-api-models-gemini-family)
   - [Open Weights Models (Gemma Family)](#open-weights-models-gemma-family)
@@ -77,6 +78,26 @@ All comparison tables are synchronized with our machine-readable datasets in [`d
 | **Google Antigravity** | Autonomous Software Engineering | Full codebases, terminal execution, artifacts | Code edits, automated builds, test execution | Deep agentic architecture with specialized pairing subagents | [Antigravity Review](https://googleaitools.com/google-antigravity-review/) |
 | **Project Jules** | Asynchronous Coding Agent | GitHub Repositories, Issue trackers | Automated Pull Requests, bug fixes, migration diffs | Runs independently in secure cloud workstations | [Jules Guide](https://googleaitools.com/jules-google-ai-coding-agent-guide/) |
 | **Vertex AI Search & Conversation** | Enterprise RAG | Unstructured enterprise databases, BigQuery, intranet | Grounded chatbots, semantic document discovery | Out-of-the-box RAG with turnkey search connectors | [Vertex Search Docs](https://cloud.google.com/generative-ai-app-builder) |
+
+---
+
+## 🌐 Global AI Startup & Product Discovery
+
+Explore our comprehensive breakdown of **160 real-world AI products, apps, and breakthrough startups** across 11 key industries in [**`GLOBAL_AI_DIRECTORY.md`**](GLOBAL_AI_DIRECTORY.md) and programmatically via [`data/global-ai-products.json`](data/global-ai-products.json):
+
+1. **Personal AI Agents & Universal Assistants** (Manus, Genspark, Perplexity, ChatGPT Agent, Claude Computer Use, Rabbit R1, MultiOn, Gemini, Copilot...)
+2. **AI Browsers & Future Internet Access** (Dia, Comet, Arc, Opera Neon, Fellou, Browser Use, Browserbase, Steel, Firecrawl, Exa...)
+3. **AI Software Development & App Creation** (Cursor, Windsurf, Lovable, Bolt.new, Replit Agent, Devin, Cline, OpenHands, v0, Base44...)
+4. **AI Voice, Communication & Meetings** (ElevenLabs, Hume AI, Retell AI, Bland AI, Vapi, Cartesia, Wispr Flow, Granola, Fireflies, Plaud...)
+5. **AI Creative, Video & Entertainment** (Runway, Pika, Luma AI, Kling AI, Sora, HeyGen, Synthesia, Suno, Udio, Ideogram, Midjourney...)
+6. **AI Research, Knowledge & Intelligence** (Elicit, Consensus, SciSpace, Hebbia, Glean, NotebookLM, Recall, Mem, Exa, Tavily...)
+7. **AI Business Automation & Enterprise** (Sierra, Harvey, Intercom Fin, Decagon, Moveworks, UiPath Autopilot, n8n, CrewAI, Agentforce...)
+8. **AI Healthcare & Biotechnology** (Abridge, Ambience Healthcare, Hippocratic AI, Nabla, Suki, Insilico, Recursion, Isomorphic Labs, Qure.ai...)
+9. **Robotics & Physical AI** (Figure AI, Physical Intelligence, 1X, Skild AI, Apptronik, Agility Robotics, Sanctuary, Waymo, Anduril, Zipline...)
+10. **AI Infrastructure & Developer Ecosystem** (LangChain, LlamaIndex, Composio, MCP, Mem0, Letta, Pinecone, Weaviate, OpenRouter, LiteLLM...)
+11. **AI Startups from India** (Sarvam AI, Krutrim, Yellow.ai, Haptik, Smallest.ai, CoRover, KissanAI, Gnani.ai, BharatGPT, Pixis...)
+
+👉 **[Browse Full 160-Tool Directory & Analysis →](GLOBAL_AI_DIRECTORY.md)**
 
 ---
 

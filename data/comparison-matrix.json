@@ -1,0 +1,228 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Google AI Tools & Models Comparison Matrix",
+  "version": "2026.11",
+  "source": "https://googleaitools.com",
+  "models": [
+    {
+      "id": "gemini-1-5-pro",
+      "name": "Gemini 1.5 Pro",
+      "category": "Frontier Multimodal LLM",
+      "type": "Proprietary API / Cloud",
+      "contextWindow": "2,097,152 tokens (2M)",
+      "maxOutput": "8,192 tokens",
+      "inputModalities": ["Text", "Code", "Audio", "Images", "Video", "PDFs"],
+      "outputModalities": ["Text", "Code"],
+      "pricing": {
+        "inputPer1MTokensUnder128k": "$3.50",
+        "outputPer1MTokensUnder128k": "$10.50",
+        "inputPer1MTokensOver128k": "$7.00",
+        "outputPer1MTokensOver128k": "$21.00",
+        "freeTier": true
+      },
+      "strengths": [
+        "Massive 2M token context window",
+        "Complex multimodal reasoning over hours of video or audio",
+        "High-performance coding and multi-document synthesis"
+      ],
+      "bestFor": "Large codebase analysis, hour-long video understanding, full-book or enterprise document Q&A",
+      "officialDocs": "https://ai.google.dev/gemini-api/docs/models/gemini#gemini-1.5-pro",
+      "guideUrl": "https://googleaitools.com/getting-started-with-gemini-1-5-pro/"
+    },
+    {
+      "id": "gemini-1-5-flash",
+      "name": "Gemini 1.5 Flash",
+      "category": "High-Speed Multimodal LLM",
+      "type": "Proprietary API / Cloud",
+      "contextWindow": "1,048,576 tokens (1M)",
+      "maxOutput": "8,192 tokens",
+      "inputModalities": ["Text", "Code", "Audio", "Images", "Video"],
+      "outputModalities": ["Text", "Code"],
+      "pricing": {
+        "inputPer1MTokensUnder128k": "$0.075",
+        "outputPer1MTokensUnder128k": "$0.30",
+        "inputPer1MTokensOver128k": "$0.15",
+        "outputPer1MTokensOver128k": "$0.60",
+        "freeTier": true
+      },
+      "strengths": [
+        "Sub-second time to first token (TTFT)",
+        "Ultra-cost-effective high-volume processing",
+        "1M token context capacity at fraction of cost"
+      ],
+      "bestFor": "High-frequency API requests, real-time chatbots, summarization, extraction, data preprocessing",
+      "officialDocs": "https://ai.google.dev/gemini-api/docs/models/gemini#gemini-1.5-flash",
+      "guideUrl": "https://googleaitools.com/how-to-use-gemini-15-flash/"
+    },
+    {
+      "id": "gemini-1-0-ultra",
+      "name": "Gemini 1.0 Ultra",
+      "category": "Frontier Heavy Reasoning",
+      "type": "Enterprise API / Gemini Advanced",
+      "contextWindow": "32,768 tokens",
+      "maxOutput": "4,096 tokens",
+      "inputModalities": ["Text", "Code", "Images"],
+      "outputModalities": ["Text", "Code"],
+      "pricing": {
+        "consumerTier": "$19.99/mo (Google One AI Premium)",
+        "enterprise": "Custom via Google Cloud Vertex AI"
+      },
+      "strengths": [
+        "First model to outperform human experts on MMLU benchmark",
+        "Deep mathematical and nuanced scientific reasoning"
+      ],
+      "bestFor": "Complex academic research, theoretical physics/math reasoning, enterprise advisory",
+      "officialDocs": "https://deepmind.google/technologies/gemini/",
+      "guideUrl": "https://googleaitools.com/gemini-api-review-benchmarks-specs/"
+    },
+    {
+      "id": "gemma-2-27b",
+      "name": "Gemma 2 (27B)",
+      "category": "Open Weights LLM",
+      "type": "Open Weights (Apache 2.0-style Gemma Terms)",
+      "contextWindow": "8,192 tokens",
+      "maxOutput": "4,096 tokens",
+      "inputModalities": ["Text", "Code"],
+      "outputModalities": ["Text", "Code"],
+      "pricing": {
+        "selfHosted": "Free (Hardware compute cost only)",
+        "cloudServing": "Varies by GPU/TPU provider"
+      },
+      "strengths": [
+        "Outperforms models more than double its size (competitive with 70B models)",
+        "Advanced sliding window attention and logit soft-capping",
+        "Full local self-hosting privacy"
+      ],
+      "bestFor": "Private enterprise deployments, on-premise RAG, domain fine-tuning on single A100/H100 or dual GPUs",
+      "officialDocs": "https://ai.google.dev/gemma/docs/core",
+      "guideUrl": "https://googleaitools.com/gemma-open-source-ai-models-guide/"
+    },
+    {
+      "id": "gemma-2-9b",
+      "name": "Gemma 2 (9B)",
+      "category": "Open Weights LLM",
+      "type": "Open Weights",
+      "contextWindow": "8,192 tokens",
+      "maxOutput": "4,096 tokens",
+      "inputModalities": ["Text", "Code"],
+      "outputModalities": ["Text", "Code"],
+      "pricing": {
+        "selfHosted": "Free (Runs smoothly on consumer RTX 3090/4090 or Apple Silicon Mac M-series)"
+      },
+      "strengths": [
+        "Class-leading performance for under 10B parameters",
+        "Knowledge-distilled from larger Gemini architectures",
+        "Low latency and quantization friendly (4-bit / 8-bit)"
+      ],
+      "bestFor": "Local developer assistants, consumer-grade hardware serving via Ollama/vLLM, embedded edge apps",
+      "officialDocs": "https://ai.google.dev/gemma",
+      "guideUrl": "https://googleaitools.com/gemma-open-source-ai-models-guide/"
+    },
+    {
+      "id": "gemma-2-2b",
+      "name": "Gemma 2 (2B)",
+      "category": "Ultra-Lightweight Open Weights",
+      "type": "Open Weights",
+      "contextWindow": "8,192 tokens",
+      "maxOutput": "2,048 tokens",
+      "inputModalities": ["Text", "Code"],
+      "outputModalities": ["Text", "Code"],
+      "pricing": {
+        "selfHosted": "Free (Runs in CPU RAM, mobile, and browser with WebGPU)"
+      },
+      "strengths": [
+        "Ultra-lightweight footprint (~1.5GB quantized)",
+        "Runs on mobile phones, IoT, and edge devices with MediaPipe",
+        "Very fast generation speed on CPU"
+      ],
+      "bestFor": "Edge computing, mobile app on-device inference, lightweight text classification & autocomplete",
+      "officialDocs": "https://ai.google.dev/gemma/docs/model_card_2",
+      "guideUrl": "https://googleaitools.com/gemma-open-source-ai-models-guide/"
+    },
+    {
+      "id": "paligemma-2",
+      "name": "PaliGemma 2",
+      "category": "Vision-Language Open Weights (VLM)",
+      "type": "Open Weights",
+      "contextWindow": "Variable (Vision tokens + Text)",
+      "maxOutput": "1,024 tokens",
+      "inputModalities": ["Images", "Text"],
+      "outputModalities": ["Text", "Bounding Boxes", "Segmentation Tokens"],
+      "pricing": {
+        "selfHosted": "Free"
+      },
+      "strengths": [
+        "SigLIP vision encoder + Gemma 2 decoder architecture",
+        "Precise object detection, spatial coordinates, OCR, and visual QA",
+        "Fine-tunable for specialized computer vision tasks"
+      ],
+      "bestFor": "Document understanding, medical imaging analysis, autonomous robotics visual grounding, OCR",
+      "officialDocs": "https://ai.google.dev/gemma/docs/paligemma",
+      "guideUrl": "https://googleaitools.com/"
+    },
+    {
+      "id": "imagen-3",
+      "name": "Imagen 3",
+      "category": "Generative Image Synthesis",
+      "type": "Proprietary API / Cloud (Vertex AI & AI Test Kitchen)",
+      "contextWindow": "Text Prompt / Reference Images",
+      "maxOutput": "Up to 2048x2048 resolution",
+      "inputModalities": ["Text Prompts"],
+      "outputModalities": ["Images (JPEG/PNG) with SynthID watermark"],
+      "pricing": {
+        "apiPricing": "$0.030 per image (standard generation)",
+        "consumer": "Included with Gemini Advanced & ImageFX"
+      },
+      "strengths": [
+        "Industry-leading photorealism and fine detail rendering",
+        "Flawless typography and text rendering inside generated images",
+        "Built-in invisible cryptographic SynthID watermarking"
+      ],
+      "bestFor": "Marketing visuals, product photography concepts, digital illustration, graphic design typography",
+      "officialDocs": "https://cloud.google.com/vertex-ai/generative-ai/docs/image/overview",
+      "guideUrl": "https://googleaitools.com/imagen-3-prompt-engineering-tips/"
+    },
+    {
+      "id": "google-veo",
+      "name": "Google Veo",
+      "category": "Generative Video Foundation Model",
+      "type": "Proprietary API / Creative Labs",
+      "contextWindow": "Text / Image prompts + Cinematic control flags",
+      "maxOutput": "1080p Full HD video (>60 seconds generation)",
+      "inputModalities": ["Text", "Images", "Video Extension Sequences"],
+      "outputModalities": ["1080p MP4 Video with SynthID"],
+      "pricing": {
+        "access": "Preview via VideoFX & Vertex AI Generative AI Studio"
+      },
+      "strengths": [
+        "Consistent temporal physics and visual coherence",
+        "Understands cinematic commands: timelapse, aerial pan, dolly zoom, 24fps film look",
+        "High prompt fidelity and narrative continuity"
+      ],
+      "bestFor": "Cinematic storytelling, social media video production, commercial pre-visualization, concept video",
+      "officialDocs": "https://deepmind.google/technologies/veo/",
+      "guideUrl": "https://googleaitools.com/google-veo-video-generation-tutorial/"
+    },
+    {
+      "id": "notebooklm",
+      "name": "NotebookLM",
+      "category": "AI Research & Synthesis Workspace",
+      "type": "SaaS Web Application",
+      "contextWindow": "50 sources per notebook (Up to 500,000 words per source)",
+      "maxOutput": "Full structured briefings, study guides, and multi-speaker Audio Overviews",
+      "inputModalities": ["PDFs", "Google Docs", "Google Slides", "Web URLs", "Copied Text", "Audio files"],
+      "outputModalities": ["Text Notes", "Interactive Citations", "Bespoke 2-Speaker AI Podcast Audio (Deep Dive)"],
+      "pricing": {
+        "freeTier": "100% Free with Google Account"
+      },
+      "strengths": [
+        "Strict citation grounding (zero hallucinations outside provided sources)",
+        "Studio-quality, natural two-host conversational podcast generation (Audio Overview)",
+        "Seamless Google Drive integration"
+      ],
+      "bestFor": "Academic literature reviews, corporate report analysis, legal document synthesis, audio study guides",
+      "officialDocs": "https://notebooklm.google.com/",
+      "guideUrl": "https://googleaitools.com/notebooklm-ai-research-guide/"
+    }
+  ]
+}

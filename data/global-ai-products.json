@@ -1,1122 +1,1922 @@
-﻿[
+[
     {
         "id":  1,
         "name":  "Manus",
+        "slug":  "manus",
         "category":  "Personal AI Agents \u0026 Universal Assistants",
+        "cleanCategory":  "Personal AI Agents \u0026 Universal Assistants",
+        "formFactor":  "Autonomous Web Agent",
         "summary":  "General-purpose AI agent that autonomously researches, browses, analyses, and completes multi-step tasks.",
-        "formFactor":  "Autonomous Web Agent"
+        "domain":  "manus.im",
+        "website":  "https://manus.im",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=manus.im\u0026sz=64"
     },
     {
         "id":  2,
         "name":  "Genspark",
+        "slug":  "genspark",
         "category":  "Personal AI Agents \u0026 Universal Assistants",
+        "cleanCategory":  "Personal AI Agents \u0026 Universal Assistants",
+        "formFactor":  "AI Workspace \u0026 Research",
         "summary":  "AI workspace that conducts deep research, drafts documents, creates presentations, and executes complex tasks.",
-        "formFactor":  "AI Workspace \u0026 Research"
+        "domain":  "genspark.ai",
+        "website":  "https://genspark.ai",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=genspark.ai\u0026sz=64"
     },
     {
         "id":  3,
         "name":  "Perplexity",
+        "slug":  "perplexity",
         "category":  "Personal AI Agents \u0026 Universal Assistants",
+        "cleanCategory":  "Personal AI Agents \u0026 Universal Assistants",
+        "formFactor":  "AI Search \u0026 Discovery",
         "summary":  "AI conversational search engine that indexes the live internet and provides grounded, fully-sourced answers.",
-        "formFactor":  "AI Search \u0026 Discovery"
+        "domain":  "perplexity.ai",
+        "website":  "https://perplexity.ai",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=perplexity.ai\u0026sz=64"
     },
     {
         "id":  4,
         "name":  "OpenAI ChatGPT Agent",
+        "slug":  "openai-chatgpt-agent",
         "category":  "Personal AI Agents \u0026 Universal Assistants",
+        "cleanCategory":  "Personal AI Agents \u0026 Universal Assistants",
+        "formFactor":  "Agentic Frontier Assistant",
         "summary":  "Employs browser automation and specialized tool-calling to execute multi-step tasks on the user\u0027s behalf.",
-        "formFactor":  "Agentic Frontier Assistant"
+        "domain":  "chatgpt.com",
+        "website":  "https://chatgpt.com/",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=chatgpt.com\u0026sz=64"
     },
     {
         "id":  5,
         "name":  "Claude Computer Use",
+        "slug":  "claude-computer-use",
         "category":  "Personal AI Agents \u0026 Universal Assistants",
+        "cleanCategory":  "Personal AI Agents \u0026 Universal Assistants",
+        "formFactor":  "GUI Agent / OS Control",
         "summary":  "Anthropic API capability that allows AI to view screens, move cursors, click buttons, and type into desktop applications.",
-        "formFactor":  "GUI Agent / OS Control"
+        "domain":  "anthropic.com",
+        "website":  "https://www.anthropic.com/claude",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=anthropic.com\u0026sz=64"
     },
     {
         "id":  6,
         "name":  "OpenClaw",
+        "slug":  "openclaw",
         "category":  "Personal AI Agents \u0026 Universal Assistants",
+        "cleanCategory":  "Personal AI Agents \u0026 Universal Assistants",
+        "formFactor":  "Open Source Agent",
         "summary":  "Open-source personal AI assistant operating across messaging platforms and connected tool APIs.",
-        "formFactor":  "Open Source Agent"
+        "domain":  "openclaw.org",
+        "website":  "https://openclaw.org",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=openclaw.org\u0026sz=64"
     },
     {
         "id":  7,
         "name":  "Rabbit R1",
+        "slug":  "rabbit-r1",
         "category":  "Personal AI Agents \u0026 Universal Assistants",
+        "cleanCategory":  "Personal AI Agents \u0026 Universal Assistants",
+        "formFactor":  "Dedicated AI Hardware",
         "summary":  "Dedicated standalone AI hardware device built around the Large Action Model (LAM) for natural-language app interaction.",
-        "formFactor":  "Dedicated AI Hardware"
+        "domain":  "rabbit.tech",
+        "website":  "https://rabbit.tech",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=rabbit.tech\u0026sz=64"
     },
     {
         "id":  8,
         "name":  "Adept",
+        "slug":  "adept",
         "category":  "Personal AI Agents \u0026 Universal Assistants",
+        "cleanCategory":  "Personal AI Agents \u0026 Universal Assistants",
+        "formFactor":  "Enterprise UI Agent",
         "summary":  "Foundation models trained specifically to operate enterprise software interfaces and complete complex workflows.",
-        "formFactor":  "Enterprise UI Agent"
+        "domain":  "adept.ai",
+        "website":  "https://adept.ai",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=adept.ai\u0026sz=64"
     },
     {
         "id":  9,
         "name":  "MultiOn",
+        "slug":  "multion",
         "category":  "Personal AI Agents \u0026 Universal Assistants",
+        "cleanCategory":  "Personal AI Agents \u0026 Universal Assistants",
+        "formFactor":  "Browser Action Agent",
         "summary":  "Autonomous web browsing agent designed to navigate live websites, fill forms, and complete transactions.",
-        "formFactor":  "Browser Action Agent"
+        "domain":  "multion.ai",
+        "website":  "https://multion.ai",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=multion.ai\u0026sz=64"
     },
     {
         "id":  10,
         "name":  "Instinct",
+        "slug":  "instinct",
         "category":  "Personal AI Agents \u0026 Universal Assistants",
+        "cleanCategory":  "Personal AI Agents \u0026 Universal Assistants",
+        "formFactor":  "Conversational Errands",
         "summary":  "Personal assistant concept working through messaging and phone calls to handle everyday personal errands.",
-        "formFactor":  "Conversational Errands"
+        "domain":  "instinct.ai",
+        "website":  "https://instinct.ai",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=instinct.ai\u0026sz=64"
     },
     {
         "id":  11,
         "name":  "Amazon Alexa+",
+        "slug":  "amazon-alexa",
         "category":  "Personal AI Agents \u0026 Universal Assistants",
+        "cleanCategory":  "Personal AI Agents \u0026 Universal Assistants",
+        "formFactor":  "Smart Home \u0026 Voice Agent",
         "summary":  "Advanced conversational assistant powered by LLMs with deep device orchestration and external service APIs.",
-        "formFactor":  "Smart Home \u0026 Voice Agent"
+        "domain":  "amazon.com",
+        "website":  "https://amazon.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=amazon.com\u0026sz=64"
     },
     {
         "id":  12,
         "name":  "Google Gemini",
+        "slug":  "google-gemini",
         "category":  "Personal AI Agents \u0026 Universal Assistants",
+        "cleanCategory":  "Personal AI Agents \u0026 Universal Assistants",
+        "formFactor":  "Multimodal Ecosystem",
         "summary":  "Multimodal foundation assistant deeply integrated into Android, Workspace, Google Cloud, and search.",
-        "formFactor":  "Multimodal Ecosystem"
+        "domain":  "gemini.google.com",
+        "website":  "https://gemini.google.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=gemini.google.com\u0026sz=64"
     },
     {
         "id":  13,
         "name":  "Microsoft Copilot",
+        "slug":  "microsoft-copilot",
         "category":  "Personal AI Agents \u0026 Universal Assistants",
+        "cleanCategory":  "Personal AI Agents \u0026 Universal Assistants",
+        "formFactor":  "Enterprise OS Assistant",
         "summary":  "AI assistant integrated throughout Windows, Microsoft 365, Edge, and GitHub enterprise workflows.",
-        "formFactor":  "Enterprise OS Assistant"
+        "domain":  "copilot.microsoft.com",
+        "website":  "https://copilot.microsoft.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=copilot.microsoft.com\u0026sz=64"
     },
     {
         "id":  14,
         "name":  "Dust",
+        "slug":  "dust",
         "category":  "Personal AI Agents \u0026 Universal Assistants",
+        "cleanCategory":  "Personal AI Agents \u0026 Universal Assistants",
+        "formFactor":  "Team Knowledge Agent",
         "summary":  "Enterprise platform for building specialized AI agents connected to company Notion, Slack, and Google Drive data.",
-        "formFactor":  "Team Knowledge Agent"
+        "domain":  "dust.tt",
+        "website":  "https://dust.tt",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=dust.tt\u0026sz=64"
     },
     {
         "id":  15,
         "name":  "Personal AI",
+        "slug":  "personal-ai",
         "category":  "Personal AI Agents \u0026 Universal Assistants",
+        "cleanCategory":  "Personal AI Agents \u0026 Universal Assistants",
+        "formFactor":  "Sovereign Personal Memory",
         "summary":  "Personalized conversational assistant trained on an individual\u0027s private memory, notes, and communication style.",
-        "formFactor":  "Sovereign Personal Memory"
+        "domain":  "personal.ai",
+        "website":  "https://personal.ai",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=personal.ai\u0026sz=64"
     },
     {
         "id":  16,
         "name":  "Dia Browser",
+        "slug":  "dia-browser",
         "category":  "AI Browsers \u0026 Future of Internet Access",
+        "cleanCategory":  "AI Browsers \u0026 Future of Internet Access",
+        "formFactor":  "AI Native Browser",
         "summary":  "AI-native browser bringing contextual real-time assistance and workflow intelligence directly into browsing.",
-        "formFactor":  "AI Native Browser"
+        "domain":  "diabrowser.com",
+        "website":  "https://diabrowser.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=diabrowser.com\u0026sz=64"
     },
     {
         "id":  17,
         "name":  "Comet",
+        "slug":  "comet",
         "category":  "AI Browsers \u0026 Future of Internet Access",
+        "cleanCategory":  "AI Browsers \u0026 Future of Internet Access",
+        "formFactor":  "AI Search Browser",
         "summary":  "Perplexity\u0027s purpose-built AI browser integrating live search, page summarization, and agentic workflows.",
-        "formFactor":  "AI Search Browser"
+        "domain":  "perplexity.ai",
+        "website":  "https://www.perplexity.ai/comet",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=perplexity.ai\u0026sz=64"
     },
     {
         "id":  18,
         "name":  "Arc Browser",
+        "slug":  "arc-browser",
         "category":  "AI Browsers \u0026 Future of Internet Access",
+        "cleanCategory":  "AI Browsers \u0026 Future of Internet Access",
+        "formFactor":  "Productivity Browser",
         "summary":  "Reimagined web browser interface with intelligent spaces, tab cleanup, and built-in \"Arc Max\" AI features.",
-        "formFactor":  "Productivity Browser"
+        "domain":  "arc.net",
+        "website":  "https://arc.net",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=arc.net\u0026sz=64"
     },
     {
         "id":  19,
         "name":  "Opera Neon",
+        "slug":  "opera-neon",
         "category":  "AI Browsers \u0026 Future of Internet Access",
+        "cleanCategory":  "AI Browsers \u0026 Future of Internet Access",
+        "formFactor":  "Concept AI Browser",
         "summary":  "Experimental concept browser designed around agentic web interactions and interactive AI canvases.",
-        "formFactor":  "Concept AI Browser"
+        "domain":  "opera.com",
+        "website":  "https://opera.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=opera.com\u0026sz=64"
     },
     {
         "id":  20,
         "name":  "Fellou",
+        "slug":  "fellou",
         "category":  "AI Browsers \u0026 Future of Internet Access",
+        "cleanCategory":  "AI Browsers \u0026 Future of Internet Access",
+        "formFactor":  "Autonomous Research Browser",
         "summary":  "Agentic browser engineered specifically to conduct deep web research and multi-site extraction tasks.",
-        "formFactor":  "Autonomous Research Browser"
+        "domain":  "fellou.ai",
+        "website":  "https://fellou.ai",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=fellou.ai\u0026sz=64"
     },
     {
         "id":  21,
         "name":  "Browser Use",
+        "slug":  "browser-use",
         "category":  "AI Browsers \u0026 Future of Internet Access",
+        "cleanCategory":  "AI Browsers \u0026 Future of Internet Access",
+        "formFactor":  "Open Source Browser SDK",
         "summary":  "Open-source framework enabling autonomous AI agents to control Chromium browsers with natural language.",
-        "formFactor":  "Open Source Browser SDK"
+        "domain":  "browser-use.com",
+        "website":  "https://browser-use.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=browser-use.com\u0026sz=64"
     },
     {
         "id":  22,
         "name":  "Browserbase",
+        "slug":  "browserbase",
         "category":  "AI Browsers \u0026 Future of Internet Access",
+        "cleanCategory":  "AI Browsers \u0026 Future of Internet Access",
+        "formFactor":  "Headless Cloud Infrastructure",
         "summary":  "Serverless cloud browser infrastructure for running autonomous agents at scale without local headless browsers.",
-        "formFactor":  "Headless Cloud Infrastructure"
+        "domain":  "browserbase.com",
+        "website":  "https://browserbase.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=browserbase.com\u0026sz=64"
     },
     {
         "id":  23,
         "name":  "Steel",
+        "slug":  "steel",
         "category":  "AI Browsers \u0026 Future of Internet Access",
+        "cleanCategory":  "AI Browsers \u0026 Future of Internet Access",
+        "formFactor":  "Agentic Browser Fleet",
         "summary":  "Open-source, production-grade cloud browser infrastructure engineered for scalable AI web automation.",
-        "formFactor":  "Agentic Browser Fleet"
+        "domain":  "steel.dev",
+        "website":  "https://steel.dev",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=steel.dev\u0026sz=64"
     },
     {
         "id":  24,
         "name":  "Firecrawl",
+        "slug":  "firecrawl",
         "category":  "AI Browsers \u0026 Future of Internet Access",
+        "cleanCategory":  "AI Browsers \u0026 Future of Internet Access",
+        "formFactor":  "Web Scrape \u0026 RAG ETL",
         "summary":  "Turns any website into clean, markdown or structured JSON formatted specifically for LLM ingestion and RAG.",
-        "formFactor":  "Web Scrape \u0026 RAG ETL"
+        "domain":  "firecrawl.dev",
+        "website":  "https://firecrawl.dev",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=firecrawl.dev\u0026sz=64"
     },
     {
         "id":  25,
         "name":  "Exa",
+        "slug":  "exa",
         "category":  "AI Browsers \u0026 Future of Internet Access",
+        "cleanCategory":  "AI Browsers \u0026 Future of Internet Access",
+        "formFactor":  "Agent Search Infrastructure",
         "summary":  "Neural and semantic search API designed to retrieve clean web knowledge for AI agents and LLM prompts.",
-        "formFactor":  "Agent Search Infrastructure"
+        "domain":  "exa.ai",
+        "website":  "https://exa.ai",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=exa.ai\u0026sz=64"
     },
     {
         "id":  26,
         "name":  "Cursor",
+        "slug":  "cursor",
         "category":  "AI Software Development \u0026 App Creation",
+        "cleanCategory":  "AI Software Development \u0026 App Creation",
+        "formFactor":  "AI Code Editor",
         "summary":  "AI-first code editor (VS Code fork) that indexes and understands entire codebases with multi-file diffing.",
-        "formFactor":  "AI Code Editor"
+        "domain":  "cursor.com",
+        "website":  "https://cursor.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=cursor.com\u0026sz=64"
     },
     {
         "id":  27,
         "name":  "Windsurf",
+        "slug":  "windsurf",
         "category":  "AI Software Development \u0026 App Creation",
+        "cleanCategory":  "AI Software Development \u0026 App Creation",
+        "formFactor":  "Agentic IDE",
         "summary":  "Agentic coding IDE by Codeium featuring \"Flows\" that independently navigate codebases, terminals, and edits.",
-        "formFactor":  "Agentic IDE"
+        "domain":  "codeium.com",
+        "website":  "https://codeium.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=codeium.com\u0026sz=64"
     },
     {
         "id":  28,
         "name":  "Lovable",
+        "slug":  "lovable",
         "category":  "AI Software Development \u0026 App Creation",
+        "cleanCategory":  "AI Software Development \u0026 App Creation",
+        "formFactor":  "Natural Language App Builder",
         "summary":  "Turns natural-language prompts into production-ready full-stack web applications with interactive visual editing.",
-        "formFactor":  "Natural Language App Builder"
+        "domain":  "lovable.dev",
+        "website":  "https://lovable.dev",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=lovable.dev\u0026sz=64"
     },
     {
         "id":  29,
         "name":  "Bolt.new",
+        "slug":  "bolt-new",
         "category":  "AI Software Development \u0026 App Creation",
+        "cleanCategory":  "AI Software Development \u0026 App Creation",
+        "formFactor":  "In-Browser WebContainer IDE",
         "summary":  "In-browser development container that generates, runs, debugs, and deploys full-stack apps via WebContainers.",
-        "formFactor":  "In-Browser WebContainer IDE"
+        "domain":  "bolt.new",
+        "website":  "https://bolt.new",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=bolt.new\u0026sz=64"
     },
     {
         "id":  30,
         "name":  "Replit Agent",
+        "slug":  "replit-agent",
         "category":  "AI Software Development \u0026 App Creation",
+        "cleanCategory":  "AI Software Development \u0026 App Creation",
+        "formFactor":  "Cloud Dev \u0026 Hosting Agent",
         "summary":  "Autonomous coding agent in Replit that designs database schemas, writes full-stack code, and handles hosting.",
-        "formFactor":  "Cloud Dev \u0026 Hosting Agent"
+        "domain":  "replit.com",
+        "website":  "https://replit.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=replit.com\u0026sz=64"
     },
     {
         "id":  31,
         "name":  "Emergent",
+        "slug":  "emergent",
         "category":  "AI Software Development \u0026 App Creation",
+        "cleanCategory":  "AI Software Development \u0026 App Creation",
+        "formFactor":  "Autonomous Software Builder",
         "summary":  "Generates, tests, and deploys complete working web and mobile software directly from text descriptions.",
-        "formFactor":  "Autonomous Software Builder"
+        "domain":  "emergent.sh",
+        "website":  "https://emergent.sh",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=emergent.sh\u0026sz=64"
     },
     {
         "id":  32,
         "name":  "Devin",
+        "slug":  "devin",
         "category":  "AI Software Development \u0026 App Creation",
+        "cleanCategory":  "AI Software Development \u0026 App Creation",
+        "formFactor":  "Autonomous SWE Agent",
         "summary":  "Autonomous AI software engineer capable of reading documentation, fixing bugs, and deploying complete PRs.",
-        "formFactor":  "Autonomous SWE Agent"
+        "domain":  "cognition.ai",
+        "website":  "https://cognition.ai",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=cognition.ai\u0026sz=64"
     },
     {
         "id":  33,
         "name":  "Cline",
+        "slug":  "cline",
         "category":  "AI Software Development \u0026 App Creation",
+        "cleanCategory":  "AI Software Development \u0026 App Creation",
+        "formFactor":  "Open Source VS Code Agent",
         "summary":  "Autonomous open-source coding agent in VS Code that executes terminal commands, edits files, and calls tools.",
-        "formFactor":  "Open Source VS Code Agent"
+        "domain":  "cline.bot",
+        "website":  "https://cline.bot",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=cline.bot\u0026sz=64"
     },
     {
         "id":  34,
         "name":  "OpenHands",
+        "slug":  "openhands",
         "category":  "AI Software Development \u0026 App Creation",
+        "cleanCategory":  "AI Software Development \u0026 App Creation",
+        "formFactor":  "Open Source SWE Framework",
         "summary":  "Open-source platform for AI software developers (formerly OpenDevin) collaborating on complex GitHub repositories.",
-        "formFactor":  "Open Source SWE Framework"
+        "domain":  "openhands.ai",
+        "website":  "https://openhands.ai",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=openhands.ai\u0026sz=64"
     },
     {
         "id":  35,
         "name":  "v0",
+        "slug":  "v0",
         "category":  "AI Software Development \u0026 App Creation",
+        "cleanCategory":  "AI Software Development \u0026 App Creation",
+        "formFactor":  "Generative UI \u0026 Frontend",
         "summary":  "Vercel\u0027s generative UI system producing production-ready React, Tailwind CSS, and Shadcn UI components.",
-        "formFactor":  "Generative UI \u0026 Frontend"
+        "domain":  "v0.dev",
+        "website":  "https://v0.dev",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=v0.dev\u0026sz=64"
     },
     {
         "id":  36,
         "name":  "Rork",
+        "slug":  "rork",
         "category":  "AI Software Development \u0026 App Creation",
+        "cleanCategory":  "AI Software Development \u0026 App Creation",
+        "formFactor":  "Mobile App Generator",
         "summary":  "AI-powered mobile application generator transforming ideas into complete cross-platform mobile apps.",
-        "formFactor":  "Mobile App Generator"
+        "domain":  "rork.ai",
+        "website":  "https://rork.ai",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=rork.ai\u0026sz=64"
     },
     {
         "id":  37,
         "name":  "Base44",
+        "slug":  "base44",
         "category":  "AI Software Development \u0026 App Creation",
+        "cleanCategory":  "AI Software Development \u0026 App Creation",
+        "formFactor":  "Natural Language Full-Stack",
         "summary":  "Full-stack application creation engine that translates requirements into working databases and user interfaces.",
-        "formFactor":  "Natural Language Full-Stack"
+        "domain":  "base44.com",
+        "website":  "https://base44.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=base44.com\u0026sz=64"
     },
     {
         "id":  38,
         "name":  "Factory",
+        "slug":  "factory",
         "category":  "AI Software Development \u0026 App Creation",
+        "cleanCategory":  "AI Software Development \u0026 App Creation",
+        "formFactor":  "Enterprise SWE Droids",
         "summary":  "Autonomous software engineering agents (\"Droids\") designed to accelerate enterprise development cycles.",
-        "formFactor":  "Enterprise SWE Droids"
+        "domain":  "factory.ai",
+        "website":  "https://factory.ai",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=factory.ai\u0026sz=64"
     },
     {
         "id":  39,
         "name":  "Pythagora",
+        "slug":  "pythagora",
         "category":  "AI Software Development \u0026 App Creation",
+        "cleanCategory":  "AI Software Development \u0026 App Creation",
+        "formFactor":  "Interactive Dev Workflow",
         "summary":  "Conversational development tool building verified Node.js and full-stack apps through interactive QA.",
-        "formFactor":  "Interactive Dev Workflow"
+        "domain":  "pythagora.ai",
+        "website":  "https://pythagora.ai",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=pythagora.ai\u0026sz=64"
     },
     {
         "id":  40,
         "name":  "Magic",
+        "slug":  "magic",
         "category":  "AI Software Development \u0026 App Creation",
+        "cleanCategory":  "AI Software Development \u0026 App Creation",
+        "formFactor":  "Frontier Coding Models",
         "summary":  "Developing ultra-long context frontier foundation models (LTM-2-mini) specialized in software engineering.",
-        "formFactor":  "Frontier Coding Models"
+        "domain":  "magic.dev",
+        "website":  "https://magic.dev",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=magic.dev\u0026sz=64"
     },
     {
         "id":  41,
         "name":  "ElevenLabs",
+        "slug":  "elevenlabs",
         "category":  "AI Voice, Communication \u0026 Meeting Intelligence",
+        "cleanCategory":  "AI Voice, Communication \u0026 Meeting Intelligence",
+        "formFactor":  "Voice Synthesis \u0026 Agents",
         "summary":  "Industry standard for hyper-realistic voice synthesis, cross-language dubbing, and low-latency voice agents.",
-        "formFactor":  "Voice Synthesis \u0026 Agents"
+        "domain":  "elevenlabs.io",
+        "website":  "https://elevenlabs.io",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=elevenlabs.io\u0026sz=64"
     },
     {
         "id":  42,
         "name":  "Hume AI",
+        "slug":  "hume-ai",
         "category":  "AI Voice, Communication \u0026 Meeting Intelligence",
+        "cleanCategory":  "AI Voice, Communication \u0026 Meeting Intelligence",
+        "formFactor":  "Empathic Voice AI",
         "summary":  "Empathic Voice Interface (EVI) that interprets vocal inflections, sentiment, and emotional tone in real-time.",
-        "formFactor":  "Empathic Voice AI"
+        "domain":  "hume.ai",
+        "website":  "https://hume.ai",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=hume.ai\u0026sz=64"
     },
     {
         "id":  43,
         "name":  "Retell AI",
+        "slug":  "retell-ai",
         "category":  "AI Voice, Communication \u0026 Meeting Intelligence",
+        "cleanCategory":  "AI Voice, Communication \u0026 Meeting Intelligence",
+        "formFactor":  "Conversational Phone API",
         "summary":  "Developer platform for creating conversational telephone AI agents with ultra-low latency (\u003c600ms).",
-        "formFactor":  "Conversational Phone API"
+        "domain":  "retellai.com",
+        "website":  "https://retellai.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=retellai.com\u0026sz=64"
     },
     {
         "id":  44,
         "name":  "Bland AI",
+        "slug":  "bland-ai",
         "category":  "AI Voice, Communication \u0026 Meeting Intelligence",
+        "cleanCategory":  "AI Voice, Communication \u0026 Meeting Intelligence",
+        "formFactor":  "Enterprise Calling API",
         "summary":  "Infrastructure for programmable voice calling agents executing inbound and outbound enterprise phone workflows.",
-        "formFactor":  "Enterprise Calling API"
+        "domain":  "bland.ai",
+        "website":  "https://bland.ai",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=bland.ai\u0026sz=64"
     },
     {
         "id":  45,
         "name":  "Vapi",
+        "slug":  "vapi",
         "category":  "AI Voice, Communication \u0026 Meeting Intelligence",
+        "cleanCategory":  "AI Voice, Communication \u0026 Meeting Intelligence",
+        "formFactor":  "Voice Assistant Orchestrator",
         "summary":  "Turnkey developer infrastructure for building, hosting, and orchestrating voice AI assistants.",
-        "formFactor":  "Voice Assistant Orchestrator"
+        "domain":  "vapi.ai",
+        "website":  "https://vapi.ai",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=vapi.ai\u0026sz=64"
     },
     {
         "id":  46,
         "name":  "Cartesia",
+        "slug":  "cartesia",
         "category":  "AI Voice, Communication \u0026 Meeting Intelligence",
+        "cleanCategory":  "AI Voice, Communication \u0026 Meeting Intelligence",
+        "formFactor":  "Real-Time Speech Engine",
         "summary":  "Ultra-low-latency real-time voice synthesis and state-space speech generation models (Sonic).",
-        "formFactor":  "Real-Time Speech Engine"
+        "domain":  "cartesia.ai",
+        "website":  "https://cartesia.ai",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=cartesia.ai\u0026sz=64"
     },
     {
         "id":  47,
         "name":  "Wispr Flow",
+        "slug":  "wispr-flow",
         "category":  "AI Voice, Communication \u0026 Meeting Intelligence",
+        "cleanCategory":  "AI Voice, Communication \u0026 Meeting Intelligence",
+        "formFactor":  "Voice-to-Text OS Utility",
         "summary":  "Ambient dictation tool that transcribes natural speech into beautifully formatted text across all desktop apps.",
-        "formFactor":  "Voice-to-Text OS Utility"
+        "domain":  "wisprflow.ai",
+        "website":  "https://wisprflow.ai",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=wisprflow.ai\u0026sz=64"
     },
     {
         "id":  48,
         "name":  "Granola",
+        "slug":  "granola",
         "category":  "AI Voice, Communication \u0026 Meeting Intelligence",
+        "cleanCategory":  "AI Voice, Communication \u0026 Meeting Intelligence",
+        "formFactor":  "Ambient Meeting Notepad",
         "summary":  "AI meeting notepad that blends human-written bullet points with transcript-backed summaries.",
-        "formFactor":  "Ambient Meeting Notepad"
+        "domain":  "granola.so",
+        "website":  "https://granola.so",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=granola.so\u0026sz=64"
     },
     {
         "id":  49,
         "name":  "Fireflies.ai",
+        "slug":  "fireflies-ai",
         "category":  "AI Voice, Communication \u0026 Meeting Intelligence",
+        "cleanCategory":  "AI Voice, Communication \u0026 Meeting Intelligence",
+        "formFactor":  "Enterprise Meeting Intelligence",
         "summary":  "AI meeting recorder that automatically transcribes, takes notes, and extracts action items across video calls.",
-        "formFactor":  "Enterprise Meeting Intelligence"
+        "domain":  "fireflies.ai",
+        "website":  "https://fireflies.ai",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=fireflies.ai\u0026sz=64"
     },
     {
         "id":  50,
         "name":  "Otter.ai",
+        "slug":  "otter-ai",
         "category":  "AI Voice, Communication \u0026 Meeting Intelligence",
+        "cleanCategory":  "AI Voice, Communication \u0026 Meeting Intelligence",
+        "formFactor":  "Audio Transcription \u0026 Search",
         "summary":  "Automated meeting recording, real-time transcription, and searchable organizational meeting archives.",
-        "formFactor":  "Audio Transcription \u0026 Search"
+        "domain":  "otter.ai",
+        "website":  "https://otter.ai",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=otter.ai\u0026sz=64"
     },
     {
         "id":  51,
         "name":  "Read AI",
+        "slug":  "read-ai",
         "category":  "AI Voice, Communication \u0026 Meeting Intelligence",
+        "cleanCategory":  "AI Voice, Communication \u0026 Meeting Intelligence",
+        "formFactor":  "Meeting Analytics \u0026 Recaps",
         "summary":  "Conversation intelligence generating automated recaps, highlights, and sentiment metrics from meetings.",
-        "formFactor":  "Meeting Analytics \u0026 Recaps"
+        "domain":  "read.ai",
+        "website":  "https://read.ai",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=read.ai\u0026sz=64"
     },
     {
         "id":  52,
         "name":  "Fathom",
+        "slug":  "fathom",
         "category":  "AI Voice, Communication \u0026 Meeting Intelligence",
+        "cleanCategory":  "AI Voice, Communication \u0026 Meeting Intelligence",
+        "formFactor":  "Meeting Recorder \u0026 CRM Sync",
         "summary":  "Free AI meeting recorder for Zoom, Meet, and Teams that provides instant summaries and CRM synchronizations.",
-        "formFactor":  "Meeting Recorder \u0026 CRM Sync"
+        "domain":  "fathom.video",
+        "website":  "https://fathom.video",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=fathom.video\u0026sz=64"
     },
     {
         "id":  53,
         "name":  "Limitless",
+        "slug":  "limitless",
         "category":  "AI Voice, Communication \u0026 Meeting Intelligence",
+        "cleanCategory":  "AI Voice, Communication \u0026 Meeting Intelligence",
+        "formFactor":  "Wearable Conversation Memory",
         "summary":  "Wearable pendant and desktop software capturing conversations into a personalized, searchable memory engine.",
-        "formFactor":  "Wearable Conversation Memory"
+        "domain":  "limitless.ai",
+        "website":  "https://limitless.ai",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=limitless.ai\u0026sz=64"
     },
     {
         "id":  54,
         "name":  "Plaud",
+        "slug":  "plaud",
         "category":  "AI Voice, Communication \u0026 Meeting Intelligence",
+        "cleanCategory":  "AI Voice, Communication \u0026 Meeting Intelligence",
+        "formFactor":  "Dedicated Audio Hardware",
         "summary":  "Hardware recording devices (Plaud Note) with ChatGPT integration turning recorded phone calls into structured notes.",
-        "formFactor":  "Dedicated Audio Hardware"
+        "domain":  "plaud.ai",
+        "website":  "https://plaud.ai",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=plaud.ai\u0026sz=64"
     },
     {
         "id":  55,
         "name":  "Deepgram",
+        "slug":  "deepgram",
         "category":  "AI Voice, Communication \u0026 Meeting Intelligence",
+        "cleanCategory":  "AI Voice, Communication \u0026 Meeting Intelligence",
+        "formFactor":  "Speech Recognition API",
         "summary":  "High-performance speech-to-text and text-to-speech APIs engineered for real-time AI agents and high throughput.",
-        "formFactor":  "Speech Recognition API"
+        "domain":  "deepgram.com",
+        "website":  "https://deepgram.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=deepgram.com\u0026sz=64"
     },
     {
         "id":  56,
         "name":  "Runway",
+        "slug":  "runway",
         "category":  "AI Creative, Video \u0026 Entertainment",
+        "cleanCategory":  "AI Creative, Video \u0026 Entertainment",
+        "formFactor":  "Generative Video Suite",
         "summary":  "Frontier generative video platform (Gen-3 Alpha) offering video-to-video, text-to-video, and cinematic VFX tools.",
-        "formFactor":  "Generative Video Suite"
+        "domain":  "runwayml.com",
+        "website":  "https://runwayml.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=runwayml.com\u0026sz=64"
     },
     {
         "id":  57,
         "name":  "Pika",
+        "slug":  "pika",
         "category":  "AI Creative, Video \u0026 Entertainment",
+        "cleanCategory":  "AI Creative, Video \u0026 Entertainment",
+        "formFactor":  "Creative Video Generation",
         "summary":  "Generative video engine specializing in cinematic animations, physics effects (Pika Effects), and video editing.",
-        "formFactor":  "Creative Video Generation"
+        "domain":  "pika.art",
+        "website":  "https://pika.art",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=pika.art\u0026sz=64"
     },
     {
         "id":  58,
         "name":  "Luma AI",
+        "slug":  "luma-ai",
         "category":  "AI Creative, Video \u0026 Entertainment",
+        "cleanCategory":  "AI Creative, Video \u0026 Entertainment",
+        "formFactor":  "3D \u0026 Video Generation",
         "summary":  "Dream Machine generative video model and NeRF technology producing realistic 3D assets and dynamic videos.",
-        "formFactor":  "3D \u0026 Video Generation"
+        "domain":  "lumalabs.ai",
+        "website":  "https://lumalabs.ai",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=lumalabs.ai\u0026sz=64"
     },
     {
         "id":  59,
         "name":  "Kling AI",
+        "slug":  "kling-ai",
         "category":  "AI Creative, Video \u0026 Entertainment",
+        "cleanCategory":  "AI Creative, Video \u0026 Entertainment",
+        "formFactor":  "Realistic Motion Video",
         "summary":  "High-motion generative video foundation model generating realistic physical interactions and camera maneuvers.",
-        "formFactor":  "Realistic Motion Video"
+        "domain":  "klingai.com",
+        "website":  "https://klingai.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=klingai.com\u0026sz=64"
     },
     {
         "id":  60,
         "name":  "OpenAI Sora",
+        "slug":  "openai-sora",
         "category":  "AI Creative, Video \u0026 Entertainment",
+        "cleanCategory":  "AI Creative, Video \u0026 Entertainment",
+        "formFactor":  "Frontier Video Foundation",
         "summary":  "Text-to-video model generating up to minute-long high-definition videos with complex physical scene simulation.",
-        "formFactor":  "Frontier Video Foundation"
+        "domain":  "google.com",
+        "website":  "https://google.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=google.com\u0026sz=64"
     },
     {
         "id":  61,
         "name":  "HeyGen",
+        "slug":  "heygen",
         "category":  "AI Creative, Video \u0026 Entertainment",
+        "cleanCategory":  "AI Creative, Video \u0026 Entertainment",
+        "formFactor":  "Video Avatars \u0026 Localization",
         "summary":  "AI avatar studio generating realistic presenter videos, automated multi-language lip-syncing, and video ads.",
-        "formFactor":  "Video Avatars \u0026 Localization"
+        "domain":  "heygen.com",
+        "website":  "https://heygen.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=heygen.com\u0026sz=64"
     },
     {
         "id":  62,
         "name":  "Synthesia",
+        "slug":  "synthesia",
         "category":  "AI Creative, Video \u0026 Entertainment",
+        "cleanCategory":  "AI Creative, Video \u0026 Entertainment",
+        "formFactor":  "Enterprise Training Video",
         "summary":  "Enterprise video communications platform generating training videos and product explainers with AI presenters.",
-        "formFactor":  "Enterprise Training Video"
+        "domain":  "synthesia.io",
+        "website":  "https://synthesia.io",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=synthesia.io\u0026sz=64"
     },
     {
         "id":  63,
         "name":  "Suno",
+        "slug":  "suno",
         "category":  "AI Creative, Video \u0026 Entertainment",
+        "cleanCategory":  "AI Creative, Video \u0026 Entertainment",
+        "formFactor":  "AI Music Generation",
         "summary":  "AI music creation engine producing full radio-quality songs with vocals, instruments, and lyrics from simple prompts.",
-        "formFactor":  "AI Music Generation"
+        "domain":  "suno.com",
+        "website":  "https://suno.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=suno.com\u0026sz=64"
     },
     {
         "id":  64,
         "name":  "Udio",
+        "slug":  "udio",
         "category":  "AI Creative, Video \u0026 Entertainment",
+        "cleanCategory":  "AI Creative, Video \u0026 Entertainment",
+        "formFactor":  "Music Composition \u0026 Audio",
         "summary":  "High-fidelity music synthesis model capable of nuanced musical phrasing, harmony, and diverse genre production.",
-        "formFactor":  "Music Composition \u0026 Audio"
+        "domain":  "udio.com",
+        "website":  "https://udio.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=udio.com\u0026sz=64"
     },
     {
         "id":  65,
         "name":  "ElevenLabs Voice Design",
+        "slug":  "elevenlabs-voice-design",
         "category":  "AI Creative, Video \u0026 Entertainment",
+        "cleanCategory":  "AI Creative, Video \u0026 Entertainment",
+        "formFactor":  "Voice Persona Synthesis",
         "summary":  "Generates novel, bespoke synthetic voice personas from natural language text descriptions for gaming and media.",
-        "formFactor":  "Voice Persona Synthesis"
+        "domain":  "elevenlabs.io",
+        "website":  "https://elevenlabs.io",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=elevenlabs.io\u0026sz=64"
     },
     {
         "id":  66,
         "name":  "Ideogram",
+        "slug":  "ideogram",
         "category":  "AI Creative, Video \u0026 Entertainment",
+        "cleanCategory":  "AI Creative, Video \u0026 Entertainment",
+        "formFactor":  "Typography \u0026 Graphic Design",
         "summary":  "AI image generation platform famous for state-of-the-art text and typography rendering within complex images.",
-        "formFactor":  "Typography \u0026 Graphic Design"
+        "domain":  "ideogram.ai",
+        "website":  "https://ideogram.ai",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=ideogram.ai\u0026sz=64"
     },
     {
         "id":  67,
         "name":  "Midjourney",
+        "slug":  "midjourney",
         "category":  "AI Creative, Video \u0026 Entertainment",
+        "cleanCategory":  "AI Creative, Video \u0026 Entertainment",
+        "formFactor":  "Artistic Image Synthesis",
         "summary":  "Flagship artistic image generation model producing industry-leading aesthetics, composition, and visual style.",
-        "formFactor":  "Artistic Image Synthesis"
+        "domain":  "midjourney.com",
+        "website":  "https://midjourney.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=midjourney.com\u0026sz=64"
     },
     {
         "id":  68,
         "name":  "Krea AI",
+        "slug":  "krea-ai",
         "category":  "AI Creative, Video \u0026 Entertainment",
+        "cleanCategory":  "AI Creative, Video \u0026 Entertainment",
+        "formFactor":  "Real-Time Latent Canvas",
         "summary":  "Real-time generative canvas that updates images instantaneously as users draw shapes or adjust prompt modifiers.",
-        "formFactor":  "Real-Time Latent Canvas"
+        "domain":  "krea.ai",
+        "website":  "https://krea.ai",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=krea.ai\u0026sz=64"
     },
     {
         "id":  69,
         "name":  "Wonder Studio",
+        "slug":  "wonder-studio",
         "category":  "AI Creative, Video \u0026 Entertainment",
+        "cleanCategory":  "AI Creative, Video \u0026 Entertainment",
+        "formFactor":  "VFX \u0026 3D Actor Replacement",
         "summary":  "Automatically animates, lights, and composes 3D computer-generated characters into live-action video footage.",
-        "formFactor":  "VFX \u0026 3D Actor Replacement"
+        "domain":  "wonderdynamics.com",
+        "website":  "https://wonderdynamics.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=wonderdynamics.com\u0026sz=64"
     },
     {
         "id":  70,
         "name":  "Scenario",
+        "slug":  "scenario",
         "category":  "AI Creative, Video \u0026 Entertainment",
+        "cleanCategory":  "AI Creative, Video \u0026 Entertainment",
+        "formFactor":  "Game Asset Engine",
         "summary":  "Creates style-consistent generative 2D and 3D visual assets tailored for game development pipelines.",
-        "formFactor":  "Game Asset Engine"
+        "domain":  "scenario.com",
+        "website":  "https://scenario.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=scenario.com\u0026sz=64"
     },
     {
         "id":  71,
         "name":  "Elicit",
+        "slug":  "elicit",
         "category":  "AI Research, Knowledge \u0026 Intelligence",
+        "cleanCategory":  "AI Research, Knowledge \u0026 Intelligence",
+        "formFactor":  "Academic Literature Mining",
         "summary":  "AI research assistant searching across 200M+ academic papers to extract findings, methodologies, and synthesis.",
-        "formFactor":  "Academic Literature Mining"
+        "domain":  "elicit.com",
+        "website":  "https://elicit.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=elicit.com\u0026sz=64"
     },
     {
         "id":  72,
         "name":  "Consensus",
+        "slug":  "consensus",
         "category":  "AI Research, Knowledge \u0026 Intelligence",
+        "cleanCategory":  "AI Research, Knowledge \u0026 Intelligence",
+        "formFactor":  "Peer-Reviewed Evidence Search",
         "summary":  "Search engine querying peer-reviewed research papers to give evidence-grounded answers to scientific questions.",
-        "formFactor":  "Peer-Reviewed Evidence Search"
+        "domain":  "consensus.app",
+        "website":  "https://consensus.app",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=consensus.app\u0026sz=64"
     },
     {
         "id":  73,
         "name":  "SciSpace",
+        "slug":  "scispace",
         "category":  "AI Research, Knowledge \u0026 Intelligence",
+        "cleanCategory":  "AI Research, Knowledge \u0026 Intelligence",
+        "formFactor":  "Scientific Paper Companion",
         "summary":  "Research platform that explains complex academic papers, summarizes equations, and manages research literature.",
-        "formFactor":  "Scientific Paper Companion"
+        "domain":  "scispace.com",
+        "website":  "https://scispace.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=scispace.com\u0026sz=64"
     },
     {
         "id":  74,
         "name":  "Hebbia",
+        "slug":  "hebbia",
         "category":  "AI Research, Knowledge \u0026 Intelligence",
+        "cleanCategory":  "AI Research, Knowledge \u0026 Intelligence",
+        "formFactor":  "Heavy Enterprise Analysis",
         "summary":  "Enterprise document search engine allowing financial, legal, and consulting analysts to query thousands of files.",
-        "formFactor":  "Heavy Enterprise Analysis"
+        "domain":  "hebbia.ai",
+        "website":  "https://hebbia.ai",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=hebbia.ai\u0026sz=64"
     },
     {
         "id":  75,
         "name":  "Glean",
+        "slug":  "glean",
         "category":  "AI Research, Knowledge \u0026 Intelligence",
+        "cleanCategory":  "AI Research, Knowledge \u0026 Intelligence",
+        "formFactor":  "Unified Enterprise Search",
         "summary":  "Enterprise generative AI search connecting across Slack, Google Drive, Jira, and GitHub with strict access controls.",
-        "formFactor":  "Unified Enterprise Search"
+        "domain":  "glean.com",
+        "website":  "https://glean.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=glean.com\u0026sz=64"
     },
     {
         "id":  76,
         "name":  "NotebookLM",
+        "slug":  "notebooklm",
         "category":  "AI Research, Knowledge \u0026 Intelligence",
+        "cleanCategory":  "AI Research, Knowledge \u0026 Intelligence",
+        "formFactor":  "Grounded Research \u0026 Audio",
         "summary":  "Google\u0027s research assistant that grounds strictly in uploaded sources, generating notes and two-host audio podcasts.",
-        "formFactor":  "Grounded Research \u0026 Audio"
+        "domain":  "notebooklm.google.com",
+        "website":  "https://notebooklm.google.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=notebooklm.google.com\u0026sz=64"
     },
     {
         "id":  77,
         "name":  "Recall",
+        "slug":  "recall",
         "category":  "AI Research, Knowledge \u0026 Intelligence",
+        "cleanCategory":  "AI Research, Knowledge \u0026 Intelligence",
+        "formFactor":  "Personal Knowledge Graph",
         "summary":  "Browser extension and knowledge base that summarizes YouTube videos, podcasts, and articles into a personal graph.",
-        "formFactor":  "Personal Knowledge Graph"
+        "domain":  "getrecall.ai",
+        "website":  "https://getrecall.ai",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=getrecall.ai\u0026sz=64"
     },
     {
         "id":  78,
         "name":  "Mem",
+        "slug":  "mem",
         "category":  "AI Research, Knowledge \u0026 Intelligence",
+        "cleanCategory":  "AI Research, Knowledge \u0026 Intelligence",
+        "formFactor":  "Self-Organizing Notes",
         "summary":  "Self-organizing AI workspace that automatically connects notes, meeting transcripts, and project data.",
-        "formFactor":  "Self-Organizing Notes"
+        "domain":  "mem.ai",
+        "website":  "https://mem.ai",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=mem.ai\u0026sz=64"
     },
     {
         "id":  79,
         "name":  "Fabric",
+        "slug":  "fabric",
         "category":  "AI Research, Knowledge \u0026 Intelligence",
+        "cleanCategory":  "AI Research, Knowledge \u0026 Intelligence",
+        "formFactor":  "Digital Asset Organization",
         "summary":  "Centralized personal workspace and drive powered by AI that organizes digital files, links, and documents.",
-        "formFactor":  "Digital Asset Organization"
+        "domain":  "fabric.so",
+        "website":  "https://fabric.so",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=fabric.so\u0026sz=64"
     },
     {
         "id":  80,
         "name":  "Rewind",
+        "slug":  "rewind",
         "category":  "AI Research, Knowledge \u0026 Intelligence",
+        "cleanCategory":  "AI Research, Knowledge \u0026 Intelligence",
+        "formFactor":  "Personal History Search",
         "summary":  "Continuous screen and audio recording tool enabling instant search through everything you have seen or heard.",
-        "formFactor":  "Personal History Search"
+        "domain":  "rewind.ai",
+        "website":  "https://rewind.ai",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=rewind.ai\u0026sz=64"
     },
     {
         "id":  81,
         "name":  "Exa",
+        "slug":  "exa",
         "category":  "AI Research, Knowledge \u0026 Intelligence",
+        "cleanCategory":  "AI Research, Knowledge \u0026 Intelligence",
+        "formFactor":  "LLM-Native Search Engine",
         "summary":  "Web search engine built specifically for AI agents, retrieving clean content via neural embeddings.",
-        "formFactor":  "LLM-Native Search Engine"
+        "domain":  "exa.ai",
+        "website":  "https://exa.ai",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=exa.ai\u0026sz=64"
     },
     {
         "id":  82,
         "name":  "Tavily",
+        "slug":  "tavily",
         "category":  "AI Research, Knowledge \u0026 Intelligence",
+        "cleanCategory":  "AI Research, Knowledge \u0026 Intelligence",
+        "formFactor":  "Agent Search API",
         "summary":  "Search API built from the ground up for LLMs and autonomous agents to retrieve verified factual web knowledge.",
-        "formFactor":  "Agent Search API"
+        "domain":  "tavily.com",
+        "website":  "https://tavily.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=tavily.com\u0026sz=64"
     },
     {
         "id":  83,
         "name":  "You.com",
+        "slug":  "you-com",
         "category":  "AI Research, Knowledge \u0026 Intelligence",
+        "cleanCategory":  "AI Research, Knowledge \u0026 Intelligence",
+        "formFactor":  "Multimodal Search Portal",
         "summary":  "Productivity search engine featuring specialized AI modes (Genius, Research) for comprehensive reporting.",
-        "formFactor":  "Multimodal Search Portal"
+        "domain":  "you.com",
+        "website":  "https://you.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=you.com\u0026sz=64"
     },
     {
         "id":  84,
         "name":  "Kagi",
+        "slug":  "kagi",
         "category":  "AI Research, Knowledge \u0026 Intelligence",
+        "cleanCategory":  "AI Research, Knowledge \u0026 Intelligence",
+        "formFactor":  "Private Ad-Free Search",
         "summary":  "Privacy-focused premium search engine with built-in AI assistant, document summarizer, and zero ad tracking.",
-        "formFactor":  "Private Ad-Free Search"
+        "domain":  "kagi.com",
+        "website":  "https://kagi.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=kagi.com\u0026sz=64"
     },
     {
         "id":  85,
         "name":  "AlphaSense",
+        "slug":  "alphasense",
         "category":  "AI Research, Knowledge \u0026 Intelligence",
+        "cleanCategory":  "AI Research, Knowledge \u0026 Intelligence",
+        "formFactor":  "Financial \u0026 Equity Research",
         "summary":  "Market intelligence platform using AI search to extract insights from financial filings, broker research, and news.",
-        "formFactor":  "Financial \u0026 Equity Research"
+        "domain":  "alpha-sense.com",
+        "website":  "https://alpha-sense.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=alpha-sense.com\u0026sz=64"
     },
     {
         "id":  86,
         "name":  "Sierra",
+        "slug":  "sierra",
         "category":  "AI Business Automation \u0026 Enterprise Workflows",
+        "cleanCategory":  "AI Business Automation \u0026 Enterprise Workflows",
+        "formFactor":  "Enterprise CX Agents",
         "summary":  "Conversational customer experience platform by Bret Taylor deploying brand-safe, authenticated autonomous agents.",
-        "formFactor":  "Enterprise CX Agents"
+        "domain":  "sierra.ai",
+        "website":  "https://sierra.ai",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=sierra.ai\u0026sz=64"
     },
     {
         "id":  87,
         "name":  "Harvey",
+        "slug":  "harvey",
         "category":  "AI Business Automation \u0026 Enterprise Workflows",
+        "cleanCategory":  "AI Business Automation \u0026 Enterprise Workflows",
+        "formFactor":  "Legal Intelligence Platform",
         "summary":  "Domain-specialized legal AI platform assisting corporate lawyers in contract drafting, due diligence, and case law.",
-        "formFactor":  "Legal Intelligence Platform"
+        "domain":  "harvey.ai",
+        "website":  "https://harvey.ai",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=harvey.ai\u0026sz=64"
     },
     {
         "id":  88,
         "name":  "Intercom Fin",
+        "slug":  "intercom-fin",
         "category":  "AI Business Automation \u0026 Enterprise Workflows",
+        "cleanCategory":  "AI Business Automation \u0026 Enterprise Workflows",
+        "formFactor":  "Customer Support Automation",
         "summary":  "Enterprise AI customer support bot resolving complex customer tickets with grounded knowledge base responses.",
-        "formFactor":  "Customer Support Automation"
+        "domain":  "intercom.com",
+        "website":  "https://intercom.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=intercom.com\u0026sz=64"
     },
     {
         "id":  89,
         "name":  "Decagon",
+        "slug":  "decagon",
         "category":  "AI Business Automation \u0026 Enterprise Workflows",
+        "cleanCategory":  "AI Business Automation \u0026 Enterprise Workflows",
+        "formFactor":  "Omnichannel Customer Agent",
         "summary":  "AI customer service platform creating autonomous agents that resolve complex multi-system customer inquiries.",
-        "formFactor":  "Omnichannel Customer Agent"
+        "domain":  "decagon.ai",
+        "website":  "https://decagon.ai",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=decagon.ai\u0026sz=64"
     },
     {
         "id":  90,
         "name":  "Cognition AI",
+        "slug":  "cognition-ai",
         "category":  "AI Business Automation \u0026 Enterprise Workflows",
+        "cleanCategory":  "AI Business Automation \u0026 Enterprise Workflows",
+        "formFactor":  "Autonomous Reasoning",
         "summary":  "Applied AI lab pioneering autonomous reasoning systems and software engineering agents (creators of Devin).",
-        "formFactor":  "Autonomous Reasoning"
+        "domain":  "cognition.ai",
+        "website":  "https://cognition.ai",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=cognition.ai\u0026sz=64"
     },
     {
         "id":  91,
         "name":  "Moveworks",
+        "slug":  "moveworks",
         "category":  "AI Business Automation \u0026 Enterprise Workflows",
+        "cleanCategory":  "AI Business Automation \u0026 Enterprise Workflows",
+        "formFactor":  "Employee Experience \u0026 IT",
         "summary":  "Enterprise copilot platform automating internal IT service tickets, HR inquiries, and employee software requests.",
-        "formFactor":  "Employee Experience \u0026 IT"
+        "domain":  "moveworks.com",
+        "website":  "https://moveworks.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=moveworks.com\u0026sz=64"
     },
     {
         "id":  92,
         "name":  "Aisera",
+        "slug":  "aisera",
         "category":  "AI Business Automation \u0026 Enterprise Workflows",
+        "cleanCategory":  "AI Business Automation \u0026 Enterprise Workflows",
+        "formFactor":  "Service Automation Platform",
         "summary":  "Enterprise AI agent platform automating IT, customer service, and business operations with domain SLMs.",
-        "formFactor":  "Service Automation Platform"
+        "domain":  "aisera.com",
+        "website":  "https://aisera.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=aisera.com\u0026sz=64"
     },
     {
         "id":  93,
         "name":  "UiPath Autopilot",
+        "slug":  "uipath-autopilot",
         "category":  "AI Business Automation \u0026 Enterprise Workflows",
+        "cleanCategory":  "AI Business Automation \u0026 Enterprise Workflows",
+        "formFactor":  "RPA \u0026 Agentic Automation",
         "summary":  "Integrates generative AI with enterprise robotic process automation (RPA) to automate legacy desktop workflows.",
-        "formFactor":  "RPA \u0026 Agentic Automation"
+        "domain":  "uipath.com",
+        "website":  "https://uipath.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=uipath.com\u0026sz=64"
     },
     {
         "id":  94,
         "name":  "n8n",
+        "slug":  "n8n",
         "category":  "AI Business Automation \u0026 Enterprise Workflows",
+        "cleanCategory":  "AI Business Automation \u0026 Enterprise Workflows",
+        "formFactor":  "Agentic Workflow Orchestrator",
         "summary":  "Fair-code workflow automation platform with visual AI agent builders, custom tool calling, and self-hosting.",
-        "formFactor":  "Agentic Workflow Orchestrator"
+        "domain":  "n8n.io",
+        "website":  "https://n8n.io",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=n8n.io\u0026sz=64"
     },
     {
         "id":  95,
         "name":  "Zapier Agents",
+        "slug":  "zapier-agents",
         "category":  "AI Business Automation \u0026 Enterprise Workflows",
+        "cleanCategory":  "AI Business Automation \u0026 Enterprise Workflows",
+        "formFactor":  "App Integration Agents",
         "summary":  "AI agents that operate across 7,000+ business applications to automate repetitive cross-platform tasks.",
-        "formFactor":  "App Integration Agents"
+        "domain":  "zapier.com",
+        "website":  "https://zapier.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=zapier.com\u0026sz=64"
     },
     {
         "id":  96,
         "name":  "Lindy",
+        "slug":  "lindy",
         "category":  "AI Business Automation \u0026 Enterprise Workflows",
+        "cleanCategory":  "AI Business Automation \u0026 Enterprise Workflows",
+        "formFactor":  "Personal \u0026 Operations Agents",
         "summary":  "Custom AI assistant creator that builds dedicated agents for email triage, calendar management, and CRM updates.",
-        "formFactor":  "Personal \u0026 Operations Agents"
+        "domain":  "lindy.ai",
+        "website":  "https://lindy.ai",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=lindy.ai\u0026sz=64"
     },
     {
         "id":  97,
         "name":  "Relevance AI",
+        "slug":  "relevance-ai",
         "category":  "AI Business Automation \u0026 Enterprise Workflows",
+        "cleanCategory":  "AI Business Automation \u0026 Enterprise Workflows",
+        "formFactor":  "Multi-Agent Team Builder",
         "summary":  "B2B platform allowing companies to build, hire, and manage autonomous AI agent teams for sales and research.",
-        "formFactor":  "Multi-Agent Team Builder"
+        "domain":  "relevanceai.com",
+        "website":  "https://relevanceai.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=relevanceai.com\u0026sz=64"
     },
     {
         "id":  98,
         "name":  "CrewAI",
+        "slug":  "crewai",
         "category":  "AI Business Automation \u0026 Enterprise Workflows",
+        "cleanCategory":  "AI Business Automation \u0026 Enterprise Workflows",
+        "formFactor":  "Open Multi-Agent Framework",
         "summary":  "Open-source multi-agent orchestration framework for assembling autonomous AI crews with specialized roles.",
-        "formFactor":  "Open Multi-Agent Framework"
+        "domain":  "crewai.com",
+        "website":  "https://crewai.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=crewai.com\u0026sz=64"
     },
     {
         "id":  99,
         "name":  "Salesforce Agentforce",
+        "slug":  "salesforce-agentforce",
         "category":  "AI Business Automation \u0026 Enterprise Workflows",
+        "cleanCategory":  "AI Business Automation \u0026 Enterprise Workflows",
+        "formFactor":  "CRM Autonomous Agent",
         "summary":  "Autonomous enterprise agents integrated into Salesforce for automated customer service, sales, and marketing.",
-        "formFactor":  "CRM Autonomous Agent"
+        "domain":  "salesforce.com",
+        "website":  "https://salesforce.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=salesforce.com\u0026sz=64"
     },
     {
         "id":  100,
         "name":  "Sash.AI",
+        "slug":  "sash-ai",
         "category":  "AI Business Automation \u0026 Enterprise Workflows",
+        "cleanCategory":  "AI Business Automation \u0026 Enterprise Workflows",
+        "formFactor":  "Vertical Enterprise Agents",
         "summary":  "Indian enterprise AI startup developing specialized vertical autonomous agents for corporate operations.",
-        "formFactor":  "Vertical Enterprise Agents"
+        "domain":  "sash.ai",
+        "website":  "https://sash.ai",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=sash.ai\u0026sz=64"
     },
     {
         "id":  101,
         "name":  "Abridge",
+        "slug":  "abridge",
         "category":  "AI Healthcare \u0026 Biotechnology",
+        "cleanCategory":  "AI Healthcare \u0026 Biotechnology",
+        "formFactor":  "Ambient Clinical Notes",
         "summary":  "Ambient AI clinical documentation converting physician-patient dialogue into structured EHR notes in real time.",
-        "formFactor":  "Ambient Clinical Notes"
+        "domain":  "abridge.com",
+        "website":  "https://abridge.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=abridge.com\u0026sz=64"
     },
     {
         "id":  102,
         "name":  "Ambience Healthcare",
+        "slug":  "ambience-healthcare",
         "category":  "AI Healthcare \u0026 Biotechnology",
+        "cleanCategory":  "AI Healthcare \u0026 Biotechnology",
+        "formFactor":  "Healthcare Operating System",
         "summary":  "Comprehensive AI operating system for healthcare systems automating notes, coding, and clinical referrals.",
-        "formFactor":  "Healthcare Operating System"
+        "domain":  "ambiencehealthcare.com",
+        "website":  "https://ambiencehealthcare.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=ambiencehealthcare.com\u0026sz=64"
     },
     {
         "id":  103,
         "name":  "Hippocratic AI",
+        "slug":  "hippocratic-ai",
         "category":  "AI Healthcare \u0026 Biotechnology",
+        "cleanCategory":  "AI Healthcare \u0026 Biotechnology",
+        "formFactor":  "Patient-Facing Clinical Agents",
         "summary":  "Safety-first medical LLM platform building empathetic, patient-facing healthcare phone and video agents.",
-        "formFactor":  "Patient-Facing Clinical Agents"
+        "domain":  "hippocraticai.com",
+        "website":  "https://hippocraticai.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=hippocraticai.com\u0026sz=64"
     },
     {
         "id":  104,
         "name":  "Nabla",
+        "slug":  "nabla",
         "category":  "AI Healthcare \u0026 Biotechnology",
+        "cleanCategory":  "AI Healthcare \u0026 Biotechnology",
+        "formFactor":  "Doctor Workflow Assistant",
         "summary":  "Ambient AI assistant for clinicians generating comprehensive medical notes across multiple clinical specialties.",
-        "formFactor":  "Doctor Workflow Assistant"
+        "domain":  "nabla.com",
+        "website":  "https://nabla.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=nabla.com\u0026sz=64"
     },
     {
         "id":  105,
         "name":  "Suki",
+        "slug":  "suki",
         "category":  "AI Healthcare \u0026 Biotechnology",
+        "cleanCategory":  "AI Healthcare \u0026 Biotechnology",
+        "formFactor":  "Physician Voice Assistant",
         "summary":  "Voice-enabled clinical digital assistant streamlining clinical notes, ICD-10 coding, and physician administrative tasks.",
-        "formFactor":  "Physician Voice Assistant"
+        "domain":  "suki.ai",
+        "website":  "https://suki.ai",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=suki.ai\u0026sz=64"
     },
     {
         "id":  106,
         "name":  "Insilico Medicine",
+        "slug":  "insilico-medicine",
         "category":  "AI Healthcare \u0026 Biotechnology",
+        "cleanCategory":  "AI Healthcare \u0026 Biotechnology",
+        "formFactor":  "Generative Drug Discovery",
         "summary":  "End-to-end generative AI biotechnology platform identifying novel biological targets and synthesizing drug candidates.",
-        "formFactor":  "Generative Drug Discovery"
+        "domain":  "insilico.com",
+        "website":  "https://insilico.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=insilico.com\u0026sz=64"
     },
     {
         "id":  107,
         "name":  "Recursion Pharmaceuticals",
+        "slug":  "recursion-pharmaceuticals",
         "category":  "AI Healthcare \u0026 Biotechnology",
+        "cleanCategory":  "AI Healthcare \u0026 Biotechnology",
+        "formFactor":  "Automated Wet-Lab \u0026 ML",
         "summary":  "Industrial-scale biological experimentation paired with machine learning to decode disease biology and drug responses.",
-        "formFactor":  "Automated Wet-Lab \u0026 ML"
+        "domain":  "recursion.com",
+        "website":  "https://recursion.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=recursion.com\u0026sz=64"
     },
     {
         "id":  108,
         "name":  "Isomorphic Labs",
+        "slug":  "isomorphic-labs",
         "category":  "AI Healthcare \u0026 Biotechnology",
+        "cleanCategory":  "AI Healthcare \u0026 Biotechnology",
+        "formFactor":  "Molecular Structure AI",
         "summary":  "DeepMind spinoff applying next-generation AlphaFold architectures to revolutionize molecular biology and medicine.",
-        "formFactor":  "Molecular Structure AI"
+        "domain":  "isomorphiclabs.com",
+        "website":  "https://isomorphiclabs.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=isomorphiclabs.com\u0026sz=64"
     },
     {
         "id":  109,
         "name":  "Owkin",
+        "slug":  "owkin",
         "category":  "AI Healthcare \u0026 Biotechnology",
+        "cleanCategory":  "AI Healthcare \u0026 Biotechnology",
+        "formFactor":  "Federated Medical Learning",
         "summary":  "Biomedical AI company leveraging federated learning across academic medical centers for oncology drug research.",
-        "formFactor":  "Federated Medical Learning"
+        "domain":  "owkin.com",
+        "website":  "https://owkin.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=owkin.com\u0026sz=64"
     },
     {
         "id":  110,
         "name":  "PathAI",
+        "slug":  "pathai",
         "category":  "AI Healthcare \u0026 Biotechnology",
+        "cleanCategory":  "AI Healthcare \u0026 Biotechnology",
+        "formFactor":  "Digital Pathology AI",
         "summary":  "AI-powered digital pathology platform enhancing diagnostic accuracy and clinical trial biomarker discovery.",
-        "formFactor":  "Digital Pathology AI"
+        "domain":  "pathai.com",
+        "website":  "https://pathai.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=pathai.com\u0026sz=64"
     },
     {
         "id":  111,
         "name":  "Tempus AI",
+        "slug":  "tempus-ai",
         "category":  "AI Healthcare \u0026 Biotechnology",
+        "cleanCategory":  "AI Healthcare \u0026 Biotechnology",
+        "formFactor":  "Precision Oncology \u0026 Data",
         "summary":  "Precision medicine company analyzing clinical and molecular data libraries to deliver personalized patient therapy.",
-        "formFactor":  "Precision Oncology \u0026 Data"
+        "domain":  "tempus.com",
+        "website":  "https://tempus.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=tempus.com\u0026sz=64"
     },
     {
         "id":  112,
         "name":  "Qure.ai",
+        "slug":  "qure-ai",
         "category":  "AI Healthcare \u0026 Biotechnology",
+        "cleanCategory":  "AI Healthcare \u0026 Biotechnology",
+        "formFactor":  "Medical Imaging Diagnostics",
         "summary":  "Indian AI healthcare leader utilizing deep learning to interpret chest X-rays, brain CT scans, and medical imaging.",
-        "formFactor":  "Medical Imaging Diagnostics"
+        "domain":  "qure.ai",
+        "website":  "https://qure.ai",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=qure.ai\u0026sz=64"
     },
     {
         "id":  113,
         "name":  "Niramai",
+        "slug":  "niramai",
         "category":  "AI Healthcare \u0026 Biotechnology",
+        "cleanCategory":  "AI Healthcare \u0026 Biotechnology",
+        "formFactor":  "Thermal Imaging Screening",
         "summary":  "Non-invasive, radiation-free breast health screening solution utilizing AI and high-resolution thermal imaging.",
-        "formFactor":  "Thermal Imaging Screening"
+        "domain":  "niramai.com",
+        "website":  "https://niramai.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=niramai.com\u0026sz=64"
     },
     {
         "id":  114,
         "name":  "Wysa",
+        "slug":  "wysa",
         "category":  "AI Healthcare \u0026 Biotechnology",
+        "cleanCategory":  "AI Healthcare \u0026 Biotechnology",
+        "formFactor":  "Mental Wellness Chatbot",
         "summary":  "Clinically validated AI mental health conversational agent offering cognitive behavioral therapy (CBT) support.",
-        "formFactor":  "Mental Wellness Chatbot"
+        "domain":  "wysa.com",
+        "website":  "https://wysa.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=wysa.com\u0026sz=64"
     },
     {
         "id":  115,
         "name":  "Eleos Health",
+        "slug":  "eleos-health",
         "category":  "AI Healthcare \u0026 Biotechnology",
+        "cleanCategory":  "AI Healthcare \u0026 Biotechnology",
+        "formFactor":  "Behavioral Health AI",
         "summary":  "Specialized behavioral health AI platform analyzing therapy sessions to automate compliance documentation.",
-        "formFactor":  "Behavioral Health AI"
+        "domain":  "eleos.health",
+        "website":  "https://eleos.health",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=eleos.health\u0026sz=64"
     },
     {
         "id":  116,
         "name":  "Figure AI",
+        "slug":  "figure-ai",
         "category":  "Robotics \u0026 Physical AI",
+        "cleanCategory":  "Robotics \u0026 Physical AI",
+        "formFactor":  "Bipedal Humanoid Robot",
         "summary":  "General-purpose humanoid robots (Figure 02) integrated with OpenAI models to perform industrial assembly tasks.",
-        "formFactor":  "Bipedal Humanoid Robot"
+        "domain":  "figure.ai",
+        "website":  "https://figure.ai",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=figure.ai\u0026sz=64"
     },
     {
         "id":  117,
-        "name":  "Physical Intelligence (Ï€)",
+        "name":  "Physical Intelligence (Ãâ‚¬)",
+        "slug":  "physical-intelligence",
         "category":  "Robotics \u0026 Physical AI",
-        "summary":  "Developing universal foundation models (Ï€0) bringing general intelligence to diverse robotic hardware forms.",
-        "formFactor":  "Physical Foundation Models"
+        "cleanCategory":  "Robotics \u0026 Physical AI",
+        "formFactor":  "Physical Foundation Models",
+        "summary":  "Developing universal foundation models (Ãâ‚¬0) bringing general intelligence to diverse robotic hardware forms.",
+        "domain":  "google.com",
+        "website":  "https://google.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=google.com\u0026sz=64"
     },
     {
         "id":  118,
         "name":  "1X Technologies",
+        "slug":  "1x-technologies",
         "category":  "Robotics \u0026 Physical AI",
+        "cleanCategory":  "Robotics \u0026 Physical AI",
+        "formFactor":  "Android \u0026 Domestic Robots",
         "summary":  "Humanoid robotics company developing safe, soft bipedal (NEO) and wheeled (EVE) robots for homes and industry.",
-        "formFactor":  "Android \u0026 Domestic Robots"
+        "domain":  "1x.tech",
+        "website":  "https://1x.tech",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=1x.tech\u0026sz=64"
     },
     {
         "id":  119,
         "name":  "Skild AI",
+        "slug":  "skild-ai",
         "category":  "Robotics \u0026 Physical AI",
+        "cleanCategory":  "Robotics \u0026 Physical AI",
+        "formFactor":  "Universal Robot Intelligence",
         "summary":  "Developing a scalable foundation model for robotics capable of general dexterity and navigation across robots.",
-        "formFactor":  "Universal Robot Intelligence"
+        "domain":  "skild.ai",
+        "website":  "https://skild.ai",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=skild.ai\u0026sz=64"
     },
     {
         "id":  120,
         "name":  "Apptronik",
+        "slug":  "apptronik",
         "category":  "Robotics \u0026 Physical AI",
+        "cleanCategory":  "Robotics \u0026 Physical AI",
+        "formFactor":  "Industrial Humanoid",
         "summary":  "Humanoid robotics manufacturer building Apollo, an adaptable commercial robot for logistics and supply chain work.",
-        "formFactor":  "Industrial Humanoid"
+        "domain":  "apptronik.com",
+        "website":  "https://apptronik.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=apptronik.com\u0026sz=64"
     },
     {
         "id":  121,
         "name":  "Agility Robotics",
+        "slug":  "agility-robotics",
         "category":  "Robotics \u0026 Physical AI",
+        "cleanCategory":  "Robotics \u0026 Physical AI",
+        "formFactor":  "Warehouse Logistics Robot",
         "summary":  "Creator of Digit, a bipedal mobile manipulation robot deployed in Amazon warehouses for bulk material handling.",
-        "formFactor":  "Warehouse Logistics Robot"
+        "domain":  "agilityrobotics.com",
+        "website":  "https://agilityrobotics.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=agilityrobotics.com\u0026sz=64"
     },
     {
         "id":  122,
         "name":  "Dexterity AI",
+        "slug":  "dexterity-ai",
         "category":  "Robotics \u0026 Physical AI",
+        "cleanCategory":  "Robotics \u0026 Physical AI",
+        "formFactor":  "High-Speed Logistics Automation",
         "summary":  "Intelligent robotic software and hardware automating complex truck unloading, palletizing, and fulfillment.",
-        "formFactor":  "High-Speed Logistics Automation"
+        "domain":  "dexterity.ai",
+        "website":  "https://dexterity.ai",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=dexterity.ai\u0026sz=64"
     },
     {
         "id":  123,
         "name":  "Covariant",
+        "slug":  "covariant",
         "category":  "Robotics \u0026 Physical AI",
+        "cleanCategory":  "Robotics \u0026 Physical AI",
+        "formFactor":  "Warehouse Manipulation Brain",
         "summary":  "Universal AI platform (Covariant Brain) empowering robotic arms to manipulate arbitrary objects in warehouses.",
-        "formFactor":  "Warehouse Manipulation Brain"
+        "domain":  "covariant.ai",
+        "website":  "https://covariant.ai",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=covariant.ai\u0026sz=64"
     },
     {
         "id":  124,
         "name":  "Sanctuary AI",
+        "slug":  "sanctuary-ai",
         "category":  "Robotics \u0026 Physical AI",
+        "cleanCategory":  "Robotics \u0026 Physical AI",
+        "formFactor":  "Cognitive Humanoid",
         "summary":  "Building general-purpose humanoid robots (Phoenix) guided by Carbon, a cognitive human-like intelligence architecture.",
-        "formFactor":  "Cognitive Humanoid"
+        "domain":  "sanctuary.ai",
+        "website":  "https://sanctuary.ai",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=sanctuary.ai\u0026sz=64"
     },
     {
         "id":  125,
         "name":  "Waymo",
+        "slug":  "waymo",
         "category":  "Robotics \u0026 Physical AI",
+        "cleanCategory":  "Robotics \u0026 Physical AI",
+        "formFactor":  "Autonomous Robotaxi Fleets",
         "summary":  "Alphabet\u0027s commercial autonomous driving pioneer operating commercial robotaxi fleets across major metropolitan cities.",
-        "formFactor":  "Autonomous Robotaxi Fleets"
+        "domain":  "waymo.com",
+        "website":  "https://waymo.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=waymo.com\u0026sz=64"
     },
     {
         "id":  126,
         "name":  "Waabi",
+        "slug":  "waabi",
         "category":  "Robotics \u0026 Physical AI",
+        "cleanCategory":  "Robotics \u0026 Physical AI",
+        "formFactor":  "Autonomous Heavy Trucking",
         "summary":  "AI-first autonomous trucking company leveraging high-fidelity generative simulators to train safe freight vehicles.",
-        "formFactor":  "Autonomous Heavy Trucking"
+        "domain":  "waabi.ai",
+        "website":  "https://waabi.ai",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=waabi.ai\u0026sz=64"
     },
     {
         "id":  127,
         "name":  "Anduril",
+        "slug":  "anduril",
         "category":  "Robotics \u0026 Physical AI",
+        "cleanCategory":  "Robotics \u0026 Physical AI",
+        "formFactor":  "Autonomous Defense Systems",
         "summary":  "Defense technology company building AI-powered autonomous air, land, and sea defense systems (Lattice OS).",
-        "formFactor":  "Autonomous Defense Systems"
+        "domain":  "anduril.com",
+        "website":  "https://anduril.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=anduril.com\u0026sz=64"
     },
     {
         "id":  128,
         "name":  "DroneDeploy",
+        "slug":  "dronedeploy",
         "category":  "Robotics \u0026 Physical AI",
+        "cleanCategory":  "Robotics \u0026 Physical AI",
+        "formFactor":  "Drone Analytics \u0026 Mapping",
         "summary":  "Aerial drone capture platform utilizing machine learning to generate 3D site models and industrial inspections.",
-        "formFactor":  "Drone Analytics \u0026 Mapping"
+        "domain":  "dronedeploy.com",
+        "website":  "https://dronedeploy.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=dronedeploy.com\u0026sz=64"
     },
     {
         "id":  129,
         "name":  "Zipline",
+        "slug":  "zipline",
         "category":  "Robotics \u0026 Physical AI",
+        "cleanCategory":  "Robotics \u0026 Physical AI",
+        "formFactor":  "Commercial Drone Logistics",
         "summary":  "Autonomous drone delivery logistics system operating commercial medical and consumer delivery worldwide.",
-        "formFactor":  "Commercial Drone Logistics"
+        "domain":  "flyzipline.com",
+        "website":  "https://flyzipline.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=flyzipline.com\u0026sz=64"
     },
     {
         "id":  130,
         "name":  "Nuro",
+        "slug":  "nuro",
         "category":  "Robotics \u0026 Physical AI",
+        "cleanCategory":  "Robotics \u0026 Physical AI",
+        "formFactor":  "Last-Mile Goods Delivery",
         "summary":  "Autonomous electric road delivery vehicles designed purely for transporting goods and groceries safely.",
-        "formFactor":  "Last-Mile Goods Delivery"
+        "domain":  "nuro.ai",
+        "website":  "https://nuro.ai",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=nuro.ai\u0026sz=64"
     },
     {
         "id":  131,
         "name":  "LangChain",
+        "slug":  "langchain",
         "category":  "AI Infrastructure \u0026 Developer Ecosystem",
+        "cleanCategory":  "AI Infrastructure \u0026 Developer Ecosystem",
+        "formFactor":  "Agentic Framework",
         "summary":  "Universal open-source framework and Python/JS library for building LLM applications, chains, and agents.",
-        "formFactor":  "Agentic Framework"
+        "domain":  "langchain.com",
+        "website":  "https://langchain.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=langchain.com\u0026sz=64"
     },
     {
         "id":  132,
         "name":  "LlamaIndex",
+        "slug":  "llamaindex",
         "category":  "AI Infrastructure \u0026 Developer Ecosystem",
+        "cleanCategory":  "AI Infrastructure \u0026 Developer Ecosystem",
+        "formFactor":  "Data Ingestion \u0026 RAG",
         "summary":  "Data framework connecting private enterprise documents and APIs to LLMs with advanced retrieval-augmented generation.",
-        "formFactor":  "Data Ingestion \u0026 RAG"
+        "domain":  "llamaindex.ai",
+        "website":  "https://llamaindex.ai",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=llamaindex.ai\u0026sz=64"
     },
     {
         "id":  133,
         "name":  "Composio",
+        "slug":  "composio",
         "category":  "AI Infrastructure \u0026 Developer Ecosystem",
+        "cleanCategory":  "AI Infrastructure \u0026 Developer Ecosystem",
+        "formFactor":  "Agent Tooling \u0026 Integrations",
         "summary":  "Toolset and authentication bridge connecting AI agents to 200+ external tools, OAuth providers, and software services.",
-        "formFactor":  "Agent Tooling \u0026 Integrations"
+        "domain":  "composio.dev",
+        "website":  "https://composio.dev",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=composio.dev\u0026sz=64"
     },
     {
         "id":  134,
         "name":  "Model Context Protocol (MCP)",
+        "slug":  "model-context-protocol-mcp",
         "category":  "AI Infrastructure \u0026 Developer Ecosystem",
+        "cleanCategory":  "AI Infrastructure \u0026 Developer Ecosystem",
+        "formFactor":  "Open Tooling Standard",
         "summary":  "Anthropic\u0027s open protocol standardizing how AI applications securely connect to tools, local files, and data sources.",
-        "formFactor":  "Open Tooling Standard"
+        "domain":  "google.com",
+        "website":  "https://google.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=google.com\u0026sz=64"
     },
     {
         "id":  135,
         "name":  "Mem0",
+        "slug":  "mem0",
         "category":  "AI Infrastructure \u0026 Developer Ecosystem",
+        "cleanCategory":  "AI Infrastructure \u0026 Developer Ecosystem",
+        "formFactor":  "Long-Term Memory API",
         "summary":  "Personalized, persistent memory layer for AI agents that remembers user context, preferences, and session history.",
-        "formFactor":  "Long-Term Memory API"
+        "domain":  "mem0.ai",
+        "website":  "https://mem0.ai",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=mem0.ai\u0026sz=64"
     },
     {
         "id":  136,
         "name":  "Letta",
+        "slug":  "letta",
         "category":  "AI Infrastructure \u0026 Developer Ecosystem",
+        "cleanCategory":  "AI Infrastructure \u0026 Developer Ecosystem",
+        "formFactor":  "Stateful Agent Framework",
         "summary":  "Stateful AI agent framework (formerly MemGPT) managing tiered memory and OS-level long-term state.",
-        "formFactor":  "Stateful Agent Framework"
+        "domain":  "letta.com",
+        "website":  "https://letta.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=letta.com\u0026sz=64"
     },
     {
         "id":  137,
         "name":  "Pinecone",
+        "slug":  "pinecone",
         "category":  "AI Infrastructure \u0026 Developer Ecosystem",
+        "cleanCategory":  "AI Infrastructure \u0026 Developer Ecosystem",
+        "formFactor":  "Serverless Vector Database",
         "summary":  "Serverless vector database optimized for ultra-low-latency semantic search, recommendation engines, and RAG.",
-        "formFactor":  "Serverless Vector Database"
+        "domain":  "pinecone.io",
+        "website":  "https://pinecone.io",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=pinecone.io\u0026sz=64"
     },
     {
         "id":  138,
         "name":  "Weaviate",
+        "slug":  "weaviate",
         "category":  "AI Infrastructure \u0026 Developer Ecosystem",
+        "cleanCategory":  "AI Infrastructure \u0026 Developer Ecosystem",
+        "formFactor":  "Multi-Modal Vector DB",
         "summary":  "Open-source vector database supporting multi-modal data embeddings, hybrid search, and cloud-native scale.",
-        "formFactor":  "Multi-Modal Vector DB"
+        "domain":  "weaviate.io",
+        "website":  "https://weaviate.io",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=weaviate.io\u0026sz=64"
     },
     {
         "id":  139,
         "name":  "Qdrant",
+        "slug":  "qdrant",
         "category":  "AI Infrastructure \u0026 Developer Ecosystem",
+        "cleanCategory":  "AI Infrastructure \u0026 Developer Ecosystem",
+        "formFactor":  "Rust Vector Search Engine",
         "summary":  "High-performance Rust-based vector similarity search engine engineered for production payload filtering.",
-        "formFactor":  "Rust Vector Search Engine"
+        "domain":  "qdrant.tech",
+        "website":  "https://qdrant.tech",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=qdrant.tech\u0026sz=64"
     },
     {
         "id":  140,
         "name":  "Supabase",
+        "slug":  "supabase",
         "category":  "AI Infrastructure \u0026 Developer Ecosystem",
+        "cleanCategory":  "AI Infrastructure \u0026 Developer Ecosystem",
+        "formFactor":  "Backend-as-a-Service \u0026 Vector",
         "summary":  "Open-source Firebase alternative featuring Postgres, pgvector embeddings, edge functions, and authentication.",
-        "formFactor":  "Backend-as-a-Service \u0026 Vector"
+        "domain":  "supabase.com",
+        "website":  "https://supabase.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=supabase.com\u0026sz=64"
     },
     {
         "id":  141,
         "name":  "OpenRouter",
+        "slug":  "openrouter",
         "category":  "AI Infrastructure \u0026 Developer Ecosystem",
+        "cleanCategory":  "AI Infrastructure \u0026 Developer Ecosystem",
+        "formFactor":  "Multi-Model API Gateway",
         "summary":  "Unified API gateway providing single-interface access, failover, and best-price routing across dozens of LLM models.",
-        "formFactor":  "Multi-Model API Gateway"
+        "domain":  "openrouter.ai",
+        "website":  "https://openrouter.ai",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=openrouter.ai\u0026sz=64"
     },
     {
         "id":  142,
         "name":  "LiteLLM",
+        "slug":  "litellm",
         "category":  "AI Infrastructure \u0026 Developer Ecosystem",
+        "cleanCategory":  "AI Infrastructure \u0026 Developer Ecosystem",
+        "formFactor":  "Unified API Proxy",
         "summary":  "Lightweight proxy and Python SDK to call 100+ LLM APIs using standard OpenAI-compatible input/output formats.",
-        "formFactor":  "Unified API Proxy"
+        "domain":  "litellm.ai",
+        "website":  "https://litellm.ai",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=litellm.ai\u0026sz=64"
     },
     {
         "id":  143,
         "name":  "Fireworks AI",
+        "slug":  "fireworks-ai",
         "category":  "AI Infrastructure \u0026 Developer Ecosystem",
+        "cleanCategory":  "AI Infrastructure \u0026 Developer Ecosystem",
+        "formFactor":  "High-Speed Cloud Inference",
         "summary":  "Ultra-fast cloud inference platform serving open-weights LLMs with customized speculative decoding speedups.",
-        "formFactor":  "High-Speed Cloud Inference"
+        "domain":  "fireworks.ai",
+        "website":  "https://fireworks.ai",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=fireworks.ai\u0026sz=64"
     },
     {
         "id":  144,
         "name":  "Baseten",
+        "slug":  "baseten",
         "category":  "AI Infrastructure \u0026 Developer Ecosystem",
+        "cleanCategory":  "AI Infrastructure \u0026 Developer Ecosystem",
+        "formFactor":  "Model Serving Infrastructure",
         "summary":  "Machine learning infrastructure platform for deploying, fine-tuning, and serving custom models with sub-second autoscaling.",
-        "formFactor":  "Model Serving Infrastructure"
+        "domain":  "baseten.co",
+        "website":  "https://baseten.co",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=baseten.co\u0026sz=64"
     },
     {
         "id":  145,
         "name":  "Langfuse",
+        "slug":  "langfuse",
         "category":  "AI Infrastructure \u0026 Developer Ecosystem",
+        "cleanCategory":  "AI Infrastructure \u0026 Developer Ecosystem",
+        "formFactor":  "LLM Observability \u0026 Tracing",
         "summary":  "Open-source LLM engineering platform offering end-to-end tracing, prompt management, and evaluations for AI agents.",
-        "formFactor":  "LLM Observability \u0026 Tracing"
+        "domain":  "langfuse.com",
+        "website":  "https://langfuse.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=langfuse.com\u0026sz=64"
     },
     {
         "id":  146,
         "name":  "Sarvam AI",
+        "slug":  "sarvam-ai",
         "category":  "AI Startups from India",
+        "cleanCategory":  "AI Startups from India",
+        "formFactor":  "Indic Foundation Models",
         "summary":  "Developing sovereign foundational Indian-language LLMs (Sarvam 1) and natural voice synthesis across Indian languages.",
-        "formFactor":  "Indic Foundation Models"
+        "domain":  "sarvam.ai",
+        "website":  "https://sarvam.ai",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=sarvam.ai\u0026sz=64"
     },
     {
         "id":  147,
         "name":  "Krutrim",
+        "slug":  "krutrim",
         "category":  "AI Startups from India",
+        "cleanCategory":  "AI Startups from India",
+        "formFactor":  "Indian AI Infrastructure",
         "summary":  "Ola\u0027s AI venture developing multilingual foundation models, conversational assistants, and dedicated cloud compute.",
-        "formFactor":  "Indian AI Infrastructure"
+        "domain":  "krutrim.com",
+        "website":  "https://krutrim.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=krutrim.com\u0026sz=64"
     },
     {
         "id":  148,
         "name":  "Yellow.ai",
+        "slug":  "yellow-ai",
         "category":  "AI Startups from India",
+        "cleanCategory":  "AI Startups from India",
+        "formFactor":  "Conversational CX Suite",
         "summary":  "Enterprise generative AI platform automating customer service and omnichannel employee workflows worldwide.",
-        "formFactor":  "Conversational CX Suite"
+        "domain":  "yellow.ai",
+        "website":  "https://yellow.ai",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=yellow.ai\u0026sz=64"
     },
     {
         "id":  149,
         "name":  "Haptik",
+        "slug":  "haptik",
         "category":  "AI Startups from India",
+        "cleanCategory":  "AI Startups from India",
+        "formFactor":  "WhatsApp \u0026 Commerce AI",
         "summary":  "Conversational commerce and customer engagement platform built for WhatsApp and digital retail interactions.",
-        "formFactor":  "WhatsApp \u0026 Commerce AI"
+        "domain":  "haptik.ai",
+        "website":  "https://haptik.ai",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=haptik.ai\u0026sz=64"
     },
     {
         "id":  150,
         "name":  "Smallest.ai",
+        "slug":  "smallest-ai",
         "category":  "AI Startups from India",
+        "cleanCategory":  "AI Startups from India",
+        "formFactor":  "Ultra-Fast Voice Models",
         "summary":  "High-speed, lightning-fast voice AI models (Waves) engineered for natural real-time phone conversations.",
-        "formFactor":  "Ultra-Fast Voice Models"
+        "domain":  "smallest.ai",
+        "website":  "https://smallest.ai",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=smallest.ai\u0026sz=64"
     },
     {
         "id":  151,
         "name":  "CoRover",
+        "slug":  "corover",
         "category":  "AI Startups from India",
+        "cleanCategory":  "AI Startups from India",
+        "formFactor":  "Civic \u0026 Public Sector AI",
         "summary":  "Enterprise AI company powering conversational virtual assistants for Indian Railways (AskDISHA) and government portals.",
-        "formFactor":  "Civic \u0026 Public Sector AI"
+        "domain":  "corover.ai",
+        "website":  "https://corover.ai",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=corover.ai\u0026sz=64"
     },
     {
         "id":  152,
         "name":  "KissanAI",
+        "slug":  "kissanai",
         "category":  "AI Startups from India",
+        "cleanCategory":  "AI Startups from India",
+        "formFactor":  "Agritech \u0026 Rural Voice AI",
         "summary":  "Multilingual conversational voice assistant providing personalized agricultural intelligence to Indian farmers.",
-        "formFactor":  "Agritech \u0026 Rural Voice AI"
+        "domain":  "kissan.ai",
+        "website":  "https://kissan.ai",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=kissan.ai\u0026sz=64"
     },
     {
         "id":  153,
         "name":  "Gnani.ai",
+        "slug":  "gnani-ai",
         "category":  "AI Startups from India",
+        "cleanCategory":  "AI Startups from India",
+        "formFactor":  "Indic Voice Automation",
         "summary":  "Speech recognition and voice biometrics platform specializing in conversational automation across Indic dialects.",
-        "formFactor":  "Indic Voice Automation"
+        "domain":  "gnani.ai",
+        "website":  "https://gnani.ai",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=gnani.ai\u0026sz=64"
     },
     {
         "id":  154,
         "name":  "BharatGPT",
+        "slug":  "bharatgpt",
         "category":  "AI Startups from India",
+        "cleanCategory":  "AI Startups from India",
+        "formFactor":  "Multilingual Consortium",
         "summary":  "Collaborative initiative by CoRover and IIT Bombay building multi-modal foundational LLMs tailored to Indian contexts.",
-        "formFactor":  "Multilingual Consortium"
+        "domain":  "bharatgpt.net",
+        "website":  "https://bharatgpt.net",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=bharatgpt.net\u0026sz=64"
     },
     {
         "id":  155,
         "name":  "Emergent",
+        "slug":  "emergent",
         "category":  "AI Startups from India",
+        "cleanCategory":  "AI Startups from India",
+        "formFactor":  "Prompt-to-App Generation",
         "summary":  "Generative platform enabling non-technical founders to assemble software applications from natural-language prompts.",
-        "formFactor":  "Prompt-to-App Generation"
+        "domain":  "emergent.sh",
+        "website":  "https://emergent.sh",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=emergent.sh\u0026sz=64"
     },
     {
         "id":  156,
         "name":  "Kraya AI",
+        "slug":  "kraya-ai",
         "category":  "AI Startups from India",
+        "cleanCategory":  "AI Startups from India",
+        "formFactor":  "Conversational Commerce",
         "summary":  "AI-powered digital commerce suite transforming conversational product discovery, cataloging, and shopping.",
-        "formFactor":  "Conversational Commerce"
+        "domain":  "kraya.ai",
+        "website":  "https://kraya.ai",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=kraya.ai\u0026sz=64"
     },
     {
         "id":  157,
         "name":  "Sarvam Vision",
+        "slug":  "sarvam-vision",
         "category":  "AI Startups from India",
+        "cleanCategory":  "AI Startups from India",
+        "formFactor":  "Indic Document OCR \u0026 Vision",
         "summary":  "Vision-language understanding models specialized in parsing bilingual documents, handwriting, and Indian invoices.",
-        "formFactor":  "Indic Document OCR \u0026 Vision"
+        "domain":  "sarvam.ai",
+        "website":  "https://sarvam.ai",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=sarvam.ai\u0026sz=64"
     },
     {
         "id":  158,
         "name":  "Pixis",
+        "slug":  "pixis",
         "category":  "AI Startups from India",
+        "cleanCategory":  "AI Startups from India",
+        "formFactor":  "Marketing Intelligence",
         "summary":  "Codeless generative AI infrastructure for automated cross-channel marketing campaigns and performance optimization.",
-        "formFactor":  "Marketing Intelligence"
+        "domain":  "pixis.ai",
+        "website":  "https://pixis.ai",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=pixis.ai\u0026sz=64"
     },
     {
         "id":  159,
         "name":  "Mad Street Den",
+        "slug":  "mad-street-den",
         "category":  "AI Startups from India",
+        "cleanCategory":  "AI Startups from India",
+        "formFactor":  "Retail Visual AI",
         "summary":  "Computer vision and AI architecture enterprise (Vue.ai) powering retail automation, visual search, and cataloging.",
-        "formFactor":  "Retail Visual AI"
+        "domain":  "madstreetden.com",
+        "website":  "https://madstreetden.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=madstreetden.com\u0026sz=64"
     },
     {
         "id":  160,
         "name":  "Fynd",
+        "slug":  "fynd",
         "category":  "AI Startups from India",
+        "cleanCategory":  "AI Startups from India",
+        "formFactor":  "Omnichannel Retail Tech",
         "summary":  "Omnichannel retail technology company deploying generative AI for automated cataloging, virtual try-ons, and commerce.",
-        "formFactor":  "Omnichannel Retail Tech"
+        "domain":  "fynd.com",
+        "website":  "https://fynd.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=fynd.com\u0026sz=64"
     }
 ]

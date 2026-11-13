@@ -1,0 +1,107 @@
+# Google AI Tools (googleaitools.com) - Full Dataset (llms-full.txt)
+
+> Google AI Tools is an independent publication covering artificial intelligence tools, models, and platforms — with specialized coverage of Google Gemini, NotebookLM, Google AI Studio, Vertex AI, Imagen, Veo, Gemma, and the broader AI ecosystem.
+
+---
+
+## ABOUT US
+URL: https://googleaitools.com/about/
+
+Non-Affiliation Notice: GoogleAITools.com is an independent blog. We are not affiliated with, endorsed by, sponsored by, or officially connected to Google LLC or Alphabet Inc. in any way.
+
+Our Mission: GoogleAITools.com is an independent publication covering artificial intelligence tools, models, and platforms — with a particular focus on developments from Google, including Gemini, NotebookLM, Google AI Studio, Vertex AI, and other tools across Google's AI ecosystem, alongside broader coverage of the AI tools landscape.
+
+We started this site because AI is moving fast — new models, features, and tools are released constantly, and it's hard to keep up. Our goal is to make that easier: clear write-ups, comparisons, and practical guides on the AI tools that matter, written for people who want to actually use these tools.
+
+---
+
+## CONTACT US
+URL: https://googleaitools.com/contact/
+
+General, Editorial, Privacy, Legal & AI Inquiries: contact@googleaitools.com
+
+---
+
+## DISCLAIMER
+URL: https://googleaitools.com/disclaimer/
+
+GoogleAITools.com is an independent, privately operated website and is not affiliated with, endorsed by, sponsored by, or in any way officially connected with Google LLC, Alphabet Inc., or any of their subsidiaries or affiliates. All product names, logos, brands, and trademarks referenced on this site — including "Google," "Gemini," "NotebookLM," "Vertex AI," "Google AI Studio," "Gemma," "Veo," "Imagen," and others — are the property of their respective owners. Use of these names, logos, and brands does not imply endorsement or affiliation. Contact: contact@googleaitools.com
+
+---
+
+## PRIVACY POLICY
+URL: https://googleaitools.com/privacy-policy/
+
+1. Information We Collect: We collect standard server analytics logs (IP addresses, browser type, device info).
+2. Cookies & Advertising: We use Google AdSense and third-party advertising partners who may use cookies to serve targeted ads.
+3. Web Analytics: We use Google Analytics to track site performance and user interaction.
+4. Data Rights: Compliance with DPDP (India), GDPR (EU), and CCPA (California). Contact: contact@googleaitools.com
+
+---
+
+## TERMS OF USE
+URL: https://googleaitools.com/terms/
+
+By accessing GoogleAITools.com, you agree to these Terms. All original content is protected by copyright. Product names and trademarks belong to their respective owners. Content is provided for informational and educational purposes only. Contact: contact@googleaitools.com
+
+---
+
+## DMCA POLICY
+URL: https://googleaitools.com/dmca/
+
+Notice of Copyright Infringement: Submit written notices to contact@googleaitools.com containing required DMCA elements (signature, work identification, infringing material URLs, contact details, good faith statement, penalty of perjury statement).
+
+---
+
+## LLM & AI DATA POLICY
+URL: https://googleaitools.com/llm-policy/
+
+Machine Reading & RAG Ingestion: AI search tools (Perplexity, ChatGPT, Claude, Gemini) and Web LLM crawlers may index and synthesize content provided that proper backlink citations to https://googleaitools.com are maintained. Contact: contact@googleaitools.com
+
+---
+
+## ARTICLE: Getting Started with Gemini 1.5 Pro: The 2 Million Token Context Revolution
+URL: https://googleaitools.com/getting-started-with-gemini-1-5-pro/
+Category: Multimodal AI
+
+Google's Gemini 1.5 Pro introduces a breakthrough 2 million token context window, allowing developers and researchers to process entire codebases, multi-hour video streams, extensive financial documentation, and full-length audio recordings in a single prompt. Key capabilities include multimodal understanding, native audio/video tokenization, and rapid Needle-in-a-Haystack retrieval across massive datasets.
+
+---
+
+## ARTICLE: How to Use Gemini 1.5 Flash: Ultra-Fast Multimodal Workflows
+URL: https://googleaitools.com/how-to-use-gemini-15-flash/
+Category: Multimodal AI
+
+Gemini 1.5 Flash is optimized for high-volume, low-latency tasks where speed and cost-efficiency are critical. Featuring a 1 million token context window, Gemini 1.5 Flash excels at high-speed document summarization, real-time visual inspection, audio transcription processing, and high-throughput customer support agent pipelines.
+
+---
+
+## ARTICLE: NotebookLM Ultimate Guide: Transform Notes & PDFs into Audio Overviews
+URL: https://googleaitools.com/notebooklm-ai-research-guide/
+Category: Research & Productivity
+
+NotebookLM leverages Gemini 1.5 Pro to turn your personal documents, PDFs, Google Docs, and web links into an interactive research assistant. Its signature feature, Audio Overviews, generates realistic two-host conversational podcasts discussing your uploaded sources, providing grounded summaries without hallucinating external information.
+
+---
+
+## ARTICLE: Imagen 3 Prompt Engineering Masterclass: Photorealistic AI Image Generation
+URL: https://googleaitools.com/imagen-3-prompt-engineering-tips/
+Category: Image & Video AI
+
+Google's Imagen 3 delivers state-of-the-art text-to-image synthesis with enhanced detail, lighting, text rendering, and artifact reduction. Prompting best practices include specifying lighting styles (cinematic key light, volumetric rays), camera framing (35mm lens, f/1.8 aperture), and avoiding prompt clutter.
+
+---
+
+## ARTICLE: Google Veo Deep Dive: High-Definition 1080p AI Video Generation
+URL: https://googleaitools.com/google-veo-video-generation-tutorial/
+Category: Image & Video AI
+
+Google Veo generates 1080p high-definition video clips extending over 60 seconds from natural text and image prompts. It understands film terminology (timelapse, aerial drone shots, pan/tilt) and maintains consistent temporal consistency across frames for visual storytelling.
+
+---
+
+## ARTICLE: Gemma 2 Open Models: Fine-Tuning Lightweight AI on Local Hardware
+URL: https://googleaitools.com/gemma-open-source-ai-models-guide/
+Category: Open Source Models
+
+Gemma 2 is Google's state-of-the-art family of lightweight open weights models available in 2B, 9B, and 27B parameter sizes. Designed for local execution, Ollama integration, and fine-tuning on consumer GPUs, Gemma 2 matches or exceeds larger open models while running efficiently on workstation hardware.

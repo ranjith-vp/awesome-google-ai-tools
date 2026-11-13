@@ -1,0 +1,134 @@
+# ==============================================================================
+# robots.txt for googleaitools.com (2026 Production Edition)
+# Comprehensive SEO & Universal AI Search Indexer Authorization
+# ==============================================================================
+
+User-agent: *
+Allow: /
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+Disallow: /wp-includes/
+Allow: /wp-includes/js/
+Allow: /wp-includes/css/
+Allow: /wp-includes/images/
+Disallow: */trackback/
+Disallow: */comments/
+Disallow: *?s=*
+
+# ------------------------------------------------------------------------------
+# Google Search & Google News
+# ------------------------------------------------------------------------------
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-News
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# ------------------------------------------------------------------------------
+# OpenAI (ChatGPT, SearchGPT, GPTBot)
+# ------------------------------------------------------------------------------
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+# ------------------------------------------------------------------------------
+# Anthropic (Claude, Claude-Web, ClaudeBot)
+# ------------------------------------------------------------------------------
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# ------------------------------------------------------------------------------
+# Perplexity AI Search
+# ------------------------------------------------------------------------------
+User-agent: PerplexityBot
+Allow: /
+
+# ------------------------------------------------------------------------------
+# DuckDuckGo Search & DuckAssist AI
+# ------------------------------------------------------------------------------
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: DuckDuckGo-Favicons-Bot
+Allow: /
+
+User-agent: DuckAssistBot
+Allow: /
+
+# ------------------------------------------------------------------------------
+# Microsoft Bing & Microsoft Copilot
+# ------------------------------------------------------------------------------
+User-agent: Bingbot
+Allow: /
+
+User-agent: msnbot
+Allow: /
+
+User-agent: BingPreview
+Allow: /
+
+# ------------------------------------------------------------------------------
+# Apple Intelligence (Applebot)
+# ------------------------------------------------------------------------------
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# ------------------------------------------------------------------------------
+# Meta AI & Llama (Meta-ExternalAgent)
+# ------------------------------------------------------------------------------
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: Meta-ExternalFetcher
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+# ------------------------------------------------------------------------------
+# Other Frontier AI Engines (DeepSeek, Mistral, Amazon, Cohere, ByteDance)
+# ------------------------------------------------------------------------------
+User-agent: DeepSeekBot
+Allow: /
+
+User-agent: MistralAI-User
+Allow: /
+
+User-agent: MistralBot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: Cohere-ai
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+# ------------------------------------------------------------------------------
+# XML Sitemaps & Feeds
+# ------------------------------------------------------------------------------
+Sitemap: https://googleaitools.com/sitemap.xml
+Sitemap: https://googleaitools.com/news-sitemap.xml
+Sitemap: https://googleaitools.com/wp-sitemap.xml

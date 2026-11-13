@@ -1,0 +1,73 @@
+# Google AI Tools (googleaitools.com)
+
+> Independent directory, practical guides, benchmarks, and architectural reviews of Google artificial intelligence models, developer APIs, enterprise platforms, and open-source releases.
+
+GoogleAITools.com (https://googleaitools.com) is an independent technical resource dedicated to demystifying the Google AI ecosystem. We provide step-by-step developer tutorials, production implementation guides, prompt engineering patterns, and benchmark evaluations covering Google Gemini, Vertex AI, Gemma open-weight models, NotebookLM, Imagen 3, and Google Veo.
+
+## Directory Structure & Core Categories
+
+### 1. Gemini APIs & Developer Platforms
+Tools, APIs, and SDKs for building generative AI applications using Google's frontier models:
+- **Google AI Studio**: Web-based rapid prototyping playground for testing prompts, setting system instructions, experimenting with temperature and top-p parameters, and acquiring API keys.
+- **Gemini 1.5 Pro**: Google's frontier multimodal model featuring a 2-million-token context window, capable of analyzing massive codebases, hours of audio, and full-length feature video with state-of-the-art reasoning.
+- **Gemini 1.5 Flash & Gemini 2.0 Flash**: High-speed, cost-optimized models engineered for sub-second latency, high-frequency classification, live customer interactions, and agentic workflows.
+- **Gemini Multimodal Live API**: Real-time bidirectional voice, audio, and visual streaming over WebSockets with ultra-low latency, native voice activity detection (VAD), and tool execution.
+- **Advanced API Capabilities**:
+  - Function Calling & Tool Use: Automated model routing to external APIs and database queries.
+  - Structured Outputs: Native JSON Schema enforcement guaranteeing deterministic JSON responses.
+  - Context Caching: Substantial cost reduction and latency optimization for repeated queries against massive static contexts (codebases, reference documentation).
+  - Embeddings (`text-embedding-004`): High-dimensional semantic vectors for vector databases, similarity search, and RAG pipelines.
+- **Official Client Libraries**: Python SDK (`google-genai`), Node.js / TypeScript SDK (`@google/genai`), Go SDK, and direct REST/cURL interfaces.
+
+### 2. Vertex AI Tools & Enterprise Platforms
+Enterprise-grade infrastructure for deploying, fine-tuning, and governing Google and open-source AI models on Google Cloud Platform (GCP):
+- **Vertex AI Model Garden**: Enterprise repository offering 150+ models, including Google first-party foundation models (Gemini, Imagen, Codey), open models (Gemma, Llama 3, Mistral), and partner models (Anthropic Claude on Vertex AI).
+- **Vertex AI Agent Builder**: Pro-code and low-code framework to construct production AI agents connected to enterprise data stores with built-in conversational memory.
+- **Enterprise Grounding with Google Search & Enterprise Data**: Augment model responses with real-time web verification and private enterprise repositories via Vertex AI Search and Vector Search.
+- **Fine-Tuning & Model Alignment**: Supervised fine-tuning (SFT), Reinforcement Learning from Human Feedback (RLHF), and Model Distillation tailored for private corporate domains with VPC Service Controls and data sovereignty.
+
+### 3. Open-Weight Models (Gemma Family)
+Google's family of lightweight, state-of-the-art open-source models built from the same research and technology used for Gemini:
+- **Gemma 2**: Open foundation models available in 2B, 9B, and 27B parameter sizes, utilizing sliding window attention and grouped-query attention for exceptional efficiency on consumer GPUs.
+- **CodeGemma**: Specialized open models trained on over 500 billion tokens of code, optimized for code completion, multi-file code understanding, and programmatic reasoning.
+- **PaliGemma**: Lightweight, open vision-language model (VLM) engineered for transfer learning on image captioning, visual question answering (VQA), and OCR document understanding.
+- **RecurrentGemma**: Efficient architecture blending linear recurrences with local transformer attention, delivering low memory usage and high inference throughput for long sequences.
+- **Deployment & Inference Frameworks**: Step-by-step guides for running Gemma models locally and in cloud production using Ollama, llama.cpp, vLLM, Hugging Face Transformers, and PyTorch.
+
+### 4. Productivity Extensions & Google AI Applications
+Consumer, professional, and browser-integrated AI applications powering daily workflows:
+- **NotebookLM**: AI-powered personalized research assistant grounded entirely in user-curated notes, PDFs, and Google Docs, featuring Audio Overviews (generative two-host deep dive audio conversations).
+- **Google Workspace Gemini**: Generative AI assistance embedded natively into Google Docs (drafting and editing), Gmail (email summarization and smart replies), Google Sheets (formula generation and data categorization), and Google Slides (slide generation).
+- **Imagen 3**: High-fidelity text-to-image foundation model generating photorealistic imagery, intricate textures, and accurate in-image typography with advanced safety guardrails.
+- **Google Veo**: High-definition 1080p generative video model capable of generating coherent cinematic shots, complex camera motions, and visual effects from natural language prompts.
+- **Chrome Built-in AI**: On-device AI running directly inside the Google Chrome browser via Gemini Nano, exposing zero-latency JavaScript APIs for summarization, writing, and prompt execution without server round-trips.
+
+## Core Pages & Directories
+
+- [Homepage](https://googleaitools.com/index.html): Main directory of Google AI tools, models, benchmark comparisons, and tutorials.
+- [Categories Overview](https://googleaitools.com/categories.html): Browse AI tools grouped by category (Multimodal, Research, Developer, Image/Video, Open Source).
+- [About Us](https://googleaitools.com/about.html): Mission statement, independent editorial charter, and non-affiliation disclosure.
+- [Contact Us](https://googleaitools.com/contact.html): Editorial inquiries, technical feedback, and tool listing submissions.
+- [HTML Sitemap](https://googleaitools.com/sitemap.html): Human-readable directory of all published guides and resources.
+- [XML Sitemap](https://googleaitools.com/sitemap.xml): Machine-readable sitemap for search engines and autonomous indexers.
+- [RSS Feed](https://googleaitools.com/feed.xml): Real-time RSS 2.0 syndication feed for latest Google AI tutorials.
+
+## Published Technical Guides & Tutorials
+
+- [Getting Started with Gemini 1.5 Pro](https://googleaitools.com/posts/getting-started-with-gemini-1-5-pro.html): Comprehensive developer setup, 2M context window usage, multimodal prompting, and API key provisioning.
+- [How to Use Gemini 1.5 Flash for High-Speed Applications](https://googleaitools.com/posts/how-to-use-gemini-15-flash.html): Architectural optimization, latency benchmarks, and low-cost agent deployment.
+- [Gemma Open-Source AI Models: Complete Guide & Local Setup](https://googleaitools.com/posts/gemma-open-source-ai-models-guide.html): Hands-on deployment of Gemma 2 using Ollama, Hugging Face, and llama.cpp.
+- [NotebookLM AI Research Assistant Guide](https://googleaitools.com/posts/notebooklm-ai-research-guide.html): Mastering source-grounded research, document synthesis, and generating audio overviews.
+- [Imagen 3 Prompt Engineering Tips & Image Generation](https://googleaitools.com/posts/imagen-3-prompt-engineering-tips.html): Strategies for generating photorealistic images, typography rendering, and avoiding artifacts.
+- [Google Veo Video Generation Tutorial](https://googleaitools.com/posts/google-veo-video-generation-tutorial.html): Cinematic prompts, camera motion control, and high-definition generative video workflows.
+
+## Legal & Compliance
+
+- [Trademark & Non-Affiliation Disclaimer](https://googleaitools.com/disclaimer.html): Independent operation notice. Not affiliated with Google LLC or Alphabet Inc.
+- [Privacy Policy](https://googleaitools.com/privacy-policy.html): Complete transparency regarding data practices and ad networks.
+- [Terms of Use](https://googleaitools.com/terms.html): Terms and conditions governing access to GoogleAITools.com.
+
+## Official Contact & Editorial Office
+- **Official Email**: contact@googleaitools.com
+- **Contact Page**: https://googleaitools.com/contact/
+- **Inquiries Handled**: General Feedback, Editorial Corrections, Tool Submissions, DMCA Copyright Notices, and Data Compliance.

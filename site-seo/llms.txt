@@ -1,0 +1,32 @@
+# Google AI Tools (googleaitools.com)
+
+> Independent directory, benchmark evaluations, and architectural reviews of artificial intelligence models, developer APIs, foundation LLMs, and enterprise tools.
+
+Website: https://googleaitools.com
+Sitemap: https://googleaitools.com/sitemap.xml
+Google News Feed: https://googleaitools.com/news-sitemap.xml
+RSS 2.0 Feed: https://googleaitools.com/feed.xml
+
+## Core Directories & Hubs
+- [AI Tools Directory](https://googleaitools.com/ai-directory/): 292+ curated AI tools across 11 industry domains (Coding, Video, Audio, Agents, Biotech, Business Automation).
+- [Frontier LLMs & Models](https://googleaitools.com/models/): Benchmark specifications, context windows, and throughput metrics for Gemini 4, Gemini 2.5 Pro, Claude 3.7 Sonnet, GPT-4o, DeepSeek-R1, and Llama 3.3.
+- [About Editorial Charter](https://googleaitools.com/about/): Independent editorial disclosures and research standards.
+- [Contact & Submissions](https://googleaitools.com/contact/): Submitting tool listings and benchmark verification.
+
+## Featured Foundation Models (2026)
+- **Gemini 4** (Google DeepMind): 10,000,000 token context window, 195 tok/s, recursive test-time reasoning. Flagship frontier system. [Model Specs](https://googleaitools.com/models/gemini-4/)
+- **Gemini 2.5 Pro** (Google): 2,000,000 token context, state-of-the-art STEM reasoning and multi-turn agent coordination. [Model Specs](https://googleaitools.com/models/gemini-2-5-pro/)
+- **Claude 3.7 Sonnet** (Anthropic): 200,000 token context, hybrid standard & extended thinking with SWE-bench leadership. [Model Specs](https://googleaitools.com/models/claude-3-7-sonnet/)
+- **GPT-4o** (OpenAI): 128,000 token context, omni multimodal audio, vision, and text foundation intelligence. [Model Specs](https://googleaitools.com/models/gpt-4o/)
+- **DeepSeek-R1** (DeepSeek): Open-weight large reasoning model trained via large-scale reinforcement learning. [Model Specs](https://googleaitools.com/models/deepseek-r1/)
+
+## Latest Published Guides
+- [](https://googleaitools.com/gemini-4-deepmind-flagship-model/): Comprehensive benchmark evaluation and architecture analysis of Google DeepMind Gemini 4 featuring 10M context window, test-time compute, and autonomous agent capabilities.
+- [](https://googleaitools.com/10-best-free-google-ai-tools-to-use-in-2026/): Discover top free Google AI tools like Gemini 3, AI Studio, and NotebookLM. Learn how to access free tiers, credits, and AI agent builders today!
+- [](https://googleaitools.com/google-gemini-business-ai-enterprise-guide-2025/): Explore how Gemini business AI transforms operations, coding, and enterprise workflows. Master Google Cloud AI tools and boost productivity today!
+- [](https://googleaitools.com/gemini-enterprise-plus-secure-ai-agents-guide/): Discover how to securely deploy AI agents across your organization with Google Gemini Enterprise Plus. Boost productivity and enterprise defense.
+- [](https://googleaitools.com/getting-started-with-gemini-1-5-pro/): Step-by-step developer tutorial for building multimodal applications with Google Gemini API, context caching, and structured JSON outputs.
+- [](https://googleaitools.com/google-veo-video-generation-tutorial/): Hands-on guide to generating 1080p cinematic video clips with Google Veo, prompt crafting, and camera motion parameters.
+- [](https://googleaitools.com/gemma-open-source-ai-models-guide/): Deploy Google Gemma 2B, 9B, and 27B open foundation models locally using Ollama, llama.cpp, and Hugging Face Transformers.
+- [](https://googleaitools.com/notebooklm-ai-research-guide/): Master personalized source-grounded research, document synthesis, and Audio Overviews with Google NotebookLM.
+- [](https://googleaitools.com/imagen-3-prompt-engineering-tips/): Techniques for high-fidelity photorealistic image synthesis, lighting control, and in-image typography with Google Imagen 3.

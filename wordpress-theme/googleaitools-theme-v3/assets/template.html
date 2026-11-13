@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{SEO_TITLE}}</title>
+  <meta name="description" content="{{SEO_DESCRIPTION}}">
+  <meta name="keywords" content="{{SEO_KEYWORDS}}">
+  <meta name="robots" content="{{SEO_ROBOTS}}">
+  <link rel="canonical" href="{{SEO_CANONICAL}}">
+  
+  <!-- OpenGraph / Social Sharing Meta Tags -->
+  <meta property="og:title" content="{{SEO_TITLE}}">
+  <meta property="og:description" content="{{SEO_DESCRIPTION}}">
+  <meta property="og:image" content="{{SEO_OG_IMAGE}}">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="{{SEO_CANONICAL}}">
+
+  <!-- Twitter Card Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{SEO_TITLE}}">
+  <meta name="twitter:description" content="{{SEO_DESCRIPTION}}">
+  <meta name="twitter:image" content="{{SEO_OG_IMAGE}}">
+
+  <link rel="stylesheet" href="../assets/css/google-ai.css">
+  <script src="../assets/js/adsense-config.js"></script>
+  <script src="../assets/js/seo-analytics-config.js"></script>
+
+  <!-- Schema.org Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "{{SCHEMA_TYPE}}",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "{{SEO_CANONICAL}}"
+    },
+    "headline": "{{SEO_TITLE}}",
+    "description": "{{SEO_DESCRIPTION}}",
+    "image": "{{SEO_OG_IMAGE}}",
+    "author": {
+      "@type": "Person",
+      "name": "{{AUTHOR}}"
+    },
+    "datePublished": "{{DATE}}",
+    "dateModified": "{{DATE}}",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Google AI Tools",
+      "url": "https://googleaitools.com/"
+    }
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Central Header -->
+  <div id="site-header-container"></div>
+
+  <!-- Ad Banner Top -->
+  <div class="ad-container ad-leaderboard" data-ad-slot="headerLeaderboard"></div>
+
+  <!-- Article Header -->
+  <header class="article-header">
+    <div class="article-header-container">
+      <nav class="breadcrumb">
+        <a href="../index.html">Home</a> / <a href="../categories.html?c={{CATEGORY}}">{{CATEGORY_NAME}}</a> / <span>{{TITLE}}</span>
+      </nav>
+      
+      <span class="article-category-badge">{{CATEGORY_NAME}}</span>
+      <h1 class="article-title">{{TITLE}}</h1>
+      <p class="article-subtitle">{{EXCERPT}}</p>
+
+      <div class="article-author-row">
+        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80" alt="{{AUTHOR}}" class="author-avatar">
+        <div class="author-info">
+          <span class="author-name">{{AUTHOR}}</span>
+          <div class="article-meta-info">
+            <span>📅 {{DATE}}</span> • 
+            <span>🕒 {{READTIME}}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Article Layout -->
+  <main class="article-layout">
+    
+    <!-- Sidebar -->
+    <aside class="article-sidebar">
+      <div id="sidebar-toc"></div>
+      <div id="social-share-container"></div>
+      <div class="ad-container ad-sidebar" data-ad-slot="sidebarAd"></div>
+    </aside>
+
+    <!-- Main Content -->
+    <article class="article-content">
+      <div class="callout-box">
+        <div class="callout-title">💡 Key Takeaways</div>
+        <p>{{EXCERPT}}</p>
+      </div>
+
+      {{CONTENT}}
+
+      <div class="ad-container ad-inline" data-ad-slot="inlineArticleAd"></div>
+
+      <!-- Author Bio -->
+      <div class="author-bio-card">
+        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80" alt="{{AUTHOR}}" class="author-bio-avatar">
+        <div>
+          <div class="author-bio-name">Written by {{AUTHOR}}</div>
+          <div class="author-bio-desc">AI Specialist & Technical Writer at googleaitools.com.</div>
+        </div>
+      </div>
+    </article>
+  </main>
+
+  <div class="ad-container ad-leaderboard" data-ad-slot="footerBanner"></div>
+
+  <!-- Related Posts -->
+  <section class="related-posts-section">
+    <div class="related-posts-container">
+      <h3 class="section-title" style="margin-bottom: 24px;">Recommended Google AI Guides</h3>
+      <div class="grid-container" id="related-posts-grid"></div>
+    </div>
+  </section>
+
+  <div id="site-footer-container"></div>
+
+  <script src="../assets/js/posts-data.js"></script>
+  <script src="../assets/js/components.js"></script>
+  <script src="../assets/js/main.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const container = document.getElementById('related-posts-grid');
+      if (container && typeof POSTS_DATA !== 'undefined') {
+        const related = POSTS_DATA.filter(p => p.id !== '{{SLUG}}').slice(0, 3);
+        container.innerHTML = related.map(post => createProductCardHTML(post)).join('');
+      }
+    });
+  </script>
+</body>
+</html>

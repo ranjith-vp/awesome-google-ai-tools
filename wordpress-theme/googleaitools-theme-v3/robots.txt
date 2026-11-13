@@ -1,0 +1,31 @@
+# Google AI Tools - robots.txt
+User-agent: *
+Allow: /
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+Disallow: */feed/
+Disallow: /feed/
+Disallow: /comments/feed/
+Disallow: */trackback/
+
+# AI & LLM Search Crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+Sitemap: https://googleaitools.com/sitemap.xml
+Link: https://googleaitools.com/llms.txt; rel="llms-txt"

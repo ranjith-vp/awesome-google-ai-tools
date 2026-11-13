@@ -11,7 +11,7 @@
   - [2. Generative Media Models Matrix](#2-generative-media-models-matrix)
   - [3. Developer Platforms & Sandboxes](#3-developer-platforms--sandboxes)
   - [4. AI Agents & Productivity Workspaces](#4-ai-agents--productivity-workspaces)
-- [🌐 Global AI Startup & Product Discovery (160 Curated Tools)](#-global-ai-startup--product-discovery)
+- [🌐 Global AI Startup & Product Discovery (292 Curated Tools)](#-global-ai-startup--product-discovery)
 - [🧠 Foundation Models](#-foundation-models)
   - [Proprietary API Models (Gemini Family)](#proprietary-api-models-gemini-family)
   - [Open Weights Models (Gemma Family)](#open-weights-models-gemma-family)
@@ -37,6 +37,7 @@ All comparison tables are synchronized with our machine-readable datasets in [`d
 
 | Model | Type | Context Window | Max Output | Input Modalities | Free Tier | Pricing (per 1M tokens) | Primary Advantage / Best Use Case | In-Depth Guide |
 | :--- | :--- | :--- | :--- | :--- | :---: | :--- | :--- | :--- |
+| **Gemini 4 Hydrogen** | Proprietary API | **10,000,000** (10M) | 16,384 | Text, Code, Audio, 4K Video, Robotics | ✅ Yes | **$1.25** in / **$5.00** out | Recursive test-time reasoning, 10M context, TPU v6 Trillium | [Model Specs](https://googleaitools.com/models/gemini-4-hydrogen/) |
 | **Gemini 1.5 Pro** | Proprietary API | **2,097,152** (2M) | 8,192 | Text, Code, Audio, Video, PDF, Images | ✅ Yes | **$3.50** in / **$10.50** out *(<=128k)* | Massive multimodal context (hours of video, 1M+ LOC) | [Read Guide](https://googleaitools.com/getting-started-with-gemini-1-5-pro/) |
 | **Gemini 1.5 Flash** | Proprietary API | **1,048,576** (1M) | 8,192 | Text, Code, Audio, Video, Images | ✅ Yes | **$0.075** in / **$0.30** out *(<=128k)* | Sub-second latency, high-volume production tasks | [Read Guide](https://googleaitools.com/how-to-use-gemini-15-flash/) |
 | **Gemini 1.0 Ultra** | Enterprise API | 32,768 | 4,096 | Text, Code, Images | ❌ No | Consumer: $19.99/mo (Google One AI) | State-of-the-art complex academic/scientific reasoning | [Read Review](https://googleaitools.com/gemini-api-review-benchmarks-specs/) |
@@ -83,9 +84,9 @@ All comparison tables are synchronized with our machine-readable datasets in [`d
 
 ## 🌐 Global AI Startup & Product Discovery
 
-Explore our comprehensive breakdown of **160 real-world AI products, apps, and breakthrough startups** across 11 key industries in [**`GLOBAL_AI_DIRECTORY.md`**](GLOBAL_AI_DIRECTORY.md) and programmatically via [`data/global-ai-products.json`](data/global-ai-products.json):
+Explore our comprehensive breakdown of **292 real-world AI products, apps, and breakthrough startups** across 11 key industries in [**`GLOBAL_AI_DIRECTORY.md`**](GLOBAL_AI_DIRECTORY.md) and programmatically via [`data/global-ai-products.json`](data/global-ai-products.json):
 
-1. **Personal AI Agents & Universal Assistants** (Manus, Genspark, Perplexity, ChatGPT Agent, Claude Computer Use, Rabbit R1, MultiOn, Gemini, Copilot...)
+1. **Personal AI Agents & Universal Assistants** (Gemini 4 Hydrogen, Manus, Genspark, Perplexity, ChatGPT Agent, Claude Computer Use, Rabbit R1, MultiOn, Copilot...)
 2. **AI Browsers & Future Internet Access** (Dia, Comet, Arc, Opera Neon, Fellou, Browser Use, Browserbase, Steel, Firecrawl, Exa...)
 3. **AI Software Development & App Creation** (Cursor, Windsurf, Lovable, Bolt.new, Replit Agent, Devin, Cline, OpenHands, v0, Base44...)
 4. **AI Voice, Communication & Meetings** (ElevenLabs, Hume AI, Retell AI, Bland AI, Vapi, Cartesia, Wispr Flow, Granola, Fireflies, Plaud...)
@@ -97,7 +98,7 @@ Explore our comprehensive breakdown of **160 real-world AI products, apps, and b
 10. **AI Infrastructure & Developer Ecosystem** (LangChain, LlamaIndex, Composio, MCP, Mem0, Letta, Pinecone, Weaviate, OpenRouter, LiteLLM...)
 11. **AI Startups from India** (Sarvam AI, Krutrim, Yellow.ai, Haptik, Smallest.ai, CoRover, KissanAI, Gnani.ai, BharatGPT, Pixis...)
 
-👉 **[Browse Full 160-Tool Directory & Analysis →](GLOBAL_AI_DIRECTORY.md)**
+👉 **[Browse Full 292-Tool Directory & Analysis →](GLOBAL_AI_DIRECTORY.md)**
 
 ---
 
@@ -105,6 +106,7 @@ Explore our comprehensive breakdown of **160 real-world AI products, apps, and b
 
 ### Proprietary API Models (Gemini Family)
 
+- [Gemini 4 Hydrogen](https://googleaitools.com/models/gemini-4-hydrogen/) - Google DeepMind fourth-generation frontier powerhouse (Project Hydrogen) featuring an unprecedented 10M token context window, dynamic test-time recursive reasoning, and TPU v6 Trillium architecture.
 - [Gemini 1.5 Pro](https://deepmind.google/technologies/gemini/pro/) - Frontier multimodal model with a record-shattering 2-million-token context window. Excels in audio/video comprehension and complex code analysis.
 - [Gemini 1.5 Flash](https://deepmind.google/technologies/gemini/flash/) - Lightweight, ultra-fast workhorse model optimized for high frequency, cost-sensitive production workloads with a 1-million-token window.
 - [Gemini 1.0 Ultra](https://deepmind.google/technologies/gemini/ultra/) - Flagship heavy-reasoning model engineered for complex scientific, mathematical, and reasoning tasks.

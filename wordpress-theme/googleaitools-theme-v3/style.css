@@ -2529,3 +2529,27 @@ img.emoji {
   color: #94a3b8;
 }
 
+/* Header Navigation Spacing & Search Gap */
+.nav-container {
+  gap: 20px !important;
+}
+.nav-links {
+  gap: 20px !important;
+}
+.nav-right {
+  margin-left: 24px !important;
+  flex-shrink: 0 !important;
+}
+@media (max-width: 1260px) {
+  .nav-links {
+    gap: 14px !important;
+  }
+  .nav-link {
+    font-size: 0.88rem !important;
+  }
+  .nav-right {
+    margin-left: 16px !important;
+    gap: 10px !important;
+  }
+}
+

@@ -159,7 +159,7 @@
       }
       ?>
 
-      <div class="nav-right">
+      <div class="nav-right" style="margin-left: 24px; flex-shrink: 0;">
         <form role="search" method="get" class="search-form-header" action="<?php echo esc_url(home_url('/')); ?>" style="margin:0;">
           <div class="search-trigger" id="search-trigger-wrapper" style="padding:4px 10px; display:flex; align-items:center; gap:6px;">
             <button type="submit" aria-label="<?php esc_attr_e('Search', 'googleaitools-theme'); ?>" style="background:none; border:none; padding:0; cursor:pointer; display:flex; align-items:center; color:var(--text-secondary);">

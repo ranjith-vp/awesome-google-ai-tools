@@ -157,6 +157,7 @@ ul, ol {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 20px;
 }
 
 .brand-logo {
@@ -189,8 +190,10 @@ ul, ol {
 .nav-links {
   display: flex;
   align-items: center;
-  gap: 28px;
+  gap: 20px;
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .nav-link {
@@ -280,6 +283,21 @@ ul, ol {
   display: flex;
   align-items: center;
   gap: 16px;
+  margin-left: 24px;
+  flex-shrink: 0;
+}
+
+@media (max-width: 1260px) {
+  .nav-links {
+    gap: 14px;
+  }
+  .nav-link {
+    font-size: 0.88rem;
+  }
+  .nav-right {
+    margin-left: 16px;
+    gap: 10px;
+  }
 }
 
 .search-trigger {

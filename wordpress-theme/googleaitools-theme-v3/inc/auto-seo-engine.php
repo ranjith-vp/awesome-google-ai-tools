@@ -81,15 +81,14 @@ function googleaitools_build_sitemap_xml() {
         $products = array();
     }
     foreach ($products as $pr) {
-            if (empty($pr['slug'])) continue;
-            $tool_url = $site_url . '/ai-directory/' . $pr['slug'] . '/';
-            $xml .= "  <url>\n";
-            $xml .= '    <loc>' . esc_url($tool_url) . "</loc>\n";
-            $xml .= '    <lastmod>' . esc_html($today) . "</lastmod>\n";
-            $xml .= "    <changefreq>weekly</changefreq>\n";
-            $xml .= "    <priority>0.7</priority>\n";
-            $xml .= "  </url>\n";
-        }
+        if (empty($pr['slug'])) continue;
+        $tool_url = $site_url . '/ai-directory/' . $pr['slug'] . '/';
+        $xml .= "  <url>\n";
+        $xml .= '    <loc>' . esc_url($tool_url) . "</loc>\n";
+        $xml .= '    <lastmod>' . esc_html($today) . "</lastmod>\n";
+        $xml .= "    <changefreq>weekly</changefreq>\n";
+        $xml .= "    <priority>0.7</priority>\n";
+        $xml .= "  </url>\n";
     }
 
     // Frontier Models & LLMs

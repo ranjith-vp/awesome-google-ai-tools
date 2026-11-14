@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /**
  * Template Name: AI Tools & Products Directory
  * Description: Interactive searchable directory and dedicated deep-dive profiles for 290+ global AI startups, models, and tools.
@@ -134,7 +134,7 @@ if ($selected_tool) :
       <!-- Brand & Name Group -->
       <div class="tool-brand-group" style="display: flex; align-items: flex-start; gap: 16px; flex: 1 1 280px; min-width: 0; max-width: 100%;">
         <div style="width: 56px; height: 56px; border-radius: 12px; background: var(--bg-secondary); border: 1px solid var(--border-color); display: flex; align-items: center; justify-content: center; overflow: hidden; flex-shrink: 0; box-shadow: var(--shadow-sm);">
-          <img src="<?php echo esc_url($selected_tool['logoUrl']); ?>" alt="<?php echo esc_attr($selected_tool['name']); ?> logo" width="40" height="40" style="object-fit: contain; border-radius: 8px;" onerror="this.onerror=null; this.src='https://www.google.com/s2/favicons?domain=google.com&sz=64';">
+          <img src="<?php echo esc_url($selected_tool['logoUrl']); ?>" alt="<?php echo esc_attr($selected_tool['name']); ?> logo" width="40" height="40" style="object-fit: contain; border-radius: 8px;" onload="if(this.naturalWidth<=16&&this.naturalHeight<=16)window.handleToolLogoError(this, '<?php echo esc_js($selected_tool['name']); ?>');" onerror="window.handleToolLogoError(this, '<?php echo esc_js($selected_tool['name']); ?>');">
         </div>
         <div style="min-width: 0; flex: 1;">
           <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-bottom: 8px;">
@@ -458,7 +458,7 @@ if ($selected_tool) :
           <div class="dir-card" onclick="window.location.href='<?php echo esc_url($rel_url); ?>';" style="background: var(--bg-primary); border: 1px solid var(--border-color); border-radius: 12px; padding: 18px; cursor: pointer; transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s; display: flex; flex-direction: column; justify-content: space-between;">
             <div>
               <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
-                <img src="<?php echo esc_url($rel['logoUrl']); ?>" alt="<?php echo esc_attr($rel['name']); ?> logo" width="24" height="24" style="border-radius: 4px; object-fit: contain;" onerror="this.style.display='none';">
+                <img src="<?php echo esc_url($rel['logoUrl']); ?>" alt="<?php echo esc_attr($rel['name']); ?> logo" width="24" height="24" style="border-radius: 4px; object-fit: contain;" onload="if(this.naturalWidth<=16&&this.naturalHeight<=16)window.handleToolLogoError(this, '<?php echo esc_js($rel['name']); ?>');" onerror="window.handleToolLogoError(this, '<?php echo esc_js($rel['name']); ?>');">
                 <h4 style="font-size: 1.05rem; font-weight: 700; margin: 0; color: var(--text-primary);">
                   <?php echo esc_html($rel['name']); ?>
                 </h4>
@@ -857,7 +857,7 @@ else :
               <span style="display: inline-flex; align-items: center; justify-content: center; width: 28px; height: 28px; border-radius: 6px; background: var(--bg-secondary); border: 1px solid var(--border-color); font-size: 0.75rem; font-weight: 700; color: var(--text-muted); flex-shrink: 0;">
                 #<?php echo esc_html($p['id']); ?>
               </span>
-              <img src="<?php echo esc_url($p['logoUrl']); ?>" alt="<?php echo esc_attr($p['name']); ?> logo" width="24" height="24" style="border-radius: 5px; object-fit: contain; flex-shrink: 0;" loading="lazy" onerror="this.style.display='none';">
+              <img src="<?php echo esc_url($p['logoUrl']); ?>" alt="<?php echo esc_attr($p['name']); ?> logo" width="24" height="24" style="border-radius: 5px; object-fit: contain; flex-shrink: 0;" loading="lazy" onload="if(this.naturalWidth<=16&&this.naturalHeight<=16)window.handleToolLogoError(this, '<?php echo esc_js($p['name']); ?>');" onerror="window.handleToolLogoError(this, '<?php echo esc_js($p['name']); ?>');">
               <h3 style="font-size: 1.15rem; font-weight: 700; margin: 0; color: var(--text-primary); font-family: var(--font-heading);">
                 <?php echo esc_html($p['name']); ?>
               </h3>
@@ -1217,290 +1217,5 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <?php endif; ?>
 
-<style>
-/* ==========================================================================
-   AI DIRECTORY SEARCH BAR, TAG BOXES & SELECTORS
-   ========================================================================== */
-
-/* Modern Search Container */
-.dir-search-container {
-  max-width: 820px;
-  margin: 0 auto 20px;
-  position: relative;
-}
-
-.dir-search-box-wrapper {
-  display: flex;
-  align-items: center;
-  background: var(--bg-primary, #ffffff);
-  border: 1.5px solid var(--border-color, #e2e8f0);
-  border-radius: 48px;
-  padding: 10px 22px 10px 22px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, 0.03);
-  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
-  position: relative;
-}
-
-.dir-search-box-wrapper:hover {
-  border-color: #cbd5e1;
-  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.08);
-}
-
-.dir-search-box-wrapper:focus-within {
-  border-color: var(--color-google-blue, #1a73e8) !important;
-  box-shadow: 0 0 0 4px rgba(26, 115, 232, 0.15), 0 8px 30px rgba(26, 115, 232, 0.12) !important;
-  transform: translateY(-2px);
-}
-
-.dir-ai-sparkle-icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-right: 14px;
-  color: var(--color-google-blue, #1a73e8);
-  flex-shrink: 0;
-  transition: transform 0.25s ease;
-}
-
-.dir-search-box-wrapper:focus-within .dir-ai-sparkle-icon {
-  transform: scale(1.15) rotate(6deg);
-}
-
-#dir-search-input {
-  width: 100%;
-  border: none !important;
-  background: transparent !important;
-  outline: none !important;
-  box-shadow: none !important;
-  font-size: 1.05rem;
-  font-weight: 450;
-  color: var(--text-primary, #1e293b);
-  font-family: inherit;
-  padding: 4px 0;
-}
-
-#dir-search-input::placeholder {
-  color: var(--text-muted, #94a3b8);
-  font-size: 0.96rem;
-  font-weight: 400;
-}
-
-/* Quick Prompt Suggestions / Tag Boxes */
-.dir-quick-prompts {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 8px 10px;
-  margin: 16px auto 0;
-  max-width: 860px;
-}
-
-.dir-quick-prompts-label {
-  font-size: 0.78rem;
-  font-weight: 700;
-  color: var(--text-muted, #64748b);
-  display: inline-flex;
-  align-items: center;
-  gap: 5px;
-  letter-spacing: 0.5px;
-  text-transform: uppercase;
-}
-
-.dir-prompt-chip {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  padding: 7px 15px;
-  border-radius: 22px;
-  background: var(--bg-primary, #ffffff);
-  border: 1px solid var(--border-color, #e2e8f0);
-  font-size: 0.83rem;
-  font-weight: 500;
-  color: var(--text-secondary, #475569);
-  cursor: pointer;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
-  transition: all 0.22s cubic-bezier(0.4, 0, 0.2, 1);
-  user-select: none;
-}
-
-.dir-prompt-chip:hover {
-  background: #f8fafc;
-  color: var(--color-google-blue, #1a73e8);
-  border-color: var(--color-google-blue, #1a73e8);
-  transform: translateY(-2px);
-  box-shadow: 0 4px 14px rgba(26, 115, 232, 0.14);
-}
-
-.dir-prompt-chip:active {
-  transform: scale(0.97);
-}
-
-/* Category Selectors / Filter Bar */
-.dir-filter-bar {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 8px 10px;
-  margin-top: 24px;
-}
-
-.dir-filter-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  padding: 7px 16px;
-  border-radius: 24px;
-  font-size: 0.86rem;
-  font-weight: 500;
-  cursor: pointer;
-  border: 1px solid var(--border-color, #e2e8f0);
-  background: var(--bg-primary, #ffffff);
-  color: var(--text-secondary, #475569);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
-  transition: all 0.22s cubic-bezier(0.4, 0, 0.2, 1);
-  user-select: none;
-}
-
-.dir-filter-btn:hover {
-  background: #f8fafc;
-  border-color: #cbd5e1;
-  color: var(--text-primary, #0f172a);
-  transform: translateY(-1.5px);
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
-}
-
-.dir-filter-btn:active {
-  transform: scale(0.98);
-}
-
-.dir-filter-btn.active {
-  background: var(--color-google-blue, #1a73e8) !important;
-  color: #ffffff !important;
-  border-color: var(--color-google-blue, #1a73e8) !important;
-  font-weight: 600;
-  box-shadow: 0 4px 14px rgba(26, 115, 232, 0.35);
-  transform: translateY(-1.5px);
-}
-
-.dir-btn-count {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 2px 7px;
-  border-radius: 12px;
-  font-size: 0.74rem;
-  font-weight: 600;
-  background: rgba(0, 0, 0, 0.06);
-  color: inherit;
-  margin-left: 2px;
-  transition: background 0.2s ease;
-}
-
-.dir-filter-btn:hover .dir-btn-count {
-  background: rgba(0, 0, 0, 0.1);
-}
-
-.dir-filter-btn.active .dir-btn-count {
-  background: rgba(255, 255, 255, 0.25);
-  color: #ffffff;
-}
-
-/* Smooth Card Interactivity */
-.dir-card {
-  cursor: pointer;
-  transition: transform 0.22s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.22s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.22s ease !important;
-}
-.dir-card:hover {
-  transform: translateY(-4px) !important;
-  box-shadow: var(--shadow-md) !important;
-  border-color: var(--color-google-blue) !important;
-}
-.dir-card a:hover {
-  color: var(--color-google-blue) !important;
-}
-.btn-back-dir:hover {
-  border-color: var(--color-google-blue) !important;
-  color: var(--color-google-blue) !important;
-}
-
-/* Dark Mode Harmonization */
-[data-theme="dark"] .dir-search-box-wrapper {
-  background: #151921 !important;
-  border-color: rgba(255, 255, 255, 0.12) !important;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3) !important;
-}
-
-[data-theme="dark"] .dir-search-box-wrapper:focus-within {
-  border-color: #60a5fa !important;
-  box-shadow: 0 0 0 4px rgba(96, 165, 250, 0.2), 0 8px 30px rgba(0, 0, 0, 0.5) !important;
-}
-
-[data-theme="dark"] #dir-search-input {
-  color: #f1f5f9 !important;
-}
-
-[data-theme="dark"] #dir-search-input::placeholder {
-  color: #64748b !important;
-}
-
-[data-theme="dark"] .dir-prompt-chip {
-  background: #1a1f29 !important;
-  border-color: rgba(255, 255, 255, 0.1) !important;
-  color: #94a3b8 !important;
-}
-
-[data-theme="dark"] .dir-prompt-chip:hover {
-  background: #242b38 !important;
-  border-color: #60a5fa !important;
-  color: #60a5fa !important;
-}
-
-[data-theme="dark"] .dir-filter-btn {
-  background: #1a1f29 !important;
-  border-color: rgba(255, 255, 255, 0.1) !important;
-  color: #cbd5e1 !important;
-}
-
-[data-theme="dark"] .dir-filter-btn:hover {
-  background: #242b38 !important;
-  border-color: rgba(255, 255, 255, 0.2) !important;
-  color: #ffffff !important;
-}
-
-[data-theme="dark"] .dir-filter-btn.active {
-  background: #2563eb !important;
-  border-color: #2563eb !important;
-  color: #ffffff !important;
-  box-shadow: 0 4px 16px rgba(37, 99, 235, 0.5) !important;
-}
-
-[data-theme="dark"] .dir-btn-count {
-  background: rgba(255, 255, 255, 0.1) !important;
-}
-
-[data-theme="dark"] .dir-filter-btn.active .dir-btn-count {
-  background: rgba(255, 255, 255, 0.25) !important;
-}
-
-[data-theme="dark"] .dir-card,
-[data-theme="dark"] .tool-hero-card,
-[data-theme="dark"] .tool-detail-wrapper article,
-[data-theme="dark"] .tool-detail-wrapper aside > div {
-  background-color: #121418 !important;
-  border-color: rgba(255, 255, 255, 0.12) !important;
-}
-[data-theme="dark"] .dir-card:hover {
-  border-color: #60a5fa !important;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6) !important;
-}
-[data-theme="dark"] .btn-back-dir,
-[data-theme="dark"] .tool-detail-wrapper .btn-back-dir {
-  background-color: #1a1d24 !important;
-  border-color: rgba(255, 255, 255, 0.14) !important;
-  color: #f1f5f9 !important;
-}
-</style>
 
 <?php get_footer(); ?>

@@ -403,9 +403,9 @@
         "cleanCategory":  "AI Software Development \u0026 App Creation",
         "formFactor":  "Open Source SWE Framework",
         "summary":  "Open-source platform for AI software developers (formerly OpenDevin) collaborating on complex GitHub repositories.",
-        "domain":  "openhands.ai",
-        "website":  "https://openhands.ai",
-        "logoUrl":  "https://www.google.com/s2/favicons?domain=openhands.ai\u0026sz=64"
+        "domain":  "all-hands.dev",
+        "website":  "https://all-hands.dev",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=all-hands.dev\u0026sz=64"
     },
     {
         "id":  35,
@@ -1471,9 +1471,9 @@
         "cleanCategory":  "Robotics \u0026 Physical AI",
         "formFactor":  "Warehouse Manipulation Brain",
         "summary":  "Universal AI platform (Covariant Brain) empowering robotic arms to manipulate arbitrary objects in warehouses.",
-        "domain":  "covariant.ai",
-        "website":  "https://covariant.ai",
-        "logoUrl":  "https://www.google.com/s2/favicons?domain=covariant.ai\u0026sz=64"
+        "domain":  "amazon.com",
+        "website":  "https://amazon.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=amazon.com\u0026sz=64"
     },
     {
         "id":  124,
@@ -1759,9 +1759,9 @@
         "cleanCategory":  "AI Startups from India",
         "formFactor":  "Indian AI Infrastructure",
         "summary":  "Ola\u0027s AI venture developing multilingual foundation models, conversational assistants, and dedicated cloud compute.",
-        "domain":  "krutrim.com",
-        "website":  "https://krutrim.com",
-        "logoUrl":  "https://www.google.com/s2/favicons?domain=krutrim.com\u0026sz=64"
+        "domain":  "olakrutrim.com",
+        "website":  "https://olakrutrim.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=olakrutrim.com\u0026sz=64"
     },
     {
         "id":  148,
@@ -1843,9 +1843,9 @@
         "cleanCategory":  "AI Startups from India",
         "formFactor":  "Multilingual Consortium",
         "summary":  "Collaborative initiative by CoRover and IIT Bombay building multi-modal foundational LLMs tailored to Indian contexts.",
-        "domain":  "bharatgpt.net",
-        "website":  "https://bharatgpt.net",
-        "logoUrl":  "https://www.google.com/s2/favicons?domain=bharatgpt.net\u0026sz=64"
+        "domain":  "corover.ai",
+        "website":  "https://corover.ai",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=corover.ai\u0026sz=64"
     },
     {
         "id":  155,
@@ -1903,9 +1903,9 @@
         "cleanCategory":  "AI Startups from India",
         "formFactor":  "Retail Visual AI",
         "summary":  "Computer vision and AI architecture enterprise (Vue.ai) powering retail automation, visual search, and cataloging.",
-        "domain":  "madstreetden.com",
-        "website":  "https://madstreetden.com",
-        "logoUrl":  "https://www.google.com/s2/favicons?domain=madstreetden.com\u0026sz=64"
+        "domain":  "vue.ai",
+        "website":  "https://vue.ai",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=vue.ai\u0026sz=64"
     },
     {
         "id":  160,
@@ -3183,8 +3183,8 @@
         "cleanCategory":  "AI Creative, Video \u0026 Entertainment",
         "formFactor":  "Web Image Generator",
         "summary":  "Stability AI early web generation suite, now officially deprecated in favor of Stable Assistant and direct developer API endpoints.",
-        "domain":  "dreamstudio.ai",
-        "website":  "https://dreamstudio.ai",
+        "domain":  "stability.ai",
+        "website":  "https://stability.ai",
         "logoUrl":  "https://www.google.com/s2/favicons?domain=stability.ai\u0026sz=64",
         "status":  "discontinued",
         "statusNotice":  "Stability AI has officially deprecated the DreamStudio web beta in favor of Stable Assistant and direct developer API generation powered by Stable Diffusion 3.5."
@@ -3437,9 +3437,9 @@
         "cleanCategory":  "AI Infrastructure \u0026 Developer Ecosystem",
         "formFactor":  "Wafer-Scale Inference",
         "summary":  "Wafer-scale AI computing cloud delivering instant generation speeds exceeding 1,800 tokens per second for Llama foundation models.",
-        "domain":  "cerebras.ai",
-        "website":  "https://cerebras.ai",
-        "logoUrl":  "https://www.google.com/s2/favicons?domain=cerebras.ai\u0026sz=64"
+        "domain":  "cerebras.net",
+        "website":  "https://cerebras.net",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=cerebras.net\u0026sz=64"
     },
     {
         "id":  287,
@@ -3629,9 +3629,9 @@
         "cleanCategory":  "AI Software Development \u0026 App Creation",
         "formFactor":  "Terminal AI Pair Programmer",
         "summary":  "Popular command-line AI pair programmer that seamlessly edits local code across Git repositories with automated commit logging.",
-        "domain":  "aider.chat",
-        "website":  "https://aider.chat",
-        "logoUrl":  "https://www.google.com/s2/favicons?domain=aider.chat\u0026sz=64"
+        "domain":  "github.com",
+        "website":  "https://github.com/Aider-AI/aider",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=github.com\u0026sz=64"
     },
     {
         "id":  303,
@@ -3725,9 +3725,9 @@
         "cleanCategory":  "AI Software Development \u0026 App Creation",
         "formFactor":  "High-Speed AI Code Assistant",
         "summary":  "Blazing-fast AI code assistant engineered for instant context generation, intelligent completion, and multi-file code editing.",
-        "domain":  "ampcode.io",
-        "website":  "https://ampcode.io",
-        "logoUrl":  "https://www.google.com/s2/favicons?domain=ampcode.io\u0026sz=64"
+        "domain":  "amp.dev",
+        "website":  "https://amp.dev",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=amp.dev\u0026sz=64"
     },
     {
         "id":  311,
@@ -3881,9 +3881,9 @@
         "cleanCategory":  "AI Software Development \u0026 App Creation",
         "formFactor":  "AI Bug Squashing Agent",
         "summary":  "Autonomous bug-fixing and code maintenance agent that isolates stack traces, produces targeted patches, and verifies regression tests.",
-        "domain":  "crush.dev",
-        "website":  "https://crush.dev",
-        "logoUrl":  "https://www.google.com/s2/favicons?domain=crush.dev\u0026sz=64"
+        "domain":  "charm.sh",
+        "website":  "https://charm.sh",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=charm.sh\u0026sz=64"
     },
     {
         "id":  324,
@@ -3905,9 +3905,9 @@
         "cleanCategory":  "AI Software Development \u0026 App Creation",
         "formFactor":  "AI Junior Developer Agent",
         "summary":  "Autonomous AI developer that turns GitHub issues and bug tickets directly into tested, ready-to-merge pull requests.",
-        "domain":  "sweep.dev",
-        "website":  "https://sweep.dev",
-        "logoUrl":  "https://www.google.com/s2/favicons?domain=sweep.dev\u0026sz=64"
+        "domain":  "github.com",
+        "website":  "https://github.com/sweepai/sweep",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=github.com\u0026sz=64"
     },
     {
         "id":  326,
@@ -3977,9 +3977,9 @@
         "cleanCategory":  "AI Software Development \u0026 App Creation",
         "formFactor":  "Terminal AI Coding Tool",
         "summary":  "AI coding partner that coordinates multiple file edits directly in command line with precise AST parsing and coordinate mapping.",
-        "domain":  "mentat.ai",
-        "website":  "https://mentat.ai",
-        "logoUrl":  "https://www.google.com/s2/favicons?domain=mentat.ai\u0026sz=64"
+        "domain":  "github.com",
+        "website":  "https://github.com/AbanteAI/mentat",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=github.com\u0026sz=64"
     },
     {
         "id":  332,
@@ -4049,9 +4049,9 @@
         "cleanCategory":  "AI Software Development \u0026 App Creation",
         "formFactor":  "Zero-Code Full-Stack Generator",
         "summary":  "Natural-language app creator allowing non-developers to build, customize, and deploy interactive web apps and business utilities.",
-        "domain":  "tryanything.xyz",
-        "website":  "https://tryanything.xyz",
-        "logoUrl":  "https://www.google.com/s2/favicons?domain=tryanything.xyz\u0026sz=64"
+        "domain":  "create.xyz",
+        "website":  "https://create.xyz",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=create.xyz\u0026sz=64"
     },
     {
         "id":  338,
@@ -4109,9 +4109,9 @@
         "cleanCategory":  "AI Browsers \u0026 Future of Internet Access",
         "formFactor":  "Autonomous Browser Cloud Workers",
         "summary":  "Enterprise cloud browser agents executing complex repetitive back-office tasks, form entries, and web workflows autonomously.",
-        "domain":  "induced.ai",
-        "website":  "https://www.induced.ai",
-        "logoUrl":  "https://www.google.com/s2/favicons?domain=induced.ai\u0026sz=64"
+        "domain":  "induced.io",
+        "website":  "https://induced.io",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=induced.io\u0026sz=64"
     },
     {
         "id":  343,
@@ -4133,9 +4133,9 @@
         "cleanCategory":  "AI Browsers \u0026 Future of Internet Access",
         "formFactor":  "Scalable Headless Fleet",
         "summary":  "Scalable headless browser infrastructure purpose-built for AI agents executing fast web scraping and live interaction.",
-        "domain":  "browserable.com",
-        "website":  "https://browserable.com",
-        "logoUrl":  "https://www.google.com/s2/favicons?domain=browserable.com\u0026sz=64"
+        "domain":  "browserbase.com",
+        "website":  "https://browserbase.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=browserbase.com\u0026sz=64"
     },
     {
         "id":  345,
@@ -4265,9 +4265,9 @@
         "cleanCategory":  "Personal AI Agents \u0026 Universal Assistants",
         "formFactor":  "Multimodal Autonomous Assistant",
         "summary":  "Frontier Chinese AI agent suite by MiniMax featuring high-speed voice synthesis, multimodal understanding, and interactive characters.",
-        "domain":  "minimaxi.com",
-        "website":  "https://www.minimaxi.com",
-        "logoUrl":  "https://www.google.com/s2/favicons?domain=minimaxi.com\u0026sz=64"
+        "domain":  "minimax.io",
+        "website":  "https://minimax.io",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=minimax.io\u0026sz=64"
     },
     {
         "id":  356,
@@ -4289,9 +4289,9 @@
         "cleanCategory":  "Personal AI Agents \u0026 Universal Assistants",
         "formFactor":  "Long-Term Memory Personal Agent",
         "summary":  "Personal AI agent built with continuous contextual memory that navigates applications and carries out life tasks on behalf of users.",
-        "domain":  "convergence.ai",
+        "domain":  "github.com",
         "website":  "https://convergence.ai",
-        "logoUrl":  "https://www.google.com/s2/favicons?domain=convergence.ai\u0026sz=64"
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=github.com\u0026sz=64"
     },
     {
         "id":  358,
@@ -5153,9 +5153,9 @@
         "cleanCategory":  "AI Research, Knowledge \u0026 Intelligence",
         "formFactor":  "Data-Driven SEO Content Writer",
         "summary":  "AI content assistant that analyzes Google top 20 rankings to produce in-depth, factual articles optimized for high search visibility.",
-        "domain":  "outranking.io",
-        "website":  "https://www.outranking.io",
-        "logoUrl":  "https://www.google.com/s2/favicons?domain=outranking.io\u0026sz=64"
+        "domain":  "outranking.ai",
+        "website":  "https://outranking.ai",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=outranking.ai\u0026sz=64"
     },
     {
         "id":  430,
@@ -5333,9 +5333,9 @@
         "cleanCategory":  "Personal AI Agents \u0026 Universal Assistants",
         "formFactor":  "Focus Time Calendar Assistant",
         "summary":  "Intelligent calendar management tool that orchestrates flexible team meetings to create uninterrupted Focus Time blocks for deep work.",
-        "domain":  "getclockwise.com",
-        "website":  "https://www.getclockwise.com",
-        "logoUrl":  "https://www.google.com/s2/favicons?domain=getclockwise.com\u0026sz=64"
+        "domain":  "salesforce.com",
+        "website":  "https://www.salesforce.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=salesforce.com\u0026sz=64"
     },
     {
         "id":  445,
@@ -5417,9 +5417,9 @@
         "cleanCategory":  "AI Voice, Communication \u0026 Meeting Intelligence",
         "formFactor":  "Ultra-Realistic Conversational Voice",
         "summary":  "Conversational voice AI platform delivering sub-300ms latency voice agents with human-like prosody, emotion, and interruptions.",
-        "domain":  "play.ai",
-        "website":  "https://play.ai",
-        "logoUrl":  "https://www.google.com/s2/favicons?domain=play.ai\u0026sz=64"
+        "domain":  "meta.com",
+        "website":  "https://meta.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=meta.com\u0026sz=64"
     },
     {
         "id":  452,
@@ -6029,9 +6029,9 @@
         "cleanCategory":  "AI Software Development \u0026 App Creation",
         "formFactor":  "Terminal AI Coding Engine",
         "summary":  "Open-source terminal AI coding engine designed for large multi-file development tasks with sandbox verification.",
-        "domain":  "plandex.ai",
-        "website":  "https://plandex.ai",
-        "logoUrl":  "https://www.google.com/s2/favicons?domain=plandex.ai\u0026sz=64"
+        "domain":  "github.com",
+        "website":  "https://github.com/plandex-ai/plandex",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=github.com\u0026sz=64"
     },
     {
         "id":  503,
@@ -6053,9 +6053,9 @@
         "cleanCategory":  "AI Software Development \u0026 App Creation",
         "formFactor":  "Self-Hosted AI Coding Server",
         "summary":  "Open-source, self-hosted AI coding assistant alternative to GitHub Copilot with full on-premises GPU support.",
-        "domain":  "tabbyml.github.io",
-        "website":  "https://tabby.tabbyml.com",
-        "logoUrl":  "https://www.google.com/s2/favicons?domain=tabbyml.github.io\u0026sz=64"
+        "domain":  "tabbyml.com",
+        "website":  "https://tabbyml.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=tabbyml.com\u0026sz=64"
     },
     {
         "id":  505,
@@ -6185,9 +6185,9 @@
         "cleanCategory":  "AI Infrastructure \u0026 Developer Ecosystem",
         "formFactor":  "Task-Centric Multi-Agent Framework",
         "summary":  "Python multi-agent framework by Prefect that orchestrates tasks, flow control, and agent handoffs with clear structure.",
-        "domain":  "controlflow.ai",
-        "website":  "https://controlflow.ai",
-        "logoUrl":  "https://www.google.com/s2/favicons?domain=controlflow.ai\u0026sz=64"
+        "domain":  "prefect.io",
+        "website":  "https://prefect.io",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=prefect.io\u0026sz=64"
     },
     {
         "id":  516,
@@ -6329,9 +6329,9 @@
         "cleanCategory":  "AI Infrastructure \u0026 Developer Ecosystem",
         "formFactor":  "Actor-Model Multi-Agent Library",
         "summary":  "Multi-agent programming framework using an intuitive Actor-like model where agents collaborate via structured message passing.",
-        "domain":  "langroid.github.io",
-        "website":  "https://langroid.github.io/langroid/",
-        "logoUrl":  "https://www.google.com/s2/favicons?domain=langroid.github.io\u0026sz=64"
+        "domain":  "github.com",
+        "website":  "https://github.com/langroid/langroid",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=github.com\u0026sz=64"
     },
     {
         "id":  528,
@@ -6845,9 +6845,9 @@
         "cleanCategory":  "AI Infrastructure \u0026 Developer Ecosystem",
         "formFactor":  "Cloud-Based No-Code Scraper",
         "summary":  "Cloud web data extraction tool that turns dynamic webpages into structured spreadsheets using AI auto-detection.",
-        "domain":  "octoparse.com",
+        "domain":  "www.octoparse.com",
         "website":  "https://www.octoparse.com",
-        "logoUrl":  "https://www.google.com/s2/favicons?domain=octoparse.com\u0026sz=64"
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=www.octoparse.com\u0026sz=64"
     },
     {
         "id":  571,
@@ -6965,9 +6965,9 @@
         "cleanCategory":  "AI Research, Knowledge \u0026 Intelligence",
         "formFactor":  "AI Search Engine for Developers",
         "summary":  "Intelligent answer engine optimized for technical queries, programming questions, and software engineering documentation.",
-        "domain":  "phind.com",
-        "website":  "https://www.phind.com",
-        "logoUrl":  "https://www.google.com/s2/favicons?domain=phind.com\u0026sz=64"
+        "domain":  "github.com",
+        "website":  "https://github.com/phind",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=github.com\u0026sz=64"
     },
     {
         "id":  581,
@@ -6977,9 +6977,9 @@
         "cleanCategory":  "AI Research, Knowledge \u0026 Intelligence",
         "formFactor":  "Conversational Visual Search Engine",
         "summary":  "Generative AI search assistant that provides direct answers and visual summaries instead of traditional blue links.",
-        "domain":  "andisearch.com",
-        "website":  "https://andisearch.com",
-        "logoUrl":  "https://www.google.com/s2/favicons?domain=andisearch.com\u0026sz=64"
+        "domain":  "andi.ai",
+        "website":  "https://andi.ai",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=andi.ai\u0026sz=64"
     },
     {
         "id":  582,
@@ -7013,9 +7013,9 @@
         "cleanCategory":  "AI Research, Knowledge \u0026 Intelligence",
         "formFactor":  "AI Workspace \u0026 Agentic Search",
         "summary":  "Agentic search engine and research workspace that searches the web, highlights insights, and generates citations.",
-        "domain":  "getliner.com",
-        "website":  "https://getliner.com",
-        "logoUrl":  "https://www.google.com/s2/favicons?domain=getliner.com\u0026sz=64"
+        "domain":  "liner.ai",
+        "website":  "https://liner.ai",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=liner.ai\u0026sz=64"
     },
     {
         "id":  585,
@@ -7109,9 +7109,9 @@
         "cleanCategory":  "Personal AI Agents \u0026 Universal Assistants",
         "formFactor":  "Baidu Flagship AI Assistant",
         "summary":  "Baidu premier knowledge-enhanced large language model delivering conversational intelligence, search, and image creation.",
-        "domain":  "yiyan.baidu.com",
+        "domain":  "baidu.com",
         "website":  "https://yiyan.baidu.com",
-        "logoUrl":  "https://www.google.com/s2/favicons?domain=yiyan.baidu.com\u0026sz=64"
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=baidu.com\u0026sz=64"
     },
     {
         "id":  593,
@@ -7253,9 +7253,9 @@
         "cleanCategory":  "AI Business Automation \u0026 Enterprise Workflows",
         "formFactor":  "AI Customer Experience Suite",
         "summary":  "Autonomous customer experience platform delivering omnichannel support and resolution for modern enterprises.",
-        "domain":  "crescendocx.com",
-        "website":  "https://www.crescendocx.com",
-        "logoUrl":  "https://www.google.com/s2/favicons?domain=crescendocx.com\u0026sz=64"
+        "domain":  "crescendo.ai",
+        "website":  "https://crescendo.ai",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=crescendo.ai\u0026sz=64"
     },
     {
         "id":  605,
@@ -7937,9 +7937,9 @@
         "cleanCategory":  "AI Business Automation \u0026 Enterprise Workflows",
         "formFactor":  "Self-Updating Sales CRM",
         "summary":  "Conversational sales CRM that listens to sales calls and automatically populates deals, contacts, and next steps.",
-        "domain":  "clarify.so",
-        "website":  "https://clarify.so",
-        "logoUrl":  "https://www.google.com/s2/favicons?domain=clarify.so\u0026sz=64"
+        "domain":  "clarify.ai",
+        "website":  "https://clarify.ai",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=clarify.ai\u0026sz=64"
     },
     {
         "id":  662,
@@ -8393,9 +8393,9 @@
         "cleanCategory":  "AI Research, Knowledge \u0026 Intelligence",
         "formFactor":  "Semrush Content Writing Tool",
         "summary":  "Content creation tool combining Semrush competitive search insights with AI writing to produce ranking articles.",
-        "domain":  "contentshake.ai",
-        "website":  "https://www.semrush.com/contentshake/",
-        "logoUrl":  "https://www.google.com/s2/favicons?domain=contentshake.ai\u0026sz=64"
+        "domain":  "semrush.com",
+        "website":  "https://www.semrush.com/apps/contentshake/",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=semrush.com\u0026sz=64"
     },
     {
         "id":  700,
@@ -8477,9 +8477,9 @@
         "cleanCategory":  "AI Research, Knowledge \u0026 Intelligence",
         "formFactor":  "AI Search Optimization \u0026 Visibility",
         "summary":  "Analytics platform tracking brand mentions and ranking presence across LLM search engines like ChatGPT and Perplexity.",
-        "domain":  "profound.ai",
-        "website":  "https://www.profound.ai",
-        "logoUrl":  "https://www.google.com/s2/favicons?domain=profound.ai\u0026sz=64"
+        "domain":  "tryprofound.com",
+        "website":  "https://tryprofound.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=tryprofound.com\u0026sz=64"
     },
     {
         "id":  707,
@@ -8513,9 +8513,9 @@
         "cleanCategory":  "AI Business Automation \u0026 Enterprise Workflows",
         "formFactor":  "Autonomous Market Intelligence",
         "summary":  "Autonomous competitive intelligence platform tracking competitors, product updates, and market signals.",
-        "domain":  "athenahq.com",
-        "website":  "https://athenahq.com",
-        "logoUrl":  "https://www.google.com/s2/favicons?domain=athenahq.com\u0026sz=64"
+        "domain":  "athena.com",
+        "website":  "https://athena.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=athena.com\u0026sz=64"
     },
     {
         "id":  710,
@@ -8729,9 +8729,9 @@
         "cleanCategory":  "AI Healthcare \u0026 Biotechnology",
         "formFactor":  "Evidence-Based Clinical Decision Support",
         "summary":  "Clinical reference app that delivers validated, evidence-based medical summaries and guideline recommendations.",
-        "domain":  "pathway.md",
-        "website":  "https://www.pathway.md",
-        "logoUrl":  "https://www.google.com/s2/favicons?domain=pathway.md\u0026sz=64"
+        "domain":  "pathway.com",
+        "website":  "https://pathway.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=pathway.com\u0026sz=64"
     },
     {
         "id":  728,
@@ -8813,9 +8813,9 @@
         "cleanCategory":  "AI Business Automation \u0026 Enterprise Workflows",
         "formFactor":  "Machine Learning for Asset Managers",
         "summary":  "Machine learning platform helping institutional portfolio managers discover investment ideas and manage portfolio risk.",
-        "domain":  "boosted.ai",
+        "domain":  "github.com",
         "website":  "https://boosted.ai",
-        "logoUrl":  "https://www.google.com/s2/favicons?domain=boosted.ai\u0026sz=64"
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=github.com\u0026sz=64"
     },
     {
         "id":  735,
@@ -9149,9 +9149,9 @@
         "cleanCategory":  "AI Business Automation \u0026 Enterprise Workflows",
         "formFactor":  "National Curriculum AI Assistant",
         "summary":  "Lesson planning AI assistant built by the UK Oak National Academy grounded in verified educational curricula.",
-        "domain":  "oaknationalacademy.org.uk",
-        "website":  "https://www.oaknationalacademy.org.uk",
-        "logoUrl":  "https://www.google.com/s2/favicons?domain=oaknationalacademy.org.uk\u0026sz=64"
+        "domain":  "thenational.academy",
+        "website":  "https://www.thenational.academy",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=thenational.academy\u0026sz=64"
     },
     {
         "id":  763,
@@ -9197,9 +9197,9 @@
         "cleanCategory":  "AI Creative, Video \u0026 Entertainment",
         "formFactor":  "AI Pitch Deck \u0026 Storytelling Studio",
         "summary":  "Generative storytelling platform creating polished pitch decks, product strategies, and executive presentations.",
-        "domain":  "tome.app",
-        "website":  "https://tome.app",
-        "logoUrl":  "https://www.google.com/s2/favicons?domain=tome.app\u0026sz=64"
+        "domain":  "gamma.app",
+        "website":  "https://gamma.app",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=gamma.app\u0026sz=64"
     },
     {
         "id":  767,
@@ -9509,9 +9509,9 @@
         "cleanCategory":  "AI Creative, Video \u0026 Entertainment",
         "formFactor":  "Alibaba Frontier Open Video Model",
         "summary":  "Alibaba Cloud flagship video foundation model capable of synthesizing realistic motion and consistent temporal dynamics.",
-        "domain":  "wanx.aliyun.com",
+        "domain":  "aliyun.com",
         "website":  "https://wanx.aliyun.com",
-        "logoUrl":  "https://www.google.com/s2/favicons?domain=wanx.aliyun.com\u0026sz=64"
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=aliyun.com\u0026sz=64"
     },
     {
         "id":  793,
@@ -9797,9 +9797,9 @@
         "cleanCategory":  "AI Voice, Communication \u0026 Meeting Intelligence",
         "formFactor":  "AI Voice Generator \u0026 Video Platform",
         "summary":  "Next-gen voice generator (Genny) offering 500+ realistic voices in 100+ languages for creators and marketing teams.",
-        "domain":  "lovo.ai",
+        "domain":  "github.com",
         "website":  "https://lovo.ai",
-        "logoUrl":  "https://www.google.com/s2/favicons?domain=lovo.ai\u0026sz=64"
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=github.com\u0026sz=64"
     },
     {
         "id":  817,
@@ -9989,9 +9989,9 @@
         "cleanCategory":  "AI Creative, Video \u0026 Entertainment",
         "formFactor":  "Generative 3D Avatar Engine",
         "summary":  "Generative 3D engine by Deemos producing detailed 3D digital humans and assets with clean topology.",
-        "domain":  "deemos.com",
+        "domain":  "hyperhuman.deemos.com",
         "website":  "https://hyperhuman.deemos.com/rodin",
-        "logoUrl":  "https://www.google.com/s2/favicons?domain=deemos.com\u0026sz=64"
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=hyperhuman.deemos.com\u0026sz=64"
     },
     {
         "id":  833,
@@ -10061,9 +10061,9 @@
         "cleanCategory":  "AI Software Development \u0026 App Creation",
         "formFactor":  "Autonomous Root Cause Analysis",
         "summary":  "Automated root cause analysis platform for cloud systems that investigates logs, metrics, and traces during incidents.",
-        "domain":  "traversal.ai",
-        "website":  "https://traversal.ai",
-        "logoUrl":  "https://www.google.com/s2/favicons?domain=traversal.ai\u0026sz=64"
+        "domain":  "traversal.com",
+        "website":  "https://traversal.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=traversal.com\u0026sz=64"
     },
     {
         "id":  839,
@@ -10181,9 +10181,9 @@
         "cleanCategory":  "AI Software Development \u0026 App Creation",
         "formFactor":  "Autonomous Vulnerability Remediation",
         "summary":  "Autonomous cybersecurity platform that finds application security vulnerabilities and issues pull requests to fix them.",
-        "domain":  "corgea.ai",
-        "website":  "https://corgea.ai",
-        "logoUrl":  "https://www.google.com/s2/favicons?domain=corgea.ai\u0026sz=64"
+        "domain":  "corgea.com",
+        "website":  "https://corgea.com",
+        "logoUrl":  "https://www.google.com/s2/favicons?domain=corgea.com\u0026sz=64"
     },
     {
         "id":  849,

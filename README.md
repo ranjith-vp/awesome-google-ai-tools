@@ -11,7 +11,7 @@
   - [2. Generative Media Models Matrix](#2-generative-media-models-matrix)
   - [3. Developer Platforms & Sandboxes](#3-developer-platforms--sandboxes)
   - [4. AI Agents & Productivity Workspaces](#4-ai-agents--productivity-workspaces)
-- [🌐 Global AI Startup & Product Discovery (292 Curated Tools)](#-global-ai-startup--product-discovery)
+- [🌐 Global AI Startup & Product Discovery (495 Curated Tools)](#-global-ai-startup--product-discovery)
 - [🧠 Foundation Models](#-foundation-models)
   - [Proprietary API Models (Gemini Family)](#proprietary-api-models-gemini-family)
   - [Open Weights Models (Gemma Family)](#open-weights-models-gemma-family)
@@ -84,7 +84,7 @@ All comparison tables are synchronized with our machine-readable datasets in [`d
 
 ## 🌐 Global AI Startup & Product Discovery
 
-Explore our comprehensive breakdown of **292 real-world AI products, apps, and breakthrough startups** across 11 key industries in [**`GLOBAL_AI_DIRECTORY.md`**](GLOBAL_AI_DIRECTORY.md) and programmatically via [`data/global-ai-products.json`](data/global-ai-products.json):
+Explore our comprehensive breakdown of **495 real-world AI products, apps, and breakthrough startups** across 11 key industries in [**`GLOBAL_AI_DIRECTORY.md`**](GLOBAL_AI_DIRECTORY.md) and programmatically via [`data/global-ai-products.json`](data/global-ai-products.json):
 
 1. **Personal AI Agents & Universal Assistants** (Gemini 4 Hydrogen, Manus, Genspark, Perplexity, ChatGPT Agent, Claude Computer Use, Rabbit R1, MultiOn, Copilot...)
 2. **AI Browsers & Future Internet Access** (Dia, Comet, Arc, Opera Neon, Fellou, Browser Use, Browserbase, Steel, Firecrawl, Exa...)
@@ -98,7 +98,7 @@ Explore our comprehensive breakdown of **292 real-world AI products, apps, and b
 10. **AI Infrastructure & Developer Ecosystem** (LangChain, LlamaIndex, Composio, MCP, Mem0, Letta, Pinecone, Weaviate, OpenRouter, LiteLLM...)
 11. **AI Startups from India** (Sarvam AI, Krutrim, Yellow.ai, Haptik, Smallest.ai, CoRover, KissanAI, Gnani.ai, BharatGPT, Pixis...)
 
-👉 **[Browse Full 292-Tool Directory & Analysis →](GLOBAL_AI_DIRECTORY.md)**
+👉 **[Browse Full 495-Tool Directory & Analysis →](GLOBAL_AI_DIRECTORY.md)**
 
 ---
 

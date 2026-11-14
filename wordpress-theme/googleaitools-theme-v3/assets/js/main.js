@@ -173,7 +173,40 @@ function initSearchModal() {
     }
   ];
 
+  // Asynchronous Search Index Loader
+  let searchIndexLoading = false;
+  let searchIndexLoaded = false;
+  function ensureSearchIndexLoaded() {
+    if (searchIndexLoaded || (typeof PRODUCTS_DATA !== 'undefined' && PRODUCTS_DATA.length > 0)) {
+      searchIndexLoaded = true;
+      return Promise.resolve();
+    }
+    if (searchIndexLoading) return Promise.resolve();
+    searchIndexLoading = true;
+
+    const config = window.GOOGLEAITOOLS_CONFIG || {};
+    const searchUrl = config.searchIndexUrl || (window.location.origin + '/wp-content/themes/googleaitools-theme-v3/assets/data/search-index.json');
+
+    return fetch(searchUrl)
+      .then(res => res.json())
+      .then(data => {
+        window.POSTS_DATA = data.posts || [];
+        window.MODELS_DATA = data.models || [];
+        window.PRODUCTS_DATA = data.products || [];
+        searchIndexLoaded = true;
+        searchIndexLoading = false;
+        if (searchField && searchField.value.trim().length > 0) {
+          executeSearch();
+        }
+      })
+      .catch(err => {
+        console.warn('Search index fetch note:', err);
+        searchIndexLoading = false;
+      });
+  }
+
   function openModalWithQuery(initialQuery = '') {
+    ensureSearchIndexLoaded();
     if (modal) {
       modal.classList.add('active');
       modal.style.display = 'flex';
@@ -207,7 +240,7 @@ function initSearchModal() {
       e.preventDefault();
       openModalWithQuery(headerInput.value);
     });
-    headerInput.addEventListener('focus', () => openModalWithQuery(headerInput.value));
+    headerInput.addEventListener('focus', () => { ensureSearchIndexLoaded(); openModalWithQuery(headerInput.value); });
     headerInput.addEventListener('input', () => openModalWithQuery(headerInput.value));
   }
 

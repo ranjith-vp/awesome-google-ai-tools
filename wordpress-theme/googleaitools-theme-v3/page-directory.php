@@ -844,7 +844,7 @@ else :
 
   <!-- Tools Grid -->
   <div id="dir-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr)); gap: 20px;">
-    <?php foreach ($products as $p) : 
+    <?php $initial_products = array_slice($products, 0, 48); foreach ($initial_products as $p) : 
       $cat_clean = preg_replace('/^\d+\.\s*/', '', $p['category']);
       $cat_short = function_exists('googleaitools_shorten_category') ? googleaitools_shorten_category($p['category']) : $cat_clean;
       $tool_url = home_url('/ai-directory/' . $p['slug'] . '/');
@@ -896,6 +896,13 @@ else :
     <?php endforeach; ?>
   </div>
 
+  <!-- Progressive Infinite Scroll Sentinel & Fallback Button -->
+  <div id="dir-infinite-sentinel" style="padding: 24px 0 32px; text-align: center;">
+    <button type="button" id="dir-load-more-btn" style="display: none; padding: 10px 24px; border-radius: 24px; background: var(--bg-primary); border: 1.5px solid var(--border-color); color: var(--color-google-blue); font-weight: 600; font-size: 0.9rem; cursor: pointer; transition: all 0.2s ease; box-shadow: var(--shadow-sm);">
+      Load More AI Tools &darr;
+    </button>
+  </div>
+
   <div id="dir-no-results" style="display: none; text-align: center; padding: 64px 20px; color: var(--text-muted);">
     <p style="font-size: 1.2rem; margin-bottom: 8px;">
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:inline-block; vertical-align:-3px; margin-right:6px;"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
@@ -905,6 +912,10 @@ else :
   </div>
 </main>
 
+<script>
+// Embedded all 859 tools for instant client-side progressive loading and search
+window.ALL_DIRECTORY_PRODUCTS = <?php echo json_encode(, JSON_HEX_TAG | JSON_HEX_AMP | JSON_HEX_APOS | JSON_HEX_QUOT); ?>;
+</script>
 <!-- Directory Interactive AI Semantic Filtering Script -->
 <script>
 document.addEventListener('DOMContentLoaded', function() {
@@ -912,7 +923,6 @@ document.addEventListener('DOMContentLoaded', function() {
   const clearBtn = document.getElementById('dir-clear-btn');
   const filterBtns = document.querySelectorAll('.dir-filter-btn');
   const grid = document.getElementById('dir-grid');
-  const cards = Array.from(document.querySelectorAll('.dir-card'));
   const countDisplay = document.getElementById('dir-results-count');
   const noResults = document.getElementById('dir-no-results');
   const promptChips = document.querySelectorAll('.dir-prompt-chip');
@@ -920,13 +930,126 @@ document.addEventListener('DOMContentLoaded', function() {
   const insightTitle = document.getElementById('dir-ai-intent-title');
   const insightText = document.getElementById('dir-ai-insight-text');
   const insightClose = document.getElementById('dir-ai-insight-close');
+  const sentinel = document.getElementById('dir-infinite-sentinel');
+  const loadMoreBtn = document.getElementById('dir-load-more-btn');
 
+  const allProducts = window.ALL_DIRECTORY_PRODUCTS || [];
   let activeCategory = 'all';
+  let renderedCount = 48;
+  const BATCH_SIZE = 36;
 
-  // Store original card order for fast restore
-  const originalCardsOrder = [...cards];
+  const categoryShortMap = {
+    'Personal AI Agents & Universal Assistants': 'AI Assistants',
+    'AI Browsers & Future of Internet Access': 'AI Browsers',
+    'AI Software Development & App Creation': 'Coding & Dev',
+    'AI Voice, Communication & Meeting Intelligence': 'Voice & Audio',
+    'AI Creative, Video & Entertainment': 'Video & Creative',
+    'AI Research, Knowledge & Intelligence': 'Research & Search',
+    'AI Business Automation & Enterprise Workflows': 'Business Automation',
+    'AI Healthcare & Biotechnology': 'Health & Biotech',
+    'Robotics & Physical AI': 'Robotics',
+    'AI Infrastructure & Developer Ecosystem': 'Infra & Dev Tools',
+    'AI Startups from India': 'India AI'
+  };
 
-  // Common conversational stop words to filter from natural language queries
+  function getShortCategory(cat) {
+    if (!cat) return 'AI Tool';
+    const clean = cat.replace(/^\d+\.\s*/, '');
+    return categoryShortMap[cat] || categoryShortMap[clean] || clean;
+  }
+
+  function createCardNode(p) {
+    const article = document.createElement('article');
+    article.className = 'dir-card';
+    const catShort = getShortCategory(p.cleanCategory || p.category);
+    const toolUrl = window.location.origin + '/ai-directory/' + p.slug + '/';
+    
+    article.setAttribute('data-category', p.category || '');
+    article.setAttribute('data-short-category', catShort.toLowerCase());
+    article.setAttribute('data-name', (p.name || '').toLowerCase());
+    article.setAttribute('data-summary', (p.summary || '').toLowerCase());
+    article.setAttribute('data-tag', (p.formFactor || '').toLowerCase());
+    article.onclick = function() { window.location.href = toolUrl; };
+    
+    const droppedBadge = (p.status && ['discontinued', 'dropped', 'superseded', 'legacy', 'deprecated', 'rebranded'].includes(p.status))
+      ? '<span style="display:inline-block; padding:3px 8px; border-radius:6px; font-size:0.72rem; font-weight:700; background:#fee2e2; color:#dc2626; border:1px solid #fca5a5; white-space:nowrap;">Dropped</span>'
+      : '';
+
+    const safeName = (p.name || '').replace(/'/g, "\\'");
+
+    article.innerHTML = 
+      <div>
+        <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:12px; gap:8px;">
+          <div style="display:flex; align-items:center; gap:10px;">
+            <span style="display:inline-flex; align-items:center; justify-content:center; width:28px; height:28px; border-radius:6px; background:var(--bg-secondary); border:1px solid var(--border-color); font-size:0.75rem; font-weight:700; color:var(--text-muted); flex-shrink:0;">
+              #\
+            </span>
+            <img src="\" alt="\ logo" width="24" height="24" style="border-radius:5px; object-fit:contain; flex-shrink:0;" loading="lazy" onload="if(this.naturalWidth<=16&&this.naturalHeight<=16)window.handleToolLogoError(this, '\');" onerror="window.handleToolLogoError(this, '\');">
+            <h3 style="font-size:1.15rem; font-weight:700; margin:0; color:var(--text-primary); font-family:var(--font-heading);">
+              \
+            </h3>
+          </div>
+          <span style="display:inline-block; padding:3px 8px; border-radius:6px; font-size:0.75rem; font-weight:600; background:var(--color-google-blue-light); color:var(--color-google-blue); white-space:nowrap;">
+            \
+          </span>
+          \
+        </div>
+        <div style="font-size:0.8rem; font-weight:600; text-transform:uppercase; letter-spacing:0.5px; color:var(--text-muted); margin-bottom:8px;">
+          \
+        </div>
+        <p style="font-size:0.9rem; line-height:1.5; color:var(--text-secondary); margin:0 0 16px;">
+          \
+        </p>
+      </div>
+      <div style="display:flex; justify-content:space-between; align-items:center; padding-top:12px; border-top:1px solid var(--border-light); font-size:0.85rem;">
+        <span style="color:var(--color-google-blue); font-weight:600; display:inline-flex; align-items:center; gap:4px;">
+          Deep Dive <span>&rarr;</span>
+        </span>
+        <a href="\" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation();" title="Visit official site for \" style="color:var(--text-muted); text-decoration:none; font-size:0.8rem; display:inline-flex; align-items:center; gap:3px; padding:4px 6px; border-radius:4px; transition:color 0.2s;">
+          Official Site <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        </a>
+      </div>
+    ;
+    return article;
+  }
+
+  // Progressive Infinite Scroll
+  function appendNextBatch() {
+    if (activeCategory !== 'all' || (searchInput && searchInput.value.trim().length > 0)) {
+      if (sentinel) sentinel.style.display = 'none';
+      return;
+    }
+    if (renderedCount >= allProducts.length) {
+      if (sentinel) sentinel.style.display = 'none';
+      return;
+    }
+    const nextTools = allProducts.slice(renderedCount, renderedCount + BATCH_SIZE);
+    const fragment = document.createDocumentFragment();
+    nextTools.forEach(tool => fragment.appendChild(createCardNode(tool)));
+    grid.appendChild(fragment);
+    renderedCount += nextTools.length;
+
+    if (countDisplay) {
+      countDisplay.textContent = 'Showing ' + renderedCount + ' of ' + allProducts.length + ' tools & startups';
+    }
+    if (renderedCount >= allProducts.length && sentinel) {
+      sentinel.style.display = 'none';
+    }
+  }
+
+  if ('IntersectionObserver' in window && sentinel) {
+    const observer = new IntersectionObserver(entries => {
+      if (entries[0].isIntersecting) {
+        appendNextBatch();
+      }
+    }, { rootMargin: '400px' });
+    observer.observe(sentinel);
+  } else if (loadMoreBtn) {
+    loadMoreBtn.style.display = 'inline-block';
+    loadMoreBtn.onclick = appendNextBatch;
+  }
+
+  // NLP Semantic Intent Knowledge Graph
   const STOP_WORDS = new Set([
     'tell', 'me', 'a', 'an', 'the', 'tool', 'tools', 'that', 'can', 'could', 'would', 'should',
     'make', 'makes', 'making', 'for', 'me', 'us', 'show', 'give', 'find', 'what', 'whats', 'what\'s',
@@ -936,16 +1059,14 @@ document.addEventListener('DOMContentLoaded', function() {
     'something', 'like', 'about', 'get', 'where', 'who', 'around', 'all'
   ]);
 
-  // Semantic Intent Knowledge Graph for AI Directory
   const INTENT_DOMAINS = [
     {
       id: 'video',
       title: 'Video Creation & Generation',
       keywords: ['video', 'videos', 'movie', 'movies', 'animation', 'animations', 'clip', 'clips', 'film', 'avatar', 'avatars', 'motion', 'rendering', 'vfx', 'cinematic', 'b-roll', 'visual effects', 'scene', 'veo', 'google veo', 'sora'],
       boostCategory: 'creative, video',
-      topTools: ['Google Veo', 'Runway', 'Pika', 'Luma AI', 'Kling AI', 'OpenAI Sora', 'HeyGen', 'Synthesia', 'Wonder Studio'],
       summary: function(count) {
-        return 'Looking for video generation? We matched <strong>' + count + ' specialized AI tools</strong> engineered for text-to-video, AI avatar presenters, cinematic physical motion, and video editing. Top recommendations to explore: <strong>Google Veo</strong>, <strong>OpenAI Sora</strong>, <strong>Runway (Gen-3 Alpha)</strong>, and <strong>Pika</strong>.';
+        return 'Looking for video generation? We matched <strong>' + count + ' specialized AI tools</strong> engineered for text-to-video, AI avatar presenters, cinematic physical motion, and video editing.';
       }
     },
     {
@@ -953,9 +1074,8 @@ document.addEventListener('DOMContentLoaded', function() {
       title: 'Coding & Software Engineering',
       keywords: ['code', 'coding', 'program', 'programming', 'developer', 'software', 'ide', 'autocomplete', 'debug', 'debugging', 'repo', 'github', 'git', 'pull request', 'app building', 'fullstack', 'frontend', 'backend', 'react', 'swe', 'engineer'],
       boostCategory: 'software development',
-      topTools: ['Cursor', 'Windsurf', 'Devin', 'Lovable', 'Bolt.new', 'Replit Agent', 'Cline', 'OpenHands', 'v0'],
       summary: function(count) {
-        return 'Seeking software engineering assistance? We identified <strong>' + count + ' AI-first IDEs and autonomous SWE agents</strong> capable of debugging, editing full repositories, and building full-stack applications. Top recommendations: <strong>Cursor</strong>, <strong>Windsurf</strong>, <strong>Devin</strong>, and <strong>Lovable</strong>.';
+        return 'Seeking software engineering assistance? We identified <strong>' + count + ' AI-first IDEs and autonomous SWE agents</strong> capable of debugging, editing full repositories, and building full-stack applications.';
       }
     },
     {
@@ -963,9 +1083,8 @@ document.addEventListener('DOMContentLoaded', function() {
       title: 'Voice, Speech & Audio Intelligence',
       keywords: ['voice', 'speech', 'tts', 'text to speech', 'clone voice', 'audio', 'podcast', 'transcribe', 'transcription', 'whisper', 'music', 'sound', 'sing', 'song', 'dictate', 'dictation', 'meeting', 'recaps', 'record'],
       boostCategory: 'voice, communication',
-      topTools: ['ElevenLabs', 'Cartesia', 'Wispr Flow', 'Granola', 'Fireflies.ai', 'Otter.ai', 'Deepgram', 'Suno', 'Udio'],
       summary: function(count) {
-        return 'Looking for voice synthesis or meeting intelligence? We matched <strong>' + count + ' tools</strong> for ultra-low-latency text-to-speech, voice persona cloning, ambient dictation, and generative music. Top recommendations: <strong>ElevenLabs</strong>, <strong>Cartesia</strong>, <strong>Wispr Flow</strong>, and <strong>Suno</strong>.';
+        return 'Looking for voice synthesis or meeting intelligence? We matched <strong>' + count + ' tools</strong> for ultra-low-latency text-to-speech, voice persona cloning, ambient dictation, and generative music.';
       }
     },
     {
@@ -973,9 +1092,8 @@ document.addEventListener('DOMContentLoaded', function() {
       title: 'Autonomous Agents & Universal Assistants',
       keywords: ['agent', 'agents', 'autonomous', 'automate', 'automation', 'browser agent', 'computer use', 'work for me', 'personal assistant', 'errand', 'errands', 'workflow', 'action', 'task', 'execute'],
       boostCategory: 'personal ai agents',
-      topTools: ['Manus', 'OpenClaw', 'Genspark', 'OpenAI ChatGPT Agent', 'Claude Computer Use', 'MultiOn', 'Rabbit R1', 'CrewAI'],
       summary: function(count) {
-        return 'Exploring autonomous agent systems? We discovered <strong>' + count + ' frontier agents</strong> capable of browsing live websites, controlling desktop GUIs, and orchestrating multi-step goals without human intervention. Top recommendations: <strong>Manus</strong>, <strong>OpenClaw</strong>, <strong>Claude Computer Use</strong>, and <strong>CrewAI</strong>.';
+        return 'Exploring autonomous agent systems? We discovered <strong>' + count + ' frontier agents</strong> capable of browsing live websites, controlling desktop GUIs, and orchestrating multi-step goals.';
       }
     },
     {
@@ -983,9 +1101,8 @@ document.addEventListener('DOMContentLoaded', function() {
       title: 'AI Browsers & Web Navigation',
       keywords: ['browser', 'browsers', 'browsing', 'web browsing', 'internet', 'surf', 'surfing', 'scrape', 'scraping', 'crawl', 'crawler', 'web navigation'],
       boostCategory: 'ai browsers',
-      topTools: ['Dia Browser', 'Comet', 'Arc Browser', 'Browser Use', 'Browserbase', 'Firecrawl', 'Exa'],
       summary: function(count) {
-        return 'Interested in next-generation internet browsing? We found <strong>' + count + ' AI-native browsers and cloud automation frameworks</strong>. Top recommendations: <strong>Dia Browser</strong>, <strong>Comet (by Perplexity)</strong>, <strong>Browser Use</strong>, and <strong>Firecrawl</strong>.';
+        return 'Interested in next-generation internet browsing? We found <strong>' + count + ' AI-native browsers and cloud automation frameworks</strong>.';
       }
     },
     {
@@ -993,9 +1110,8 @@ document.addEventListener('DOMContentLoaded', function() {
       title: 'Research, Academic & Deep Search',
       keywords: ['research', 'search', 'google alternative', 'papers', 'paper', 'academic', 'citations', 'literature review', 'facts', 'deep research', 'scholar', 'study', 'scientific', 'notes'],
       boostCategory: 'research, knowledge',
-      topTools: ['Perplexity', 'Elicit', 'Consensus', 'SciSpace', 'NotebookLM', 'Glean', 'Exa', 'Tavily'],
       summary: function(count) {
-        return 'Conducting literature reviews or research? We matched <strong>' + count + ' tools</strong> that index peer-reviewed scientific papers, extract verifiable citations, and organize knowledge graphs. Top recommendations: <strong>Perplexity</strong>, <strong>Elicit</strong>, <strong>Consensus</strong>, and <strong>NotebookLM</strong>.';
+        return 'Conducting literature reviews or research? We matched <strong>' + count + ' tools</strong> that index peer-reviewed scientific papers, extract verifiable citations, and organize knowledge graphs.';
       }
     },
     {
@@ -1003,9 +1119,8 @@ document.addEventListener('DOMContentLoaded', function() {
       title: 'AI Startups & Indic Models from India',
       keywords: ['india', 'indian', 'indic', 'hindi', 'tamil', 'telugu', 'bengali', 'railways', 'farmer', 'bilingual', 'indians'],
       boostCategory: 'startups from india',
-      topTools: ['Sarvam AI', 'Krutrim', 'Yellow.ai', 'Smallest.ai', 'CoRover', 'KissanAI', 'BharatGPT', 'Emergent'],
       summary: function(count) {
-        return 'Exploring sovereign artificial intelligence from India? We cataloged <strong>' + count + ' disruptive startups</strong> developing foundational Indic-language LLMs, voice AI for regional dialects, and enterprise automation. Top recommendations: <strong>Sarvam AI</strong>, <strong>Krutrim</strong>, <strong>Yellow.ai</strong>, and <strong>CoRover</strong>.';
+        return 'Exploring sovereign artificial intelligence from India? We cataloged <strong>' + count + ' disruptive startups</strong> developing foundational Indic-language LLMs and voice AI.';
       }
     },
     {
@@ -1013,9 +1128,8 @@ document.addEventListener('DOMContentLoaded', function() {
       title: 'Healthcare & Biotechnology AI',
       keywords: ['health', 'healthcare', 'biotech', 'biotechnology', 'medicine', 'medical', 'doctor', 'clinical', 'ehr', 'drug discovery', 'biology', 'hospital', 'therapy', 'mental wellness'],
       boostCategory: 'healthcare & biotechnology',
-      topTools: ['Abridge', 'Ambience Healthcare', 'Hippocratic AI', 'Nabla', 'Suki', 'Insilico Medicine', 'Recursion Pharmaceuticals', 'Isomorphic Labs'],
       summary: function(count) {
-        return 'Investigating medical and life-sciences AI? We matched <strong>' + count + ' specialized healthcare solutions</strong> automating clinical notes, radiology interpretation, and molecular drug discovery. Top recommendations: <strong>Abridge</strong>, <strong>Hippocratic AI</strong>, and <strong>Isomorphic Labs</strong>.';
+        return 'Investigating medical and life-sciences AI? We matched <strong>' + count + ' specialized healthcare solutions</strong> automating clinical notes and molecular drug discovery.';
       }
     },
     {
@@ -1023,9 +1137,8 @@ document.addEventListener('DOMContentLoaded', function() {
       title: 'Robotics & Physical AI',
       keywords: ['robot', 'robots', 'robotics', 'physical', 'humanoid', 'humanoids', 'drone', 'drones', 'self driving', 'trucking', 'autonomous vehicle', 'robotaxi', 'warehouse'],
       boostCategory: 'robotics & physical',
-      topTools: ['Figure AI', 'Physical Intelligence (Pi)', '1X Technologies', 'Skild AI', 'Waymo', 'Anduril', 'Zipline'],
       summary: function(count) {
-        return 'Exploring physical intelligence and robotics? We cataloged <strong>' + count + ' leaders</strong> in bipedal humanoid robots, autonomous drone logistics, and self-driving fleets. Top recommendations: <strong>Figure AI (Figure 02)</strong>, <strong>Physical Intelligence (pi0)</strong>, and <strong>Waymo</strong>.';
+        return 'Exploring physical intelligence and robotics? We cataloged <strong>' + count + ' leaders</strong> in bipedal humanoid robots, autonomous drone logistics, and self-driving fleets.';
       }
     },
     {
@@ -1033,9 +1146,8 @@ document.addEventListener('DOMContentLoaded', function() {
       title: 'AI Infrastructure & Developer Ecosystem',
       keywords: ['infra', 'infrastructure', 'vector database', 'vector db', 'embeddings', 'rag', 'gateway', 'proxy', 'observability', 'gpu', 'cloud', 'serving', 'inference', 'mcp'],
       boostCategory: 'infrastructure',
-      topTools: ['LangChain', 'LlamaIndex', 'Composio', 'Model Context Protocol (MCP)', 'Pinecone', 'OpenRouter', 'LiteLLM', 'Fireworks AI'],
       summary: function(count) {
-        return 'Building AI infrastructure? We matched <strong>' + count + ' developer tools</strong> for multi-model routing, vector databases, and stateful agent memory. Top recommendations: <strong>LangChain</strong>, <strong>LlamaIndex</strong>, <strong>Model Context Protocol (MCP)</strong>, and <strong>OpenRouter</strong>.';
+        return 'Building AI infrastructure? We matched <strong>' + count + ' developer tools</strong> for multi-model routing, vector databases, and stateful agent memory.';
       }
     }
   ];
@@ -1045,38 +1157,47 @@ document.addEventListener('DOMContentLoaded', function() {
     const queryLower = rawQuery.toLowerCase();
 
     if (!rawQuery) {
-      // Reset to category filter
-      cards.forEach(card => {
-        const cardCat = card.getAttribute('data-category');
-        const matchesCat = (activeCategory === 'all' || cardCat === activeCategory);
-        card.style.display = matchesCat ? 'flex' : 'none';
-      });
-
-      // Restore original card order in DOM
-      originalCardsOrder.forEach(card => grid.appendChild(card));
-
-      if (countDisplay) {
-        const visible = cards.filter(c => c.style.display !== 'none').length;
-        countDisplay.textContent = 'Showing ' + visible + ' of ' + cards.length + ' tools & startups';
+      // Reset view based on activeCategory
+      grid.innerHTML = '';
+      if (activeCategory === 'all') {
+        const initial = allProducts.slice(0, 48);
+        const frag = document.createDocumentFragment();
+        initial.forEach(tool => frag.appendChild(createCardNode(tool)));
+        grid.appendChild(frag);
+        renderedCount = 48;
+        if (sentinel) sentinel.style.display = 'block';
+        if (countDisplay) countDisplay.textContent = 'Showing ' + renderedCount + ' of ' + allProducts.length + ' tools & startups';
+      } else {
+        if (sentinel) sentinel.style.display = 'none';
+        const matched = allProducts.filter(p => {
+          const cat = (p.category || '').toLowerCase();
+          const clean = (p.cleanCategory || '').toLowerCase();
+          const target = activeCategory.toLowerCase();
+          return cat.includes(target) || clean.includes(target);
+        });
+        const frag = document.createDocumentFragment();
+        matched.forEach(tool => frag.appendChild(createCardNode(tool)));
+        grid.appendChild(frag);
+        if (countDisplay) countDisplay.textContent = 'Showing ' + matched.length + ' of ' + allProducts.length + ' tools & startups';
       }
-      if (noResults) noResults.style.display = 'none';
+      if (noResults) noResults.style.display = (grid.children.length === 0) ? 'block' : 'none';
       if (clearBtn) clearBtn.style.display = 'none';
       if (insightBox) insightBox.style.display = 'none';
       return;
     }
 
     if (clearBtn) clearBtn.style.display = 'inline-block';
+    if (sentinel) sentinel.style.display = 'none';
 
-    // 1. NLP Tokenization & Stop Words Extraction
+    // 1. NLP Tokenization
     const tokens = queryLower
       .replace(/[^\w\s-]/g, ' ')
       .split(/\s+/)
       .filter(t => t.length > 1 && !STOP_WORDS.has(t));
 
-    // 2. Identify Semantic Intent Domain
+    // 2. Intent matching
     let matchedDomain = null;
     let maxDomainScore = 0;
-
     INTENT_DOMAINS.forEach(domain => {
       let dScore = 0;
       domain.keywords.forEach(kw => {
@@ -1090,107 +1211,103 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     });
 
-    // 3. Score every card based on Intent + Direct Matching
-    const scoredCards = [];
-    cards.forEach(card => {
-      const cardCat = (card.getAttribute('data-category') || '').toLowerCase();
-      const cardShortCat = (card.getAttribute('data-short-category') || '').toLowerCase();
-      const cardName = (card.getAttribute('data-name') || '').toLowerCase();
-      const cardSummary = (card.getAttribute('data-summary') || '').toLowerCase();
-      const cardTag = (card.getAttribute('data-tag') || '').toLowerCase();
+    // 3. Score all tools
+    const scoredTools = [];
+    allProducts.forEach(tool => {
+      const toolCat = (tool.category || '').toLowerCase();
+      const toolCleanCat = (tool.cleanCategory || '').toLowerCase();
+      const toolName = (tool.name || '').toLowerCase();
+      const toolSummary = (tool.summary || '').toLowerCase();
+      const toolTag = (tool.formFactor || '').toLowerCase();
+      const toolDomain = (tool.domain || '').toLowerCase();
+
+      // Category constraint
+      if (activeCategory !== 'all') {
+        const target = activeCategory.toLowerCase();
+        if (!toolCat.includes(target) && !toolCleanCat.includes(target)) {
+          return;
+        }
+      }
 
       let score = 0;
 
-      // Direct exact match
-      if (cardName.includes(queryLower)) score += 120;
-      if (cardSummary.includes(queryLower)) score += 60;
-      if (cardTag.includes(queryLower)) score += 40;
+      // Exact substring matches
+      if (toolName === queryLower) score += 200;
+      else if (toolName.startsWith(queryLower)) score += 100;
+      else if (toolName.includes(queryLower)) score += 60;
+
+      if (toolDomain && toolDomain.includes(queryLower)) score += 50;
+      if (toolTag.includes(queryLower)) score += 35;
+      if (toolSummary.includes(queryLower)) score += 25;
 
       // Token matches
-      tokens.forEach(tok => {
-        if (cardName.includes(tok)) score += 45;
-        if (cardSummary.includes(tok)) score += 20;
-        if (cardTag.includes(tok)) score += 25;
-        if (cardCat.includes(tok) || cardShortCat.includes(tok)) score += 30;
+      tokens.forEach(token => {
+        if (toolName.includes(token)) score += 25;
+        if (toolTag.includes(token)) score += 15;
+        if (toolSummary.includes(token)) score += 10;
+        if (toolCat.includes(token)) score += 8;
       });
 
-      // Semantic Intent Boost
-      if (matchedDomain) {
-        if (cardCat.includes(matchedDomain.boostCategory)) {
-          score += 55;
-        }
-        // Boost specifically recommended flagship tools
-        if (matchedDomain.topTools.some(tool => cardName.includes(tool.toLowerCase()))) {
-          score += 40;
-        }
+      // Semantic Intent boost
+      if (matchedDomain && toolCat.includes(matchedDomain.boostCategory)) {
+        score += 30;
       }
 
-      // Check category filter constraint if user manually picked a category
-      const matchesCat = (activeCategory === 'all' || card.getAttribute('data-category') === activeCategory);
-      if (!matchesCat) score = 0;
-
-      scoredCards.push({ card, score });
-    });
-
-    // Sort by descending score
-    scoredCards.sort((a, b) => b.score - a.score);
-
-    // Apply visibility and re-append in sorted order
-    let visibleCount = 0;
-    scoredCards.forEach(item => {
-      if (item.score > 0) {
-        item.card.style.display = 'flex';
-        grid.appendChild(item.card);
-        visibleCount++;
-      } else {
-        item.card.style.display = 'none';
+      if (score > 0) {
+        scoredTools.push({ tool, score });
       }
     });
 
-    // Update count display
+    // Sort by score descending
+    scoredTools.sort((a, b) => b.score - a.score);
+
+    grid.innerHTML = '';
+    const frag = document.createDocumentFragment();
+    const displayTools = scoredTools.slice(0, 120);
+    displayTools.forEach(item => frag.appendChild(createCardNode(item.tool)));
+    grid.appendChild(frag);
+
+    const visibleCount = scoredTools.length;
     if (countDisplay) {
-      countDisplay.textContent = 'Showing ' + visibleCount + ' of ' + cards.length + ' tools & startups';
+      countDisplay.textContent = 'Showing ' + visibleCount + ' of ' + allProducts.length + ' tools & startups';
     }
 
-    // Toggle No Results
     if (noResults) {
       noResults.style.display = (visibleCount === 0) ? 'block' : 'none';
     }
 
-    // Render AI Recommendation Insight Banner if intent detected
-    if (insightBox && insightTitle && insightText) {
-      if (matchedDomain && visibleCount > 0) {
-        insightTitle.innerHTML = 'Topic: <strong>' + matchedDomain.title + '</strong>';
-        insightText.innerHTML = matchedDomain.summary(visibleCount);
-        insightBox.style.display = 'block';
-      } else {
-        insightBox.style.display = 'none';
-      }
+    // AI Insight callout
+    if (visibleCount > 0 && matchedDomain && insightBox && insightTitle && insightText) {
+      insightTitle.textContent = matchedDomain.title;
+      insightText.innerHTML = matchedDomain.summary(visibleCount);
+      insightBox.style.display = 'block';
+    } else if (insightBox) {
+      insightBox.style.display = 'none';
     }
   }
 
-  // Filter Buttons
-  filterBtns.forEach(btn => {
-    btn.addEventListener('click', function() {
-      filterBtns.forEach(b => b.classList.remove('active'));
-      this.classList.add('active');
-
-      activeCategory = this.getAttribute('data-cat');
-      runAISearch();
-    });
-  });
-
-  // Search Input live typing
+  // Search input events with debouncing
+  let searchDebounce = null;
   if (searchInput) {
-    searchInput.addEventListener('input', runAISearch);
+    searchInput.addEventListener('input', () => {
+      clearTimeout(searchDebounce);
+      searchDebounce = setTimeout(runAISearch, 120);
+    });
   }
 
-  // Clear Button
   if (clearBtn) {
-    clearBtn.addEventListener('click', function() {
-      searchInput.value = '';
+    clearBtn.addEventListener('click', () => {
+      if (searchInput) {
+        searchInput.value = '';
+        searchInput.focus();
+      }
       runAISearch();
-      searchInput.focus();
+    });
+  }
+
+  if (insightClose && insightBox) {
+    insightClose.addEventListener('click', () => {
+      insightBox.style.display = 'none';
     });
   }
 
@@ -1201,21 +1318,22 @@ document.addEventListener('DOMContentLoaded', function() {
       if (searchInput && q) {
         searchInput.value = q;
         runAISearch();
-        searchInput.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        const header = document.querySelector('.hero-banner');
+        if (header) header.scrollIntoView({ behavior: 'smooth', block: 'start' });
       }
     });
   });
 
-  // Close Insight Banner
-  if (insightClose) {
-    insightClose.addEventListener('click', function() {
-      if (insightBox) insightBox.style.display = 'none';
+  // Category Filter Pill Buttons
+  filterBtns.forEach(btn => {
+    btn.addEventListener('click', function() {
+      filterBtns.forEach(b => b.classList.remove('active'));
+      this.classList.add('active');
+      activeCategory = this.getAttribute('data-category');
+      runAISearch();
     });
-  }
+  });
 });
 </script>
-
-<?php endif; ?>
-
 
 <?php get_footer(); ?>

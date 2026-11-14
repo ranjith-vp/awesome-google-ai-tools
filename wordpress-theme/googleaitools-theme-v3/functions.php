@@ -335,81 +335,21 @@ function googleaitools_enqueue_scripts() {
     $style_ver = file_exists($style_css) ? filemtime($style_css) : '1.2.0';
     wp_enqueue_style('googleaitools-style', get_stylesheet_uri(), array(), $style_ver);
 
-    $main_js = $theme_dir . '/assets/js/main.js';
+        $main_js = $theme_dir . '/assets/js/main.js';
     if (file_exists($main_js)) {
         wp_enqueue_script('googleaitools-main', $theme_uri . '/assets/js/main.js', array(), filemtime($main_js), true);
 
-        // Optimized lightweight query for Live Search autocomplete (no_found_rows = true)
-        $posts = get_posts(array(
-            'posts_per_page'         => 100,
-            'post_status'            => 'publish',
-            'post_type'              => 'post',
-            'no_found_rows'          => true,
-            'update_post_meta_cache' => false,
-            'update_post_term_cache' => false,
+        // High-Performance On-Demand Search & Directory Configuration (Saves ~520 KB of inline payload on every page)
+        $search_index_file = $theme_dir . '/assets/data/search-index.json';
+        $search_ver = file_exists($search_index_file) ? filemtime($search_index_file) : '1.0';
+        $products_file = $theme_dir . '/assets/data/global-ai-products.json';
+        $products_ver = file_exists($products_file) ? filemtime($products_file) : '1.0';
+
+        wp_localize_script('googleaitools-main', 'GOOGLEAITOOLS_CONFIG', array(
+            'searchIndexUrl' => $theme_uri . '/assets/data/search-index.json?v=' . $search_ver,
+            'productsUrl'    => $theme_uri . '/assets/data/global-ai-products.json?v=' . $products_ver,
+            'homeUrl'        => home_url('/'),
         ));
-        $posts_data = array();
-        foreach ($posts as $p) {
-            $cats = get_the_category($p->ID);
-            $posts_data[] = array(
-                'title'        => get_the_title($p->ID),
-                'url'          => get_permalink($p->ID),
-                'excerpt'      => wp_strip_all_tags(get_the_excerpt($p->ID)),
-                'categoryName' => !empty($cats) ? $cats[0]->name : 'AI Guides',
-                'tags'         => array(),
-                'type'         => 'post',
-                'icon'         => '📰',
-            );
-        }
-        wp_localize_script('googleaitools-main', 'POSTS_DATA', $posts_data);
-
-        // Localize Models Data (LLMs, Foundation Models) for Unified AI Search
-        $models_data = array();
-        if (function_exists('googleaitools_get_models_data')) {
-            $raw_models = googleaitools_get_models_data();
-        } elseif (function_exists('googleaitools_get_models_list')) {
-            $raw_models = googleaitools_get_models_list();
-        } else {
-            $raw_models = array();
-        }
-        foreach ($raw_models as $m) {
-            $models_data[] = array(
-                'name'          => !empty($m['name']) ? $m['name'] : '',
-                'slug'          => !empty($m['slug']) ? $m['slug'] : '',
-                'provider'      => !empty($m['provider']) ? $m['provider'] : '',
-                'category'      => !empty($m['category']) ? $m['category'] : '',
-                'categoryName'  => !empty($m['categoryName']) ? $m['categoryName'] : 'Frontier LLM',
-                'contextWindow' => !empty($m['contextWindow']) ? $m['contextWindow'] : 'Multimodal',
-                'throughput'    => !empty($m['throughput']) ? $m['throughput'] : '',
-                'tagline'       => !empty($m['tagline']) ? $m['tagline'] : '',
-                'summary'       => !empty($m['summary']) ? wp_trim_words($m['summary'], 24, '...') : '',
-                'url'           => home_url('/models/' . (!empty($m['slug']) ? $m['slug'] : '') . '/'),
-                'type'          => 'model',
-                'icon'          => '⚡',
-            );
-        }
-        wp_localize_script('googleaitools-main', 'MODELS_DATA', $models_data);
-
-        // Localize Directory Products (AI Tools & Startups) for Unified AI Search
-        $products_data = array();
-        if (function_exists('googleaitools_get_products')) {
-            $raw_prods = googleaitools_get_products();
-            foreach ($raw_prods as $pr) {
-                $products_data[] = array(
-                    'id'            => $pr['id'],
-                    'name'          => $pr['name'],
-                    'slug'          => $pr['slug'],
-                    'category'      => $pr['category'],
-                    'formFactor'    => !empty($pr['formFactor']) ? $pr['formFactor'] : 'AI Tool',
-                    'summary'       => wp_trim_words($pr['summary'], 24, '...'),
-                    'domain'        => $pr['domain'],
-                    'url'           => home_url('/ai-directory/' . $pr['slug'] . '/'),
-                    'type'          => 'tool',
-                    'icon'          => '🛠️',
-                );
-            }
-        }
-        wp_localize_script('googleaitools-main', 'PRODUCTS_DATA', $products_data);
     }
 }
 add_action('wp_enqueue_scripts', 'googleaitools_enqueue_scripts');

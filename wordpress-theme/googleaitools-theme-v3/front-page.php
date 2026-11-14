@@ -16,7 +16,7 @@ get_header();
     <!-- Category Filter Bar -->
     <div class="filter-bar">
       <a href="<?php echo esc_url(home_url('/')); ?>" class="filter-btn active">✨ All Guides</a>
-      <a href="<?php echo esc_url(home_url('/ai-directory/')); ?>" class="filter-btn" style="background:var(--color-google-blue); color:#fff; font-weight:700; border-color:var(--color-google-blue);">🌐 290+ Tools Directory</a>
+      <a href="<?php echo esc_url(home_url('/ai-directory/')); ?>" class="filter-btn" style="background:var(--color-google-blue); color:#fff; font-weight:700; border-color:var(--color-google-blue);">🌐 <?php echo function_exists('googleaitools_get_directory_products') ? count(googleaitools_get_directory_products()) : 850; ?>+ Tools Directory</a>
       <?php
       $categories = get_categories(array('hide_empty' => false));
       foreach ($categories as $cat) {
@@ -35,7 +35,7 @@ get_header();
       <p class="section-subtitle">In-depth technical breakdowns and practical how-tos updated daily.</p>
     </div>
     <a href="<?php echo esc_url(home_url('/ai-directory/')); ?>" class="filter-btn" style="border-color:var(--color-google-blue); color:var(--color-google-blue); font-weight:700; display:inline-flex; align-items:center; gap:6px;">
-      Explore Full 290+ AI Directory &rarr;
+      Explore Full <?php echo function_exists('googleaitools_get_directory_products') ? count(googleaitools_get_directory_products()) : 850; ?>+ AI Directory &rarr;
     </a>
   </div>
 

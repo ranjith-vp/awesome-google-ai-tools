@@ -6,68 +6,68 @@
     <description>Independent coverage, benchmark analysis, and practical tutorials for artificial intelligence tools and foundation models.</description>
     <atom:link href="https://googleaitools.com/feed.xml" rel="self" type="application/rss+xml" />
     <language>en-us</language>
-    <lastBuildDate>Sat, 14 Nov 2026 15:34:36 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 15:48:01 GMT</lastBuildDate>
     <item>
       <title>Gemini 4: DeepMind Recursive Reasoning & 10M Token Frontier Model</title>
       <link>https://googleaitools.com/gemini-4-deepmind-flagship-model/</link>
       <guid isPermaLink="true">https://googleaitools.com/gemini-4-deepmind-flagship-model/</guid>
-      <pubDate>Sat, 14 Nov 2026 15:34:36 GMT</pubDate>
+      <pubDate>Sat, 14 Nov 2026 15:48:01 GMT</pubDate>
       <description>Comprehensive benchmark evaluation and architecture analysis of Google DeepMind Gemini 4 featuring 10M context window, test-time compute, and autonomous agent capabilities.</description>
     </item>
     <item>
       <title>10 Best Free Google AI Tools to Use in 2026</title>
       <link>https://googleaitools.com/10-best-free-google-ai-tools-to-use-in-2026/</link>
       <guid isPermaLink="true">https://googleaitools.com/10-best-free-google-ai-tools-to-use-in-2026/</guid>
-      <pubDate>Sat, 14 Nov 2026 15:34:36 GMT</pubDate>
+      <pubDate>Sat, 14 Nov 2026 15:48:01 GMT</pubDate>
       <description>Discover top free Google AI tools like Gemini 3, AI Studio, and NotebookLM. Learn how to access free tiers, credits, and AI agent builders today!</description>
     </item>
     <item>
       <title>Google Gemini Business AI: Enterprise Guide 2025-2026</title>
       <link>https://googleaitools.com/google-gemini-business-ai-enterprise-guide-2025/</link>
       <guid isPermaLink="true">https://googleaitools.com/google-gemini-business-ai-enterprise-guide-2025/</guid>
-      <pubDate>Sat, 14 Nov 2026 15:34:36 GMT</pubDate>
+      <pubDate>Sat, 14 Nov 2026 15:48:01 GMT</pubDate>
       <description>Explore how Gemini business AI transforms operations, coding, and enterprise workflows. Master Google Cloud AI tools and boost productivity today!</description>
     </item>
     <item>
       <title>Gemini Enterprise Plus: Secure AI Agents Guide</title>
       <link>https://googleaitools.com/gemini-enterprise-plus-secure-ai-agents-guide/</link>
       <guid isPermaLink="true">https://googleaitools.com/gemini-enterprise-plus-secure-ai-agents-guide/</guid>
-      <pubDate>Sat, 14 Nov 2026 15:34:36 GMT</pubDate>
+      <pubDate>Sat, 14 Nov 2026 15:48:01 GMT</pubDate>
       <description>Discover how to securely deploy AI agents across your organization with Google Gemini Enterprise Plus. Boost productivity and enterprise defense.</description>
     </item>
     <item>
       <title>Getting Started with Gemini 1.5 Pro & Gemini 2.5 Pro</title>
       <link>https://googleaitools.com/getting-started-with-gemini-1-5-pro/</link>
       <guid isPermaLink="true">https://googleaitools.com/getting-started-with-gemini-1-5-pro/</guid>
-      <pubDate>Sat, 14 Nov 2026 15:34:36 GMT</pubDate>
+      <pubDate>Sat, 14 Nov 2026 15:48:01 GMT</pubDate>
       <description>Step-by-step developer tutorial for building multimodal applications with Google Gemini API, context caching, and structured JSON outputs.</description>
     </item>
     <item>
       <title>Google Veo Video Generation: Complete Tutorial</title>
       <link>https://googleaitools.com/google-veo-video-generation-tutorial/</link>
       <guid isPermaLink="true">https://googleaitools.com/google-veo-video-generation-tutorial/</guid>
-      <pubDate>Sat, 14 Nov 2026 15:34:36 GMT</pubDate>
+      <pubDate>Sat, 14 Nov 2026 15:48:01 GMT</pubDate>
       <description>Hands-on guide to generating 1080p cinematic video clips with Google Veo, prompt crafting, and camera motion parameters.</description>
     </item>
     <item>
       <title>Gemma 2 Open Models: Complete Local Setup Guide</title>
       <link>https://googleaitools.com/gemma-open-source-ai-models-guide/</link>
       <guid isPermaLink="true">https://googleaitools.com/gemma-open-source-ai-models-guide/</guid>
-      <pubDate>Sat, 14 Nov 2026 15:34:36 GMT</pubDate>
+      <pubDate>Sat, 14 Nov 2026 15:48:01 GMT</pubDate>
       <description>Deploy Google Gemma 2B, 9B, and 27B open foundation models locally using Ollama, llama.cpp, and Hugging Face Transformers.</description>
     </item>
     <item>
       <title>NotebookLM AI Research Assistant Guide</title>
       <link>https://googleaitools.com/notebooklm-ai-research-guide/</link>
       <guid isPermaLink="true">https://googleaitools.com/notebooklm-ai-research-guide/</guid>
-      <pubDate>Sat, 14 Nov 2026 15:34:36 GMT</pubDate>
+      <pubDate>Sat, 14 Nov 2026 15:48:01 GMT</pubDate>
       <description>Master personalized source-grounded research, document synthesis, and Audio Overviews with Google NotebookLM.</description>
     </item>
     <item>
       <title>Imagen 3 Text-to-Image Prompt Engineering Tips</title>
       <link>https://googleaitools.com/imagen-3-prompt-engineering-tips/</link>
       <guid isPermaLink="true">https://googleaitools.com/imagen-3-prompt-engineering-tips/</guid>
-      <pubDate>Sat, 14 Nov 2026 15:34:36 GMT</pubDate>
+      <pubDate>Sat, 14 Nov 2026 15:48:01 GMT</pubDate>
       <description>Techniques for high-fidelity photorealistic image synthesis, lighting control, and in-image typography with Google Imagen 3.</description>
     </item>
   </channel>

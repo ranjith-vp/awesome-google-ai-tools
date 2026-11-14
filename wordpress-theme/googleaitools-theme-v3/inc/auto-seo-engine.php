@@ -72,10 +72,15 @@ function googleaitools_build_sitemap_xml() {
         $xml .= "  </url>\n";
     }
 
-    // AI Directory Tools (All 292 products)
-    if (function_exists('googleaitools_get_products')) {
+    // AI Directory Tools (All 859 products)
+    if (function_exists('googleaitools_get_directory_products')) {
+        $products = googleaitools_get_directory_products();
+    } elseif (function_exists('googleaitools_get_products')) {
         $products = googleaitools_get_products();
-        foreach ($products as $pr) {
+    } else {
+        $products = array();
+    }
+    foreach ($products as $pr) {
             if (empty($pr['slug'])) continue;
             $tool_url = $site_url . '/ai-directory/' . $pr['slug'] . '/';
             $xml .= "  <url>\n";
@@ -223,7 +228,8 @@ function googleaitools_build_llms_txt() {
     $txt .= "RSS Feed: {$site_url}/feed.xml\n\n";
 
     $txt .= "## Core Directories & Hubs\n";
-    $txt .= "- [AI Tools Directory]({$site_url}/ai-directory/): 292+ curated AI tools across 11 industry domains (Coding, Video, Audio, Agents, Biotech, Business Automation).\n";
+    $tools_count = function_exists('googleaitools_get_directory_products') ? count(googleaitools_get_directory_products()) : 850;
+    $txt .= "- [AI Tools Directory]({$site_url}/ai-directory/): {$tools_count}+ curated AI tools across 11 industry domains (Coding, Video, Audio, Agents, Biotech, Business Automation).\n";
     $txt .= "- [Frontier LLMs & Models]({$site_url}/models/): Benchmark specifications, context windows, and throughput metrics for Gemini 4, Gemini 2.5 Pro, Claude 3.7 Sonnet, GPT-4o, DeepSeek-R1, and Llama 3.3.\n";
     $txt .= "- [About Editorial Charter]({$site_url}/about/): Independent editorial disclosures and research standards.\n";
     $txt .= "- [Contact & Submissions]({$site_url}/contact/): Submitting tool listings and benchmark verification.\n\n";

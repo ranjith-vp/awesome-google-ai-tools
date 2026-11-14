@@ -123,7 +123,7 @@ if ($selected_tool) :
   <div style="margin-bottom: 24px;">
     <a href="<?php echo esc_url($directory_url); ?>" class="btn-back-dir" style="display: inline-flex; align-items: center; gap: 8px; padding: 8px 16px; border-radius: 8px; background: var(--bg-secondary); border: 1px solid var(--border-color); color: var(--text-primary); text-decoration: none; font-size: 0.9rem; font-weight: 600; transition: all 0.2s;">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
-      Back to All 290+ Tools
+      Back to All <?php echo count($products); ?>+ Tools
     </a>
   </div>
 
@@ -757,7 +757,7 @@ else :
   <div class="hero-content" style="max-width: 900px; margin: 0 auto;">
     <div class="hero-badge" style="margin-bottom: 16px;">
       <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:inline-block; vertical-align:-2px; margin-right:4px;"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
-      290+ Curated Products &bull; Global AI Directory
+      <?php echo count($products); ?>+ Curated Products &bull; Global AI Directory
     </div>
     <h1 class="hero-title" style="font-size: 2.6rem; margin-bottom: 16px;">Global AI Startup & Product Discovery</h1>
     <p class="hero-subtitle" style="font-size: 1.1rem; color: var(--text-secondary); max-width: 740px; margin: 0 auto 28px; line-height: 1.6;">

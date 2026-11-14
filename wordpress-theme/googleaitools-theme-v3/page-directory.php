@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /**
  * Template Name: AI Tools & Products Directory
  * Description: Interactive searchable directory and dedicated deep-dive profiles for 290+ global AI startups, models, and tools.

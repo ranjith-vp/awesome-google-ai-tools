@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
   <meta charset="<?php bloginfo('charset'); ?>">
@@ -149,7 +149,7 @@
             <li><a href="<?php echo esc_url(home_url('/ai-directory/')); ?>" class="nav-link" style="color:var(--color-google-blue); font-weight:700;"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="display:inline-block; vertical-align:-2px; margin-right:4px;"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"></path></svg><?php esc_html_e('AI Tools Directory', 'googleaitools-theme'); ?></a></li>
             <li><a href="<?php echo esc_url(home_url('/models/')); ?>" class="nav-link" style="color:#a855f7; font-weight:700;"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" style="display:inline-block; vertical-align:-2px; margin-right:4px;"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg><?php esc_html_e('LLM Models', 'googleaitools-theme'); ?></a></li>
             <li class="nav-dropdown-wrapper" style="position:relative; display:inline-flex; align-items:center;">
-              <a href="#" class="nav-link" onclick="event.preventDefault();"><?php esc_html_e('Categories â–¾', 'googleaitools-theme'); ?></a>
+              <a href="#" class="nav-link" onclick="event.preventDefault();"><?php esc_html_e('Categories', 'googleaitools-theme'); ?> <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="display:inline-block; vertical-align:1px; margin-left:3px;"><polyline points="6 9 12 15 18 9"></polyline></svg></a>
               <ul class="nav-dropdown-menu" style="display:none; position:absolute; top:100%; left:0; border-radius:12px; box-shadow:0 12px 32px rgba(0,0,0,0.18); padding:8px 0; min-width:220px; z-index:999999; list-style:none; list-style-type:none; margin:0;">
                 <?php
                 $categories = get_categories(array('hide_empty' => false));

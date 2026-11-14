@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /**
  * Global AI Products Dataset & Helper Functions
  */

@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 // Auto-generated from global-ai-products.json
 return array(
   array(

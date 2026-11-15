@@ -56,6 +56,7 @@ if (!function_exists('googleaitools_shorten_category')) {
 }
 
 function googleaitools_theme_setup() {
+    remove_action('wp_head', 'rel_canonical');
     add_theme_support('title-tag');
     add_theme_support('post-thumbnails');
     add_theme_support('automatic-feed-links');
@@ -392,7 +393,7 @@ function googleaitools_inject_head_tags() {
     } elseif (is_search()) {
         $canonical_url = home_url('/?s=' . urlencode(get_search_query()));
     }
-    echo '<link rel="canonical" href="' . esc_url($canonical_url) . '">' . "\n";
+    // Canonical link is echoed below after all dynamic route resolutions
 
     // 2. Dynamic Title, Description & Open Graph Meta Tags
     $site_name   = get_bloginfo('name');
@@ -517,6 +518,11 @@ function googleaitools_inject_head_tags() {
 
     if (!empty($keywords)) {
         echo '<meta name="keywords" content="' . esc_attr($keywords) . '">' . "\n";
+    }
+
+        // Final Self-Referencing Canonical Tag
+    if (!empty($canonical_url)) {
+        echo '<link rel="canonical" href="' . esc_url($canonical_url) . '">' . "\n";
     }
 
     // OpenGraph Tags
